@@ -74,6 +74,53 @@ Pada sistem manual, proses berbagi makanan berlebih berjalan secara sporadis, li
 \end{landscape}
 
 \newpage
+
+Berikut adalah penjelasan lengkap mengenai diagram BPMN \textbf{As-Is} (sistem saat ini) yang telah dibuat. Penjelasan ini membedah alur kerja, interaksi antaraktor, serta mengidentifikasi kelemahan dari proses yang berjalan secara manual.
+
+\subsubsection{Gambaran Umum}
+Diagram BPMN \textit{As-Is} ini memodelkan proses distribusi donasi makanan berlebih yang saat ini masih berjalan secara konvensional. Dalam skenario ini, tidak ada sistem aplikasi cerdas, platform perantara, atau pihak ketiga yang memfasilitasi. Seluruh kegiatan dilakukan murni secara fisik dan manual, yang direpresentasikan menggunakan elemen \textbf{Manual Task} (berikon tangan) pada diagram.
+
+\subsubsection{Partisipan (Aktor) yang Terlibat}
+Proses ini hanya melibatkan dua partisipan utama, yaitu:
+\begin{enumerate}
+    \item \textbf{Donatur:} Pihak yang memiliki kelebihan makanan dan berinisiatif untuk mendonasikannya.
+    \item \textbf{Penerima:} Pihak yang membutuhkan makanan (seperti panti asuhan, komunitas, atau individu), yang dalam sistem ini bertindak sangat pasif.
+\end{enumerate}
+
+\subsubsection{Alur Proses (\textit{Process Flow})}
+\begin{enumerate}
+    \item \textbf{Pool Donatur (Alur Aktif)} \\
+    Donatur adalah penggerak utama dalam sistem konvensional ini. Alurnya adalah sebagai berikut:
+    \begin{itemize}
+        \item \textbf{Start Event:} Proses dipicu ketika donatur mendapati adanya surplus bahan makanan atau makanan matang yang masih layak konsumsi.
+        \item \textbf{Memiliki bahan/makanan lebih:} Donatur menyortir makanan yang akan didonasikan.
+        \item \textbf{Mengemas makanan:} Donatur membungkus dan mempersiapkan makanan secara mandiri tanpa adanya standar pengemasan tertentu.
+        \item \textbf{Mencari penerima:} Ini adalah fase krusial di mana donatur harus mencari sendiri siapa yang mau menerima makanan tersebut. Biasanya dilakukan dengan bertanya ke tetangga, mencari informasi di internet, atau menyebar pesan di grup obrolan.
+        \item \textbf{Menemukan penerima:} Donatur akhirnya mendapatkan kontak atau lokasi pihak yang bersedia menerima donasi.
+        \item \textbf{Memberikan makanan:} Donatur berangkat menuju lokasi penerima untuk menyerahkan makanan tersebut secara langsung.
+        \item \textbf{End Event:} Proses dari sisi donatur selesai setelah makanan berpindah tangan.
+    \end{itemize}
+    \item \textbf{Pool Penerima (Alur Pasif)}
+    \begin{itemize}
+        \item \textbf{Start Event:} Penerima pada dasarnya hanya dalam posisi menunggu adanya pihak yang menawarkan bantuan.
+        \item \textbf{Makanan diterima:} Aktivitas tunggal di mana penerima melakukan serah terima donasi secara fisik dari donatur.
+        \item \textbf{End Event:} Siklus dari sisi penerima selesai.
+    \end{itemize}
+\end{enumerate}
+
+\subsubsection{Pertukaran Pesan (\textit{Message Flow})}
+Terdapat garis putus-putus (\textit{Message Flow}) yang menghubungkan aktivitas \textbf{"Memberikan makanan"} (di \textit{pool} Donatur) dengan aktivitas \textbf{"Makanan diterima"} (di \textit{pool} Penerima). Garis ini merepresentasikan interaksi fisik di dunia nyata, yaitu perpindahan kotak makanan dari tangan donatur ke tangan penerima.
+
+\subsubsection{Analisis Kelemahan Sistem As-Is (\textit{Pain Points})}
+Dari alur yang tergambar, BPMN ini secara eksplisit memperlihatkan mengapa sistem yang ada saat ini tidak efisien dan membutuhkan perbaikan (sistem \textit{To-Be}). Berikut adalah hambatannya:
+\begin{itemize}
+    \item \textbf{Titik Buta Informasi (Inefisiensi Waktu):} Aktivitas "Mencari penerima" memakan waktu yang sangat lama. Tidak ada \textit{database} atau \textit{matchmaking} yang menghubungkan donatur dengan pihak yang benar-benar membutuhkan secara \textit{real-time}.
+    \item \textbf{Risiko Logistik (Ketiadaan Relawan/Kurir):} Karena tidak ada pihak ketiga, aktivitas "Memberikan makanan" membebani donatur. Jika donatur sibuk atau tidak punya kendaraan, donasi bisa tertunda. Akibatnya, ada risiko makanan membusuk sebelum sempat didonasikan.
+    \item \textbf{Isu Keamanan Pangan (\textit{Food Safety}):} Karena semua berjalan tertutup antara dua pihak, tidak ada verifikasi eksternal saat tahap "Mengemas makanan". Penerima tidak memiliki jaminan pasti mengenai tingkat higienitas makanan tersebut selain rasa percaya kepada donatur.
+\end{itemize}
+
+
+\newpage
 \begin{landscape}
     \centering
     \vfill
@@ -82,6 +129,60 @@ Pada sistem manual, proses berbagi makanan berlebih berjalan secara sporadis, li
     \label{fig:bpmnToBe}
     \vfill
 \end{landscape}
+
+\newpage
+
+Berikut adalah penjelasan lengkap mengenai diagram BPMN \textbf{To-Be} (sistem usulan/harapan) yang menggambarkan alur proses setelah didigitalisasi menggunakan aplikasi.
+
+\subsubsection{Gambaran Umum}
+Sistem \textit{To-Be} merombak total cara kerja konvensional menjadi terpusat pada sebuah aplikasi digital. Proses tidak lagi mengandalkan komunikasi manual (seperti \textit{chat} atau mencari dari pintu ke pintu), melainkan diotomatisasi melalui platform yang menghubungkan berbagai pihak secara \textit{real-time}.
+
+\subsubsection{Partisipan (Aktor) yang Terlibat}
+Pada sistem yang baru ini, terdapat penambahan satu aktor penting yang difasilitasi oleh sistem:
+\begin{enumerate}
+    \item \textbf{Penerima:} Pengguna aplikasi yang mencari dan memesan donasi makanan.
+    \item \textbf{Donatur:} Pihak yang memposting ketersediaan makanan berlebih untuk didonasikan.
+    \item \textbf{Relawan (Aktor Baru):} Pihak ketiga yang bertugas sebagai pahlawan logistik (kurir) untuk menjembatani donatur dan penerima.
+\end{enumerate}
+
+\subsubsection{Alur Proses Utama (\textit{Process Flow})}
+\begin{enumerate}
+    \item \textbf{Pool Penerima (Pusat Kendali Pemesanan)} \\
+    Penerima kini menjadi pihak yang aktif memilih donasi. Alurnya adalah:
+    \begin{itemize}
+        \item \textbf{Autentikasi:} Penerima membuka aplikasi dan diwajibkan untuk \textit{Login} atau \textit{Register} jika belum memiliki akun.
+        \item \textbf{Eksplorasi \& Order:} Masuk ke halaman beranda, mencari makanan yang diinginkan, dan melakukan order jika menemukannya.
+        \item \textbf{Opsi Logistik:} Sistem mengecek ketersediaan alamat. Setelah itu, penerima dihadapkan pada \textit{Gateway} percabangan metode pengambilan:
+        \begin{itemize}
+            \item \textbf{Pick up:} Penerima datang langsung ke lokasi donatur.
+            \item \textbf{Diantar:} Sistem secara otomatis akan mem-\textit{broadcast} pesanan tersebut menjadi "misi" bagi para relawan.
+        \end{itemize}
+    \end{itemize}
+    \item \textbf{Pool Donatur (Penyedia Donasi)} \\
+    Alur donatur menjadi jauh lebih ringkas dan terarah:
+    \begin{itemize}
+        \item \textbf{Notifikasi:} Donatur menerima notifikasi order dari sistem, lalu mulai mengemas makanan.
+        \item \textbf{Menunggu \& Validasi:} Donatur cukup menunggu pihak pengambil (Penerima atau Relawan) datang.
+        \item \textbf{Keamanan (QR Code):} Saat pengambil tiba, donatur akan meminta QR Code atau kode unik, melakukan \textit{scan} via aplikasi, dan baru menyerahkan makanan setelah data valid.
+    \end{itemize}
+    \item \textbf{Pool Relawan (Penyelesai Kendala Logistik)} \\
+    Alur ini hanya terpicu jika penerima memilih metode "Diantar":
+    \begin{itemize}
+        \item \textbf{Klaim Misi:} Relawan menerima notifikasi misi logistik di sekitarnya dan melakukan "Klaim misi".
+        \item \textbf{Pengambilan:} Relawan menuju lokasi donatur, melewati proses verifikasi QR dari donatur, dan menerima makanan.
+        \item \textbf{Pengantaran:} Relawan mengantarkan makanan ke lokasi penerima.
+        \item \textbf{Validasi Akhir:} Di lokasi tujuan, relawan meminta QR Code dari penerima, melakukan \textit{scan}, dan menyerahkan makanan.
+    \end{itemize}
+\end{enumerate}
+
+\subsubsection{Solusi yang Ditawarkan (Perbaikan dari Sistem As-Is)}
+Sistem \textit{To-Be} ini secara langsung menyelesaikan kelemahan-kelemahan (\textit{pain points}) pada sistem \textit{As-Is}:
+\begin{itemize}
+    \item \textbf{Mengatasi \textit{Blind Spot} Informasi:} Fitur aplikasi membuat donatur tidak perlu pusing mencari siapa yang mau menerima donasi. Penerima dapat langsung melihat ketersediaan makanan di beranda aplikasi dan memesannya seketika.
+    \item \textbf{Menyelesaikan Kendala Logistik:} Kehadiran entitas \textbf{Relawan} memastikan rantai pasok tidak terputus. Jika donatur tidak bisa mengantar dan penerima tidak bisa mengambil, relawan akan mengambil alih misi tersebut.
+    \item \textbf{Validasi \& Keamanan Pangan (Fitur QR Code):} Proses \textit{Scan} QR Code yang dilakukan oleh Donatur dan Relawan memastikan bahwa donasi jatuh ke tangan orang yang tepat secara sistem. Ini juga meminimalisir penipuan dan memberikan \textit{tracking} yang jelas kapan makanan dipindah tangankan.
+\end{itemize}
+
 
 \newpage
 

@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1777472572.42096 "main.bcf" "main.bbl" "main" 1777475531.94304 0
-  "main.bcf" 1777475527.50311 109091 0edf8cde5d2605b9eb47b48618f6ba1e "pdflatex"
+["biber main"] 1777523506.46782 "main.bcf" "main.bbl" "main" 1777523519.52886 0
+  "main.bcf" 1777523516.70154 109091 0edf8cde5d2605b9eb47b48618f6ba1e "pdflatex"
   "referensi.bib" 1776849367.91147 25791 43be7808e9f0b0501d865437e3d98258 ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1777475515.62775 "/home/shaf/development/Book-FoodAIRescue/main.tex" "main.pdf" "main" 1777475531.94447 0
+["pdflatex"] 1777523508.55564 "/home/shaf/development/Book-FoodAIRescue/main.tex" "main.pdf" "main" 1777523519.52973 0
   "/home/shaf/development/Book-FoodAIRescue/main.tex" 1777363547.78412 798 f3e6cc49c5e6eb596c10cff4302a37bf ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1775001600 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
@@ -225,7 +225,7 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1776103822.4386 4602601 5d02a5c5d52d7237566d144856366042 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1776103081 7753790 ba04a2daaddcea278ba37d43babff43b ""
   "bab/bab1.tex" 1777354229.88052 22359 064f4a541363b6bdf3366b4dcc840dba ""
-  "bab/bab2.tex" 1777475498.55311 51816 99f56e76d45dd5a7a191bdef8012e960 ""
+  "bab/bab2.tex" 1777523487.02054 60422 eb21b6ede8115efcd361e7e372c40be9 ""
   "contents/frontmatter.tex" 1777439073.98978 13582 a9779698b52fb957ce60432c9cafab4b ""
   "contents/preamble.tex" 1777474678.85118 5156 b1e36ef7987c34d4983887914daf4b35 ""
   "image/Logo_Universitas_Telkom_Horizontal.png" 1775206084.03241 85717 8e866233a6456751d1a7402981f89895 ""
@@ -243,19 +243,19 @@
   "image/bab2/segmentasi/UserPersona/UP.DonaturKorporat.png" 1777438039.29487 627385 0dbfe52dc5e82bfc8e7511c346156f8c ""
   "image/bab2/segmentasi/UserPersona/UP.Penerima.png" 1777438039.30287 650869 f517490f34b7adffeb9f2bc1685b5e09 ""
   "image/bab2/segmentasi/UserPersona/UP.Relawan.png" 1777438039.31087 663204 816225222084c96e1724cc42c6b4c18d ""
-  "image/bpmnAsIs.png" 1775470275.9957 108633 7ccff71a2248533a9c4a21271cb2649f ""
-  "image/bpmnToBe.png" 1773362034.99241 624009 94190f5b5c5a0b36c82535ad530c7929 ""
+  "image/bpmnAsIs.png" 1777522595.48612 164032 784c836da159c75c75724535fda2ab76 ""
+  "image/bpmnToBe.png" 1777522167.91766 700547 e4d28cdb2bb150c56a8b9c993003f60a ""
   "image/logo.png" 1775206084.03272 14344 ea6c71a1cccd54457e5f9fc3c66a27dd ""
   "image/signature.png" 1775206084.03384 364576 dd2ea6dddd6fc3c999d7b922301d9463 ""
   "indonesian.lbx" 1776849395.68446 1129 02418208dc70c50b9d8b1739f7128b57 ""
-  "main.aux" 1777475527.48511 13417 3fb9a0a63a90bcd8f28ed421ec2f085c "pdflatex"
-  "main.bbl" 1777472576.49291 47576 47533143e51635b295076b785268ff61 "biber main"
-  "main.lof" 1777475527.50706 1969 93adb8c75d79762b39aa8ffef3b49fa1 "pdflatex"
-  "main.lot" 1777475527.50706 223 0d6b08741725f4da56c55613cfa2ebc2 "pdflatex"
-  "main.out" 1777475527.49811 3628 2ea99bd6f33e82c8510a7a5ce9088277 "pdflatex"
-  "main.run.xml" 1777475527.50706 2435 f0b3549e85e497e9cce3770b05b8e08b "pdflatex"
+  "main.aux" 1777523516.68854 15060 d41064ba91c15fccccdf29f978e34d06 "pdflatex"
+  "main.bbl" 1777523508.51051 47576 47533143e51635b295076b785268ff61 "biber main"
+  "main.lof" 1777523516.70454 1969 fb5cb53c2e8b0519e8bb691d640da2de "pdflatex"
+  "main.lot" 1777523516.70454 223 8930fb32f85da66b450a8e6ccc918e25 "pdflatex"
+  "main.out" 1777523516.69754 5785 38ed4239f943ca824575cea8d75c97c6 "pdflatex"
+  "main.run.xml" 1777523516.70454 2435 f0b3549e85e497e9cce3770b05b8e08b "pdflatex"
   "main.tex" 1777363547.78412 798 f3e6cc49c5e6eb596c10cff4302a37bf ""
-  "main.toc" 1777475527.50706 1966 0e04410c07fceb9c463d14bd1241b28e "pdflatex"
+  "main.toc" 1777523516.70454 3011 5f6c546d57a08a1b57eab1d1860dd251 "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"
