@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1777523506.46782 "main.bcf" "main.bbl" "main" 1777523519.52886 0
-  "main.bcf" 1777523516.70154 109091 0edf8cde5d2605b9eb47b48618f6ba1e "pdflatex"
+["biber main"] 1777523506.46782 "main.bcf" "main.bbl" "main" 1777525206.6915 0
+  "main.bcf" 1777525202.0274 109091 0edf8cde5d2605b9eb47b48618f6ba1e "pdflatex"
   "referensi.bib" 1776849367.91147 25791 43be7808e9f0b0501d865437e3d98258 ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1777523508.55564 "/home/shaf/development/Book-FoodAIRescue/main.tex" "main.pdf" "main" 1777523519.52973 0
+["pdflatex"] 1777525190.27349 "/home/shaf/development/Book-FoodAIRescue/main.tex" "main.pdf" "main" 1777525206.69258 0
   "/home/shaf/development/Book-FoodAIRescue/main.tex" 1777363547.78412 798 f3e6cc49c5e6eb596c10cff4302a37bf ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1775001600 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
@@ -225,7 +225,7 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1776103822.4386 4602601 5d02a5c5d52d7237566d144856366042 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1776103081 7753790 ba04a2daaddcea278ba37d43babff43b ""
   "bab/bab1.tex" 1777354229.88052 22359 064f4a541363b6bdf3366b4dcc840dba ""
-  "bab/bab2.tex" 1777523487.02054 60422 eb21b6ede8115efcd361e7e372c40be9 ""
+  "bab/bab2.tex" 1777525189.2314 60009 fa8720ec89d43421bea58a12dc618977 ""
   "contents/frontmatter.tex" 1777439073.98978 13582 a9779698b52fb957ce60432c9cafab4b ""
   "contents/preamble.tex" 1777474678.85118 5156 b1e36ef7987c34d4983887914daf4b35 ""
   "image/Logo_Universitas_Telkom_Horizontal.png" 1775206084.03241 85717 8e866233a6456751d1a7402981f89895 ""
@@ -248,14 +248,14 @@
   "image/logo.png" 1775206084.03272 14344 ea6c71a1cccd54457e5f9fc3c66a27dd ""
   "image/signature.png" 1775206084.03384 364576 dd2ea6dddd6fc3c999d7b922301d9463 ""
   "indonesian.lbx" 1776849395.68446 1129 02418208dc70c50b9d8b1739f7128b57 ""
-  "main.aux" 1777523516.68854 15060 d41064ba91c15fccccdf29f978e34d06 "pdflatex"
+  "main.aux" 1777525202.0044 15060 d41064ba91c15fccccdf29f978e34d06 "pdflatex"
   "main.bbl" 1777523508.51051 47576 47533143e51635b295076b785268ff61 "biber main"
-  "main.lof" 1777523516.70454 1969 fb5cb53c2e8b0519e8bb691d640da2de "pdflatex"
-  "main.lot" 1777523516.70454 223 8930fb32f85da66b450a8e6ccc918e25 "pdflatex"
-  "main.out" 1777523516.69754 5785 38ed4239f943ca824575cea8d75c97c6 "pdflatex"
-  "main.run.xml" 1777523516.70454 2435 f0b3549e85e497e9cce3770b05b8e08b "pdflatex"
+  "main.lof" 1777525202.0344 1969 fb5cb53c2e8b0519e8bb691d640da2de "pdflatex"
+  "main.lot" 1777525202.0344 223 8930fb32f85da66b450a8e6ccc918e25 "pdflatex"
+  "main.out" 1777525202.0214 5785 38ed4239f943ca824575cea8d75c97c6 "pdflatex"
+  "main.run.xml" 1777525202.0344 2435 f0b3549e85e497e9cce3770b05b8e08b "pdflatex"
   "main.tex" 1777363547.78412 798 f3e6cc49c5e6eb596c10cff4302a37bf ""
-  "main.toc" 1777523516.70454 3011 5f6c546d57a08a1b57eab1d1860dd251 "pdflatex"
+  "main.toc" 1777525202.0344 3011 5f6c546d57a08a1b57eab1d1860dd251 "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"

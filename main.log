@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2026.4.14)  30 APR 2026 11:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2026.4.14)  30 APR 2026 11:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -10548,34 +10548,6 @@ Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on i
 
  <./image/bpmnAsIs.png (PNG copy)>]
 @firstpass
-[]\T1/ptm/m/n/12 Berikut adalah penjelasan lengkap mengenai diagram BPMN \T1/ptm/b/n/12 As-Is \T1/ptm/m/n/12 (sistem saat ini) yang 
-@ via @@0 b=2 p=0 d=144
-@@1: line 1.2 t=144 -> @@0
-@secondpass
-[]\T1/ptm/m/n/12 Berikut ada-lah pen-je-las-an leng-kap meng-e-nai di-a-gram BPMN \T1/ptm/b/n/12 As-Is \T1/ptm/m/n/12 (sis-tem sa-at 
-@ via @@0 b=1997 p=0 d=4038049
-@@1: line 1.0 t=4038049 -> @@0
-ini) 
-@ via @@0 b=246 p=0 d=75536
-@@2: line 1.0 t=75536 -> @@0
-yang 
-@ via @@0 b=2 p=0 d=144
-@@3: line 1.2 t=144 -> @@0
-te-lah di-bu-at. Pen-je-las-an ini mem-be-dah alur ker-ja, in-te-rak-si an-ta-rak-tor, 
-@ via @@1 b=874 p=0 d=781456
-@ via @@2 b=3323 p=0 d=11108889
-@@4: line 2.0 t=4819505 -> @@1
-ser-ta 
-@ via @@1 b=54 p=0 d=4096
-@ via @@2 b=539 p=0 d=301401
-@ via @@3 b=3209 p=0 d=10371961
-@@5: line 2.0 t=376937 -> @@2
-meng-i-den-ti-fi-ka-si ke-le-mah-an da-ri pro-ses yang ber-jal-an se-ca-ra ma-nu-al. 
-@\par via @@4 b=0 p=-10000 d=10100
-@\par via @@5 b=0 p=-10000 d=10100
-@@6: line 3.2- t=387037 -> @@5
-
-@firstpass
 |[]\T1/ptm/b/n/12 Gambaran Umum| 
 @\par via @@0 b=0 p=-10000 d=100
 @@1: line 1.2- t=100 -> @@0
@@ -10756,13 +10728,34 @@ untuk menyerahkan makanan tersebut secara langsung.
 @@2: line 2.2- t=1544 -> @@1
 
 @firstpass
+[]\T1/ptm/b/n/12 End Event: \T1/ptm/m/n/12 Proses dari sisi donatur selesai setelah makanan berpindah 
+@ via @@0 b=0 p=0 d=100
+@@1: line 1.2 t=100 -> @@0
+tangan. 
+@\par via @@1 b=0 p=-10000 d=100
+@@2: line 2.2- t=200 -> @@1
+
+@firstpass
+[]\T1/ptm/b/n/12 Pool Penerima (Alur Pasif) 
+@\par via @@0 b=0 p=-10000 d=100
+@@1: line 1.2- t=100 -> @@0
+
+@firstpass
+[]\T1/ptm/b/n/12 Start Event: \T1/ptm/m/n/12 Penerima pada dasarnya hanya dalam posisi menunggu 
+@ via @@0 b=24 p=0 d=1156
+@@1: line 1.1 t=1156 -> @@0
+adanya pihak yang menawarkan bantuan. 
+@\par via @@1 b=0 p=-10000 d=100
+@@2: line 2.2- t=1256 -> @@1
+
+@firstpass
 [] 
 @\par via @@0 b=0 p=-10000 d=100
 @@1: line 1.2- t=100 -> @@0
 
 File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
 <use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 101.
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 104.
 (pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
 @firstpass
 [][] 
@@ -10796,27 +10789,6 @@ Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on i
  [12
 
 ]
-@firstpass
-[]\T1/ptm/b/n/12 End Event: \T1/ptm/m/n/12 Proses dari sisi donatur selesai setelah makanan berpindah 
-@ via @@0 b=0 p=0 d=100
-@@1: line 1.2 t=100 -> @@0
-tangan. 
-@\par via @@1 b=0 p=-10000 d=100
-@@2: line 2.2- t=200 -> @@1
-
-@firstpass
-[]\T1/ptm/b/n/12 Pool Penerima (Alur Pasif) 
-@\par via @@0 b=0 p=-10000 d=100
-@@1: line 1.2- t=100 -> @@0
-
-@firstpass
-[]\T1/ptm/b/n/12 Start Event: \T1/ptm/m/n/12 Penerima pada dasarnya hanya dalam posisi menunggu 
-@ via @@0 b=24 p=0 d=1156
-@@1: line 1.1 t=1156 -> @@0
-adanya pihak yang menawarkan bantuan. 
-@\par via @@1 b=0 p=-10000 d=100
-@@2: line 2.2- t=1256 -> @@1
-
 @firstpass
 []\T1/ptm/b/n/12 Makanan diterima: \T1/ptm/m/n/12 Aktivitas tunggal di mana penerima melakukan 
 @ via @@0 b=36 p=0 d=2116
@@ -11005,7 +10977,7 @@ pe-ne-ri-ma.
 @@28: line 4.2- t=101894 -> @@19
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
 \T1/ptm/m/n/12 Terdapat ga-ris putus-putus (\T1/ptm/m/it/12 Mes-sa-ge Flow\T1/ptm/m/n/12 ) yang meng-hu-bungk-an ak-ti-vi-tas
  []
 
@@ -11102,7 +11074,7 @@ ter-se-but se-la-in ra-sa per-ca-ya ke-pa-da do-na-tur.
 
 File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
 <use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 123.
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 121.
 (pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
 @firstpass
 [][] 
@@ -11137,12 +11109,12 @@ Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on i
 <image/bpmnToBe.png, id=385, 5787.6225pt x 2872.7325pt>
 File: image/bpmnToBe.png Graphic file (type png)
 <use image/bpmnToBe.png>
-Package pdftex.def Info: image/bpmnToBe.png  used on input line 127.
+Package pdftex.def Info: image/bpmnToBe.png  used on input line 125.
 (pdftex.def)             Requested size: 581.01991pt x 288.38594pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 128.
+(caption)                particular \caption on input line 126.
 See the caption package documentation for explanation.
 
 @firstpass
@@ -11206,7 +11178,7 @@ To-Be)|
 
 File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
 <use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 131.
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 129.
 (pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
 @firstpass
 [][] 
@@ -11240,23 +11212,6 @@ Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on i
 [14
 
  <./image/bpmnToBe.png (PNG copy)>]
-@firstpass
-@secondpass
-[]\T1/ptm/m/n/12 Berikut ada-lah pen-je-las-an leng-kap meng-e-nai di-a-gram BPMN \T1/ptm/b/n/12 To-Be \T1/ptm/m/n/12 (sis-tem 
-@ via @@0 b=8019 p=0 d=64474841
-@@1: line 1.0 t=64474841 -> @@0
-usul-an/harapan) yang meng-gam-bark-an alur pro-ses se-te-lah di-di-gi-ta-li-sa-si meng-gu-nak-an 
-@ via @@1 b=159 p=0 d=28561
-@@2: line 2.0 t=64503402 -> @@1
-apli-ka-si. 
-@\par via @@2 b=0 p=-10000 d=10100
-@@3: line 3.2- t=64513502 -> @@2
-
-
-Underfull \hbox (badness 8019) in paragraph at lines 135--136
-[]\T1/ptm/m/n/12 Berikut ada-lah pen-je-las-an leng-kap meng-e-nai di-a-gram BPMN \T1/ptm/b/n/12 To-Be \T1/ptm/m/n/12 (sis-tem
- []
-
 @firstpass
 |[]\T1/ptm/b/n/12 Gambaran Umum| 
 @\par via @@0 b=0 p=-10000 d=100
@@ -11331,7 +11286,7 @@ di-do-na-sik-an.
 @@2: line 2.2- t=2234244 -> @@1
 
 
-Underfull \hbox (badness 1478) in paragraph at lines 144--145
+Underfull \hbox (badness 1478) in paragraph at lines 140--141
 []\T1/ptm/b/n/12 Donatur: \T1/ptm/m/n/12 Pi-hak yang mem-pos-ting ke-ter-se-di-a-an ma-kan-an ber-le-bih un-tuk
  []
 
@@ -11403,7 +11358,7 @@ pe-ngam-bil-an:
 @@2: line 2.2- t=16487464 -> @@1
 
 
-Underfull \hbox (badness 4048) in paragraph at lines 158--159
+Underfull \hbox (badness 4048) in paragraph at lines 154--155
 []\T1/ptm/b/n/12 Diantar: \T1/ptm/m/n/12 Sis-tem se-ca-ra oto-ma-tis ak-an mem-\T1/ptm/m/it/12 broadcast
  []
 
@@ -11432,13 +11387,40 @@ mengemas makanan.
 @@2: line 2.2- t=7156 -> @@1
 
 @firstpass
+[]\T1/ptm/b/n/12 Keamanan (QR Code): \T1/ptm/m/n/12 Saat pengambil tiba, donatur akan meminta 
+@ via @@0 b=28 p=0 d=1444
+@@1: line 1.1 t=1444 -> @@0
+@secondpass
+[]\T1/ptm/b/n/12 Keamanan (QR Co-de): \T1/ptm/m/n/12 Sa-at pe-ngam-bil ti-ba, do-na-tur ak-an 
+@ via @@0 b=5331 p=0 d=28536281
+@@1: line 1.0 t=28536281 -> @@0
+me-min-ta 
+@ via @@0 b=28 p=0 d=1444
+@@2: line 1.1 t=1444 -> @@0
+QR Co-de atau ko-de unik, me-la-kuk-an \T1/ptm/m/it/12 sc-an \T1/ptm/m/n/12 via apli-ka-si, 
+@ via @@1 b=808 p=0 d=669124
+@@3: line 2.0 t=29205405 -> @@1
+dan 
+@ via @@1 b=33 p=0 d=1849
+@ via @@2 b=3907 p=0 d=15342889
+@@4: line 2.0 t=15344333 -> @@2
+ba-ru 
+@ via @@2 b=568 p=0 d=334084
+@@5: line 2.0 t=335528 -> @@2
+me-nye-rahk-an ma-kan-an se-te-lah da-ta va-lid. 
+@\par via @@3 b=0 p=-10000 d=10100
+@\par via @@4 b=0 p=-10000 d=10100
+@\par via @@5 b=0 p=-10000 d=10100
+@@6: line 3.2- t=345628 -> @@5
+
+@firstpass
 [] 
 @\par via @@0 b=0 p=-10000 d=100
 @@1: line 1.2- t=100 -> @@0
 
 File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
 <use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 166.
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 163.
 (pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
 @firstpass
 [][] 
@@ -11473,33 +11455,6 @@ Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on i
 
 ]
 @firstpass
-[]\T1/ptm/b/n/12 Keamanan (QR Code): \T1/ptm/m/n/12 Saat pengambil tiba, donatur akan meminta 
-@ via @@0 b=28 p=0 d=1444
-@@1: line 1.1 t=1444 -> @@0
-@secondpass
-[]\T1/ptm/b/n/12 Keamanan (QR Co-de): \T1/ptm/m/n/12 Sa-at pe-ngam-bil ti-ba, do-na-tur ak-an 
-@ via @@0 b=5331 p=0 d=28536281
-@@1: line 1.0 t=28536281 -> @@0
-me-min-ta 
-@ via @@0 b=28 p=0 d=1444
-@@2: line 1.1 t=1444 -> @@0
-QR Co-de atau ko-de unik, me-la-kuk-an \T1/ptm/m/it/12 sc-an \T1/ptm/m/n/12 via apli-ka-si, 
-@ via @@1 b=808 p=0 d=669124
-@@3: line 2.0 t=29205405 -> @@1
-dan 
-@ via @@1 b=33 p=0 d=1849
-@ via @@2 b=3907 p=0 d=15342889
-@@4: line 2.0 t=15344333 -> @@2
-ba-ru 
-@ via @@2 b=568 p=0 d=334084
-@@5: line 2.0 t=335528 -> @@2
-me-nye-rahk-an ma-kan-an se-te-lah da-ta va-lid. 
-@\par via @@3 b=0 p=-10000 d=10100
-@\par via @@4 b=0 p=-10000 d=10100
-@\par via @@5 b=0 p=-10000 d=10100
-@@6: line 3.2- t=345628 -> @@5
-
-@firstpass
 []\T1/ptm/b/n/12 Pool Relawan (Penyelesai Kendala Logistik) 
 @\penalty via @@0 b=0 p=-10000 d=100
 @@1: line 1.2 t=100 -> @@0
@@ -11525,7 +11480,7 @@ ve-ri-fi-ka-si QR da-ri do-na-tur, dan me-ne-ri-ma ma-kan-an.
 @@2: line 2.2- t=2216424 -> @@1
 
 
-Underfull \hbox (badness 1472) in paragraph at lines 172--173
+Underfull \hbox (badness 1472) in paragraph at lines 168--169
 []\T1/ptm/b/n/12 Pengambilan: \T1/ptm/m/n/12 Re-la-w-an me-nu-ju lo-ka-si do-na-tur, me-le-wa-ti pro-ses
  []
 
@@ -11693,7 +11648,7 @@ ta-ngank-an.
 
 File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
 <use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 187.
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 183.
 (pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
 @firstpass
 [][] 
@@ -11821,14 +11776,14 @@ di-ja-bark-an se-ba-gai ber-i-kut:
 @@23: line 9.2- t=11795146 -> @@22
 
 
-Underfull \hbox (badness 3260) in paragraph at lines 190--191
+Underfull \hbox (badness 3260) in paragraph at lines 186--187
 \T1/ptm/m/n/12 Guna me-mas-tik-an bah-wa pla-tform Fo-od AI Re-scue yang di-kem-bangk-an da-pat
  []
 
 <image/bab2/segmentasi/UserPersona/UP.DonaturIndividu.png, id=404, 1445.4pt x 813.0375pt>
 File: image/bab2/segmentasi/UserPersona/UP.DonaturIndividu.png Graphic file (type png)
 <use image/bab2/segmentasi/UserPersona/UP.DonaturIndividu.png>
-Package pdftex.def Info: image/bab2/segmentasi/UserPersona/UP.DonaturIndividu.png  used on input line 194.
+Package pdftex.def Info: image/bab2/segmentasi/UserPersona/UP.DonaturIndividu.png  used on input line 190.
 (pdftex.def)             Requested size: 426.95175pt x 240.15413pt.
 @firstpass
 [][]
@@ -11918,7 +11873,7 @@ me-ra-cu-ni orang la-in ka-re-na ti-dak ada alat ve-ri-fi-ka-si ke-la-yak-an.
 
 File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
 <use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 205.
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 201.
 (pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
 @firstpass
 [][] 
@@ -11966,7 +11921,7 @@ efi-si-en-si.
 <image/bab2/segmentasi/EmpathyMap/EM.DonaturIndividu.png, id=409, 1445.4pt x 813.0375pt>
 File: image/bab2/segmentasi/EmpathyMap/EM.DonaturIndividu.png Graphic file (type png)
 <use image/bab2/segmentasi/EmpathyMap/EM.DonaturIndividu.png>
-Package pdftex.def Info: image/bab2/segmentasi/EmpathyMap/EM.DonaturIndividu.png  used on input line 212.
+Package pdftex.def Info: image/bab2/segmentasi/EmpathyMap/EM.DonaturIndividu.png  used on input line 208.
 (pdftex.def)             Requested size: 426.95175pt x 240.15413pt.
 @firstpass
 [][]
@@ -12160,7 +12115,7 @@ air.
 
 File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
 <use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 226.
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 222.
 (pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
 @firstpass
 [][] 
@@ -12195,7 +12150,7 @@ Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on i
 <image/bab2/segmentasi/CustomerJourneyMap/CJ.DonaturIndividu.png, id=414, 3252.15pt x 1838.87pt>
 File: image/bab2/segmentasi/CustomerJourneyMap/CJ.DonaturIndividu.png Graphic file (type png)
 <use image/bab2/segmentasi/CustomerJourneyMap/CJ.DonaturIndividu.png>
-Package pdftex.def Info: image/bab2/segmentasi/CustomerJourneyMap/CJ.DonaturIndividu.png  used on input line 232.
+Package pdftex.def Info: image/bab2/segmentasi/CustomerJourneyMap/CJ.DonaturIndividu.png  used on input line 228.
 (pdftex.def)             Requested size: 422.68457pt x 238.97731pt.
 @firstpass
 [][]
@@ -12262,7 +12217,7 @@ $\OMS/ztmcm/m/n/12 !$
 @@4: line 3.2- t=1575209 -> @@3
 
 
-Underfull \hbox (badness 1237) in paragraph at lines 237--240
+Underfull \hbox (badness 1237) in paragraph at lines 233--236
 \T1/ptm/m/it/12 Fase per-ja-lan-an: Ke-sa-dar-an $\OMS/ztmcm/m/n/12 !$ \T1/ptm/m/it/12 Pen-ca-ri-an Pe-ne-ri-ma $\OMS/ztmcm/m/n/12 !$ \T1/ptm/m/it/12 Pe-lak-sa-na-an Do-na-si $\OMS/ztmcm/m/n/12 !$
  []
 
@@ -12312,7 +12267,7 @@ AI.
 @@10: line 4.2- t=3104266 -> @@8
 
 
-Underfull \hbox (badness 1748) in paragraph at lines 240--241
+Underfull \hbox (badness 1748) in paragraph at lines 236--237
 \T1/ptm/m/n/12 ti-dak pa-ham stan-dar ke-a-ma-nan-nya (\T1/ptm/m/it/12 Pa-in Po-in-ts\T1/ptm/m/n/12 ). \T1/ptm/b/n/12 Pe-lu-ang So-lu-si (FAR):
  []
 
@@ -12491,12 +12446,12 @@ in-st-an.
 @@28: line 4.2- t=52010 -> @@24
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--242
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
 []\T1/ptm/m/n/12 Secara ma-nu-al men-ca-ri pi-hak yang mem-bu-tuhk-an via
  []
 
 
-Underfull \hbox (badness 2005) in paragraph at lines 241--242
+Underfull \hbox (badness 2005) in paragraph at lines 237--238
 \T1/ptm/m/n/12 in-ter-net/WhatsApp. Ini me-re-potk-an ka-re-na \T1/ptm/m/it/12 blind spot \T1/ptm/m/n/12 in-for-ma-si pe-ne-ri-ma
  []
 
@@ -12584,7 +12539,7 @@ emi-si yang di-ce-gah.
 
 File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
 <use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 244.
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 240.
 (pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
 @firstpass
 [][] 
@@ -12619,7 +12574,7 @@ Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on i
 <image/bab2/segmentasi/UserPersona/UP.DonaturKorporat.png, id=422, 1445.4pt x 813.0375pt>
 File: image/bab2/segmentasi/UserPersona/UP.DonaturKorporat.png Graphic file (type png)
 <use image/bab2/segmentasi/UserPersona/UP.DonaturKorporat.png>
-Package pdftex.def Info: image/bab2/segmentasi/UserPersona/UP.DonaturKorporat.png  used on input line 250.
+Package pdftex.def Info: image/bab2/segmentasi/UserPersona/UP.DonaturKorporat.png  used on input line 246.
 (pdftex.def)             Requested size: 426.95175pt x 240.15413pt.
 @firstpass
 [][]
@@ -12689,7 +12644,7 @@ ter-s-truk-tur.
 @@8: line 4.2- t=1925981 -> @@7
 
 
-Underfull \hbox (badness 1331) in paragraph at lines 255--258
+Underfull \hbox (badness 1331) in paragraph at lines 251--254
 \T1/ptm/m/n/12 Per-u-sa-ha-an-nya ingin ber-do-na-si ru-tin na-mun bu-tuh pe-la-por-an dam-pak so-si-al yang
  []
 
@@ -12703,7 +12658,7 @@ ber-kon-tri-bu-si pa-da pe-ngu-rang-an emi-si gas ru-mah ka-ca da-ri lim-bah ku-
 @@2: line 2.2- t=38633896 -> @@1
 
 
-Underfull \hbox (badness 6204) in paragraph at lines 258--259
+Underfull \hbox (badness 6204) in paragraph at lines 254--255
 []\T1/ptm/b/n/12 Motivasi: \T1/ptm/m/n/12 Men-ja-lank-an CSR, mem-ba-ngun ci-tra me-rek po-si-tif, ser-ta
  []
 
@@ -12733,7 +12688,7 @@ dan efisiensi.
 <image/bab2/segmentasi/EmpathyMap/EM.DonaturKorporat.png, id=423, 1445.4pt x 813.0375pt>
 File: image/bab2/segmentasi/EmpathyMap/EM.DonaturKorporat.png Graphic file (type png)
 <use image/bab2/segmentasi/EmpathyMap/EM.DonaturKorporat.png>
-Package pdftex.def Info: image/bab2/segmentasi/EmpathyMap/EM.DonaturKorporat.png  used on input line 266.
+Package pdftex.def Info: image/bab2/segmentasi/EmpathyMap/EM.DonaturKorporat.png  used on input line 262.
 (pdftex.def)             Requested size: 426.95175pt x 240.15413pt.
 @firstpass
 [][]
@@ -12779,7 +12734,7 @@ Korporat|
 
 File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
 <use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 270.
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 266.
 (pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
 @firstpass
 [][] 
@@ -12858,7 +12813,7 @@ CO$[]$.
 @@5: line 3.2- t=2938645 -> @@2
 
 
-Underfull \hbox (badness 1701) in paragraph at lines 274--275
+Underfull \hbox (badness 1701) in paragraph at lines 270--271
 \T1/ptm/m/n/12 je-jak kar-bon; bi-sa me-mi-cu pu-bli-si-tas bu-ruk ji-ka di-ke-ta-hui pu-blik; ak-an
  []
 
@@ -12961,7 +12916,7 @@ ve-ri-fi-ka-si ke-la-yak-an oto-ma-tis.
 @@8: line 4.2- t=12285629 -> @@7
 
 
-Underfull \hbox (badness 3492) in paragraph at lines 279--280
+Underfull \hbox (badness 3492) in paragraph at lines 275--276
 []\T1/ptm/b/n/12 GAINS: \T1/ptm/m/n/12 Meng-ha-rapk-an pla-tform de-ngan das-bor dam-pak so-si-al (SROI)
  []
 
@@ -12972,7 +12927,7 @@ Underfull \hbox (badness 3492) in paragraph at lines 279--280
 
 File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
 <use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 280.
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 276.
 (pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
 @firstpass
 [][] 
@@ -13007,7 +12962,7 @@ Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on i
 <image/bab2/segmentasi/CustomerJourneyMap/CJ.DonaturKorporat.png, id=433, 3252.15pt x 2031.59pt>
 File: image/bab2/segmentasi/CustomerJourneyMap/CJ.DonaturKorporat.png Graphic file (type png)
 <use image/bab2/segmentasi/CustomerJourneyMap/CJ.DonaturKorporat.png>
-Package pdftex.def Info: image/bab2/segmentasi/CustomerJourneyMap/CJ.DonaturKorporat.png  used on input line 284.
+Package pdftex.def Info: image/bab2/segmentasi/CustomerJourneyMap/CJ.DonaturKorporat.png  used on input line 280.
 (pdftex.def)             Requested size: 422.68457pt x 264.02298pt.
 @firstpass
 [][]
@@ -13145,7 +13100,7 @@ Di-na-mis de-ngan po-in XP dan per-ing-kat.
 
 File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
 <use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 296.
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 292.
 (pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
 @firstpass
 [][] 
@@ -13180,7 +13135,7 @@ Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on i
 <image/bab2/segmentasi/UserPersona/UP.Penerima.png, id=439, 1445.4pt x 813.0375pt>
 File: image/bab2/segmentasi/UserPersona/UP.Penerima.png Graphic file (type png)
 <use image/bab2/segmentasi/UserPersona/UP.Penerima.png>
-Package pdftex.def Info: image/bab2/segmentasi/UserPersona/UP.Penerima.png  used on input line 302.
+Package pdftex.def Info: image/bab2/segmentasi/UserPersona/UP.Penerima.png  used on input line 298.
 (pdftex.def)             Requested size: 426.95175pt x 240.15413pt.
 @firstpass
 [][]
@@ -13250,7 +13205,7 @@ sosial dan efisiensi.
 <image/bab2/segmentasi/EmpathyMap/EM.Penerima.png, id=440, 1445.4pt x 813.0375pt>
 File: image/bab2/segmentasi/EmpathyMap/EM.Penerima.png Graphic file (type png)
 <use image/bab2/segmentasi/EmpathyMap/EM.Penerima.png>
-Package pdftex.def Info: image/bab2/segmentasi/EmpathyMap/EM.Penerima.png  used on input line 317.
+Package pdftex.def Info: image/bab2/segmentasi/EmpathyMap/EM.Penerima.png  used on input line 313.
 (pdftex.def)             Requested size: 426.95175pt x 240.15413pt.
 @firstpass
 [][]
@@ -13289,7 +13244,7 @@ Penerima|
 
 File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
 <use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 321.
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 317.
 (pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
 @firstpass
 [][] 
@@ -13374,7 +13329,7 @@ wak-tu
 @@4: line 3.2- t=29009765 -> @@3
 
 
-Underfull \hbox (badness 5374) in paragraph at lines 326--327
+Underfull \hbox (badness 5374) in paragraph at lines 322--323
 []\T1/ptm/b/n/12 PAINS: \T1/ptm/m/n/12 An-cam-an ke-a-man-an pa-ngan ting-gi ka-re-na ti-dak ada va-li-da-si
  []
 
@@ -13454,7 +13409,7 @@ klaim (\T1/ptm/m/it/12 booking\T1/ptm/m/n/12 ) tetap dan forum \T1/ptm/m/it/12 r
 
 File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
 <use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 331.
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 327.
 (pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
 @firstpass
 [][] 
@@ -13489,7 +13444,7 @@ Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on i
 <image/bab2/segmentasi/CustomerJourneyMap/CJ.Penerima.png, id=449, 3252.15pt x 2031.59pt>
 File: image/bab2/segmentasi/CustomerJourneyMap/CJ.Penerima.png Graphic file (type png)
 <use image/bab2/segmentasi/CustomerJourneyMap/CJ.Penerima.png>
-Package pdftex.def Info: image/bab2/segmentasi/CustomerJourneyMap/CJ.Penerima.png  used on input line 335.
+Package pdftex.def Info: image/bab2/segmentasi/CustomerJourneyMap/CJ.Penerima.png  used on input line 331.
 (pdftex.def)             Requested size: 422.68457pt x 264.02298pt.
 @firstpass
 [][]
@@ -13647,7 +13602,7 @@ atau \T1/ptm/m/it/12 ba-dge \T1/ptm/m/n/12 ba-gi pe-ne-ri-ma yang ak-tif dan ter
 
 File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
 <use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 347.
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 343.
 (pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
 @firstpass
 [][] 
@@ -13682,7 +13637,7 @@ Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on i
 <image/bab2/segmentasi/UserPersona/UP.Relawan.png, id=456, 1445.4pt x 813.0375pt>
 File: image/bab2/segmentasi/UserPersona/UP.Relawan.png Graphic file (type png)
 <use image/bab2/segmentasi/UserPersona/UP.Relawan.png>
-Package pdftex.def Info: image/bab2/segmentasi/UserPersona/UP.Relawan.png  used on input line 353.
+Package pdftex.def Info: image/bab2/segmentasi/UserPersona/UP.Relawan.png  used on input line 349.
 (pdftex.def)             Requested size: 426.95175pt x 240.15413pt.
 @firstpass
 [][]
@@ -13783,7 +13738,7 @@ sah; re-pot men-ca-ri ala-mat pe-ne-ri-ma ma-nu-al.
 @@5: line 3.2- t=5287321 -> @@4
 
 
-Underfull \hbox (badness 2285) in paragraph at lines 362--363
+Underfull \hbox (badness 2285) in paragraph at lines 358--359
 []\T1/ptm/b/n/12 Frustrasi: \T1/ptm/m/n/12 Ku-rang ap-re-si-a-si/pencatatan kon-tri-bu-si da-lam sis-tem re-la-w-an
  []
 
@@ -13798,7 +13753,7 @@ efisiensi dan kepedulian sosial.
 <image/bab2/segmentasi/EmpathyMap/EM.Relawan.png, id=457, 1445.4pt x 813.0375pt>
 File: image/bab2/segmentasi/EmpathyMap/EM.Relawan.png Graphic file (type png)
 <use image/bab2/segmentasi/EmpathyMap/EM.Relawan.png>
-Package pdftex.def Info: image/bab2/segmentasi/EmpathyMap/EM.Relawan.png  used on input line 368.
+Package pdftex.def Info: image/bab2/segmentasi/EmpathyMap/EM.Relawan.png  used on input line 364.
 (pdftex.def)             Requested size: 426.95175pt x 240.15413pt.
 @firstpass
 [][]
@@ -13837,7 +13792,7 @@ Relawan|
 
 File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
 <use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 372.
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 368.
 (pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
 @firstpass
 [][] 
@@ -13890,7 +13845,7 @@ mem-buk-tik-an tu-gas se-le-sai tan-pa la-por-an ter-tu-lis; sis-tem kom-pe-ti-s
 @@3: line 3.2- t=12061100 -> @@2
 
 
-Underfull \hbox (badness 3460) in paragraph at lines 376--377
+Underfull \hbox (badness 3460) in paragraph at lines 372--373
 []\T1/ptm/b/n/12 THINKS: \T1/ptm/m/n/12 Men-ca-ri ala-mat ma-nu-al itu me-re-potk-an; bu-tuh ca-ra prak-tis
  []
 
@@ -13978,7 +13933,7 @@ men-ca-ri lo-ka-si ma-nu-al tan-pa buk-ti va-lid.
 @@3: line 3.2- t=6505093 -> @@2
 
 
-Underfull \hbox (badness 2478) in paragraph at lines 380--381
+Underfull \hbox (badness 2478) in paragraph at lines 376--377
 []\T1/ptm/b/n/12 DOES: \T1/ptm/m/n/12 Ber-tin-dak su-ka-re-la se-ba-gai ar-ma-da lo-gis-tik; ak-tif meng-gu-nak-an
  []
 
@@ -13996,7 +13951,7 @@ gamifikasi sosial berbasis AI dengan poin XP dinamis; \T1/ptm/m/it/12 badge rank
 <image/bab2/segmentasi/CustomerJourneyMap/CJ.Relawan.png, id=462, 3252.15pt x 1983.41pt>
 File: image/bab2/segmentasi/CustomerJourneyMap/CJ.Relawan.png Graphic file (type png)
 <use image/bab2/segmentasi/CustomerJourneyMap/CJ.Relawan.png>
-Package pdftex.def Info: image/bab2/segmentasi/CustomerJourneyMap/CJ.Relawan.png  used on input line 386.
+Package pdftex.def Info: image/bab2/segmentasi/CustomerJourneyMap/CJ.Relawan.png  used on input line 382.
 (pdftex.def)             Requested size: 362.91159pt x 221.32327pt.
 @firstpass
 [][]
@@ -14042,7 +13997,7 @@ Relawan|
 
 File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
 <use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 390.
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 386.
 (pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
 @firstpass
 [][] 
@@ -14120,7 +14075,7 @@ man-di-ri.
 @@8: line 4.2- t=1119921 -> @@7
 
 
-Underfull \hbox (badness 1014) in paragraph at lines 394--395
+Underfull \hbox (badness 1014) in paragraph at lines 390--391
 \T1/ptm/m/n/12 na-mun ni-at ba-ik se-ring ti-dak ter-sa-lurk-an aki-bat ke-ti-a-da-an pla-tform ter-pu-sat.
  []
 
@@ -14377,7 +14332,7 @@ pa-ngan.
 @@37: line 8.2- t=3754755 -> @@32
 
 
-Underfull \hbox (badness 1584) in paragraph at lines 402--403
+Underfull \hbox (badness 1584) in paragraph at lines 398--399
 \T1/ptm/m/it/12 pro-po-si-tion\T1/ptm/m/n/12 ) yang le-bih ino-va-tif, te-pat sa-sar-an, dan re-lev-an da-lam men-jem-ba-ta-ni
  []
 
@@ -14388,7 +14343,7 @@ Underfull \hbox (badness 1584) in paragraph at lines 402--403
 
 File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
 <use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 403.
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 399.
 (pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
 @firstpass
 [][] 
@@ -14637,12 +14592,12 @@ se-te-ngah-nya.
 @@33: line 5.2- t=112414 -> @@32
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--407
+Underfull \hbox (badness 10000) in paragraph at lines 402--403
 []\T1/ptm/m/n/12 Surplus In-do-ne-sia: Apli-ka-si \T1/ptm/m/it/12 fo-od re-scue \T1/ptm/m/n/12 ko-mer-si-al yang ber-fo-kus
  []
 
 
-Underfull \hbox (badness 1917) in paragraph at lines 406--407
+Underfull \hbox (badness 1917) in paragraph at lines 402--403
 \T1/ptm/m/n/12 ter-ju-al ter-se-but di akhir jam ope-ra-sio-nal de-ngan po-tong-an har-ga hing-ga
  []
 
@@ -14662,7 +14617,7 @@ re-la-w-an se-ca-ra kon-ven-sio-nal.
 @@4: line 4.2- t=4813258 -> @@3
 
 
-Underfull \hbox (badness 2005) in paragraph at lines 407--408
+Underfull \hbox (badness 2005) in paragraph at lines 403--404
 []\T1/ptm/m/n/12 Garda Pa-ngan: Or-ga-ni-sa-si \T1/ptm/m/it/12 fo-od bank \T1/ptm/m/n/12 di In-do-ne-sia yang ber-fo-kus pa-da
  []
 
@@ -14686,7 +14641,7 @@ ke-lom-pok rent-an di ber-ba-gai wi-la-yah.
 @@5: line 4.2- t=3388806 -> @@4
 
 
-Underfull \hbox (badness 1817) in paragraph at lines 408--409
+Underfull \hbox (badness 1817) in paragraph at lines 404--405
 []\T1/ptm/m/n/12 Foodbank of In-do-ne-sia (FOI): Ja-ring-an nir-la-ba na-sio-nal yang meng-e-lo-la
  []
 
@@ -15793,12 +15748,12 @@ Ter-ga-mi-fi-ka-si|
 @@5: line 5.3- t=300 -> @@4
 
 
-Overfull \hbox (3.97136pt too wide) in paragraph at lines 428--428
+Overfull \hbox (3.97136pt too wide) in paragraph at lines 424--424
 \T1/ptm/m/n/12 Pen-jem-put-an 
  []
 
 
-Overfull \hbox (6.85138pt too wide) in paragraph at lines 428--428
+Overfull \hbox (6.85138pt too wide) in paragraph at lines 424--424
 \T1/ptm/m/n/12 Ter-ga-mi-fi-ka-si|  
  []
 
@@ -15979,7 +15934,7 @@ Korporat|
 
 File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
 <use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 431.
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 427.
 (pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
 @firstpass
 [][] 
@@ -16018,7 +15973,7 @@ Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on i
 
 File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
 <use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 431.
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 427.
 (pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
 @firstpass
 [][] 
@@ -16408,7 +16363,7 @@ trans-par-an, dan ter-pa-du.
 @@41: line 9.2- t=2425363 -> @@40
 
 
-Underfull \hbox (badness 1418) in paragraph at lines 437--438
+Underfull \hbox (badness 1418) in paragraph at lines 433--434
 \T1/ptm/m/n/12 pa-ngan gra-tis, va-li-da-si ke-a-man-an ber-ba-sis AI (``Po-li-si Pa-ngan''), dan ope-ra-sio-nal
  []
 
@@ -16653,7 +16608,7 @@ Con-trol
 
 File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
 <use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 444.
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 440.
 (pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
 @firstpass
 [][] 
@@ -16914,7 +16869,7 @@ kam-pa-nye so-si-al.
 @@20: line 7.2- t=68217342 -> @@18
 
 
-Underfull \hbox (badness 8189) in paragraph at lines 457--458
+Underfull \hbox (badness 8189) in paragraph at lines 453--454
 []\T1/ptm/b/n/12 Hak Ak-ses\T1/ptm/m/n/12 : Me-mi-li-ki we-we-nang ma-na-je-men dis-tri-bu-si dan
  []
 
@@ -16930,7 +16885,7 @@ Underfull \hbox (badness 8189) in paragraph at lines 457--458
 
 File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
 <use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 462.
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 458.
 (pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
 @firstpass
 [][] 
@@ -17041,7 +16996,7 @@ se-be-lum di-kon-sum-si.
 @@18: line 7.2- t=5334282 -> @@16
 
 
-Underfull \hbox (badness 2126) in paragraph at lines 463--464
+Underfull \hbox (badness 2126) in paragraph at lines 459--460
 \T1/ptm/m/it/12 Da-shbo-a-rd\T1/ptm/m/n/12 ), men-ca-ri me-nu ma-kan-an ter-de-kat, me-la-kuk-an kla-im
  []
 
@@ -17109,12 +17064,12 @@ ga-mi-fi-ka-si
 @@13: line 7.2- t=29150287 -> @@12
 
 
-Underfull \hbox (badness 4872) in paragraph at lines 469--470
+Underfull \hbox (badness 4872) in paragraph at lines 465--466
 []\T1/ptm/b/n/12 Hak Ak-ses\T1/ptm/m/n/12 : Ber-we-nang un-tuk meng-ak-ses daf-tar pap-an mi-si
  []
 
 
-Underfull \hbox (badness 2253) in paragraph at lines 469--470
+Underfull \hbox (badness 2253) in paragraph at lines 465--466
 \T1/ptm/m/n/12 yang se-ca-ra oto-ma-tis ter-in-te-gra-si de-ngan sis-tem po-in ga-mi-fi-ka-si
  []
 
@@ -17477,17 +17432,17 @@ apli-ka-si.
 @@55: line 8.2- t=111830 -> @@52
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 475--476
+Underfull \hbox (badness 10000) in paragraph at lines 471--472
 \T1/ptm/m/n/12 pen-daf-tar-an akun ba-ru, mem-blo-kir akun yang me-la-kuk-an
  []
 
 
-Underfull \hbox (badness 2057) in paragraph at lines 475--476
+Underfull \hbox (badness 2057) in paragraph at lines 471--472
 \T1/ptm/m/n/12 pe-nya-la-hgu-na-an, me-na-nga-ni ke-luh-an peng-gu-na (\T1/ptm/m/it/12 sup-port re-qu-est\T1/ptm/m/n/12 ),
  []
 
 
-Underfull \hbox (badness 1117) in paragraph at lines 475--476
+Underfull \hbox (badness 1117) in paragraph at lines 471--472
 \T1/ptm/m/n/12 in-struk-si de-tek-si AI se-ca-ra \T1/ptm/m/it/12 real-time \T1/ptm/m/n/12 tan-pa per-lu meng-u-bah ko-de
  []
 
@@ -17524,7 +17479,7 @@ pe-me-gang ke-da-u-lat-an mut-lak pla-tform ek-se-ku-tif.
 
 File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
 <use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 481.
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 477.
 (pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
 @firstpass
 [][] 
@@ -17589,12 +17544,12 @@ ke-se-lu-ruh-an.
 @@9: line 6.2- t=45760479 -> @@7
 
 
-Underfull \hbox (badness 6445) in paragraph at lines 481--482
+Underfull \hbox (badness 6445) in paragraph at lines 477--478
 []\T1/ptm/b/n/12 Hak Ak-ses\T1/ptm/m/n/12 : Me-mi-li-ki we-we-nang ma-na-je-ri-al pe-nuh ter-ha-dap
  []
 
 
-Underfull \hbox (badness 2005) in paragraph at lines 481--482
+Underfull \hbox (badness 2005) in paragraph at lines 477--478
 \T1/ptm/m/it/12 Mo-de\T1/ptm/m/n/12 ), per-ba-ik-an \T1/ptm/m/it/12 bug\T1/ptm/m/n/12 , men-ja-ga sta-bi-li-tas ba-sis da-ta, meng-e-lo-la
  []
 
@@ -17729,12 +17684,12 @@ mo-dul uta-ma ber-i-kut:
 @@30: line 9.2- t=5751107 -> @@29
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 486--487
+Underfull \hbox (badness 1048) in paragraph at lines 482--483
 \T1/ptm/m/n/12 oleh sis-tem gu-na men-ja-wab per-ma-sa-lah-an peng-gu-na di la-pang-an. Me-ru-juk pa-da
  []
 
 
-Underfull \hbox (badness 2012) in paragraph at lines 486--487
+Underfull \hbox (badness 2012) in paragraph at lines 482--483
 \T1/ptm/m/n/12 ha-sil ob-se-rva-si alur dis-tri-bu-si ma-nu-al (As-Is) ser-ta eks-trak-si ti-tik ke-luh-an (\T1/ptm/m/it/12 pa-in
  []
 
@@ -17822,7 +17777,7 @@ ba-tas wak-tu kon-sum-si (ke-da-lu-war-sa) te-lah ter-le-wa-ti.
 
 File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
 <use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 500.
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 496.
 (pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
 @firstpass
 [][] 
@@ -17961,7 +17916,7 @@ pem-bu-at-an nas-kah kam-pa-nye so-si-al.
 @@8: line 5.2- t=15517010 -> @@7
 
 
-Underfull \hbox (badness 3895) in paragraph at lines 507--508
+Underfull \hbox (badness 3895) in paragraph at lines 503--504
 []\T1/ptm/m/n/12 Khusus ba-gi grup Do-na-tur Kor-po-rat (HO-RE-CA), sis-tem ha-rus
  []
 
@@ -18095,12 +18050,12 @@ sa-ma.
 @@20: line 4.2- t=150142 -> @@19
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 513--514
+Underfull \hbox (badness 10000) in paragraph at lines 509--510
 []\T1/ptm/m/n/12 Sistem ha-rus me-mung-kink-an Pe-ne-ri-ma me-la-kuk-an kla-im
  []
 
 
-Underfull \hbox (badness 3250) in paragraph at lines 513--514
+Underfull \hbox (badness 3250) in paragraph at lines 509--510
 \T1/ptm/m/n/12 (\T1/ptm/m/it/12 bo-o-king/checkout\T1/ptm/m/n/12 ) pe-san-an ma-kan-an un-tuk men-ce-gah ter-ja-di-nya
  []
 
@@ -18117,12 +18072,12 @@ so-si-al me-re-ka.
 @@3: line 3.2- t=12349481 -> @@2
 
 
-Underfull \hbox (badness 2980) in paragraph at lines 514--515
+Underfull \hbox (badness 2980) in paragraph at lines 510--511
 []\T1/ptm/m/n/12 Sistem ha-rus me-nye-di-ak-an \T1/ptm/m/it/12 Fo-rum Re-qu-est \T1/ptm/m/n/12 yang me-mung-kink-an
  []
 
 
-Underfull \hbox (badness 1831) in paragraph at lines 514--515
+Underfull \hbox (badness 1831) in paragraph at lines 510--511
 \T1/ptm/m/n/12 Pe-ne-ri-ma un-tuk me-mu-bli-ka-sik-an ke-bu-tuh-an spe-si-fik pan-ti/fasilitas
  []
 
@@ -18196,7 +18151,7 @@ per-ing-kat atau me-da-li so-si-al.
 
 File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
 <use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 522.
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 518.
 (pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
 @firstpass
 [][] 
@@ -18261,7 +18216,7 @@ pe-les-ta-ri-an air (li-ter).
 @@4: line 4.2- t=11390045 -> @@3
 
 
-Underfull \hbox (badness 3260) in paragraph at lines 527--528
+Underfull \hbox (badness 3260) in paragraph at lines 523--524
 \T1/ptm/m/n/12 es-ti-ma-si ang-ka pe-ngu-rang-an emi-si je-jak kar-bon (kg CO$[]$) dan
  []
 
@@ -18421,12 +18376,12 @@ Ma-na-ger\T1/ptm/m/n/12 .
 @@26: line 4.2- t=45461 -> @@18
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 532--533
+Underfull \hbox (badness 10000) in paragraph at lines 528--529
 \T1/ptm/m/n/12 Pe-nge-lo-la un-tuk me-nin-da-klan-ju-ti pen-daf-tar-an akun ma-nu-al,
  []
 
 
-Underfull \hbox (badness 2035) in paragraph at lines 532--533
+Underfull \hbox (badness 2035) in paragraph at lines 528--529
 \T1/ptm/m/n/12 mem-be-kuk-an akun yang me-la-kuk-an pe-lang-gar-an, dan meng-e-lo-la
  []
 
@@ -18484,7 +18439,7 @@ ak-ti-vi-tas.
 @@5: line 4.2- t=1649426 -> @@4
 
 
-Underfull \hbox (badness 1184) in paragraph at lines 535--536
+Underfull \hbox (badness 1184) in paragraph at lines 531--532
 \T1/ptm/m/n/12 ke-pa-da Su-pe-rA-dmin un-tuk meng-en-da-lik-an pe-ngun-ci-an se-rver sa-at
  []
 
@@ -18565,7 +18520,7 @@ di-sya-ratk-an meng-gu-nak-an tum-puk-an tek-no-lo-gi (\T1/ptm/m/it/12 te-ch sta
 @@3: line 3.2- t=33974150 -> @@2
 
 
-Underfull \hbox (badness 5817) in paragraph at lines 543--546
+Underfull \hbox (badness 5817) in paragraph at lines 539--542
 \T1/ptm/m/n/12 an-tar-mu-ka (\T1/ptm/m/it/12 User In-ter-fa-ce\T1/ptm/m/n/12 ) ser-ta lo-gi-ka pe-la-den (\T1/ptm/m/it/12 Server-Side\T1/ptm/m/n/12 ), sis-tem
  []
 
@@ -18576,7 +18531,7 @@ Underfull \hbox (badness 5817) in paragraph at lines 543--546
 
 File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
 <use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 546.
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 542.
 (pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
 @firstpass
 [][] 
@@ -18692,7 +18647,7 @@ iko-no-gra-fi.
 @@24: line 8.2- t=5847527 -> @@22
 
 
-Underfull \hbox (badness 2376) in paragraph at lines 546--547
+Underfull \hbox (badness 2376) in paragraph at lines 542--543
 \T1/cmtt/m/n/12 react-easy-crop \T1/ptm/m/n/12 un-tuk pe-nye-su-a-i-an (\T1/ptm/m/it/12 crop-ping\T1/ptm/m/n/12 ) fo-to pro-fil dan
  []
 
@@ -18748,7 +18703,7 @@ AI.
 @@7: line 5.2- t=2498985 -> @@5
 
 
-Underfull \hbox (badness 1348) in paragraph at lines 548--549
+Underfull \hbox (badness 1348) in paragraph at lines 544--545
 \T1/ptm/m/n/12 san-di ber-la-pis, \T1/cmtt/m/n/12 nodemailer \T1/ptm/m/n/12 un-tuk la-yan-an \T1/ptm/m/it/12 Sim-ple Ma-il Pro-to-col
  []
 
@@ -18781,12 +18736,12 @@ in-ti in-te-li-jen-si ``Po-li-si Pa-ngan'', ser-ta in-te-gra-si la-yan-an
 @@8: line 5.2- t=49261770 -> @@7
 
 
-Underfull \hbox (badness 5832) in paragraph at lines 549--550
+Underfull \hbox (badness 5832) in paragraph at lines 545--546
 \T1/ptm/m/it/12 Ap-pli-ca-tion Pro-gram-ming In-ter-fa-ce \T1/ptm/m/n/12 (API) eks-ter-nal, khu-sus-nya
  []
 
 
-Underfull \hbox (badness 3849) in paragraph at lines 549--550
+Underfull \hbox (badness 3849) in paragraph at lines 545--546
 \T1/ptm/m/n/12 se-ba-gai in-ti in-te-li-jen-si ``Po-li-si Pa-ngan'', ser-ta in-te-gra-si la-yan-an
  []
 
@@ -18834,7 +18789,7 @@ No-de.js \T1/ptm/m/n/12 se-ca-ra se-ren-tak (un-tuk \T1/ptm/m/it/12 Fron-tend \T
 @@9: line 6.2- t=1922133 -> @@8
 
 
-Underfull \hbox (badness 1038) in paragraph at lines 555--556
+Underfull \hbox (badness 1038) in paragraph at lines 551--552
 \T1/ptm/m/n/12 (Win-do-ws, Mac OS, ma-u-pun Li-nux). Me-sin pe-ngem-bang ha-rus
  []
 
@@ -18882,12 +18837,12 @@ te-ri-ma.
 @@12: line 7.2- t=51328954 -> @@10
 
 
-Underfull \hbox (badness 6332) in paragraph at lines 556--557
+Underfull \hbox (badness 6332) in paragraph at lines 552--553
 \T1/ptm/m/n/12 ko-nek-si in-ter-net yang sta-bil dan \T1/ptm/m/it/12 bro-wser \T1/ptm/m/n/12 mo-dern. Khu-sus
  []
 
 
-Underfull \hbox (badness 3219) in paragraph at lines 556--557
+Underfull \hbox (badness 3219) in paragraph at lines 552--553
 \T1/ptm/m/n/12 un-tuk Do-na-tur, Pe-ne-ri-ma, dan Re-la-w-an, per-ang-kat fi-sik \T1/ptm/b/n/12 wa-jib
  []
 
@@ -18898,7 +18853,7 @@ Underfull \hbox (badness 3219) in paragraph at lines 556--557
 
 File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
 <use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 557.
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 553.
 (pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
 @firstpass
 [][] 
@@ -18936,7 +18891,7 @@ Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on i
 @@1: line 1.2- t=100 -> @@0
 
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 561.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 557.
 @firstpass
 @secondpass
 []\T1/ptm/b/n/12 Sistem Kre-den-si-al \T1/cmtt/m/n/12 .env\T1/ptm/m/n/12 : Agar sis-tem da-pat ber-jal-an se-ca-ra 
@@ -19028,7 +18983,7 @@ per-in-tah.
 @@25: line 8.2- t=3832277 -> @@23
 
 
-Underfull \hbox (badness 1590) in paragraph at lines 561--562
+Underfull \hbox (badness 1590) in paragraph at lines 557--558
 \T1/ptm/m/it/12 ro-ot pa-th \T1/ptm/m/n/12 di-rek-to-ri pro-yek. Kon-fi-gu-ra-si ini di-wa-jibk-an me-mu-at
  []
 
@@ -19317,7 +19272,7 @@ modul Admin.
 
 File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
 <use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 576.
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 572.
 (pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
 @firstpass
 [][] 
@@ -19371,12 +19326,12 @@ per-min-ta-an di-va-li-da-si.
 @@5: line 5.2- t=14546862 -> @@4
 
 
-Underfull \hbox (badness 2384) in paragraph at lines 577--579
+Underfull \hbox (badness 2384) in paragraph at lines 573--575
 \T1/ptm/m/n/12 Pencegahan kla-im gan-da (\T1/ptm/m/it/12 double-claim pre-ven-tion\T1/ptm/m/n/12 ) pa-da pang-kal-an da-ta
  []
 
 
-Underfull \hbox (badness 2941) in paragraph at lines 577--579
+Underfull \hbox (badness 2941) in paragraph at lines 573--575
 \T1/ptm/m/n/12 MySQL2 di-la-kuk-an me-la-lui pe-na-ngan-an \T1/ptm/m/it/12 race-condition \T1/ptm/m/n/12 se-ca-ra \T1/ptm/m/it/12 real-time\T1/ptm/m/n/12 ,
  []
 
@@ -19415,7 +19370,7 @@ pe-nye-le-sa-i-an tran-sak-si.
 @@8: line 5.2- t=5156418 -> @@7
 
 
-Underfull \hbox (badness 2253) in paragraph at lines 580--582
+Underfull \hbox (badness 2253) in paragraph at lines 576--578
 \T1/ptm/m/it/12 sc-an\T1/ptm/m/n/12 ) Ko-de QR yang me-res-pon se-ca-ra in-st-an gu-na mem-per-ba-rui sta-tus
  []
 
@@ -19445,7 +19400,7 @@ pe-nga-lam-an (XP) re-la-w-an.
 @@6: line 5.2- t=5463762 -> @@5
 
 
-Underfull \hbox (badness 2237) in paragraph at lines 583--585
+Underfull \hbox (badness 2237) in paragraph at lines 579--581
 \T1/ptm/m/n/12 emi-si kar-bon (CO$[]$) dan peng-he-mat-an air se-ca-ra \T1/ptm/m/it/12 real-time\T1/ptm/m/n/12 . Al-go-ri-tma
  []
 
@@ -19968,7 +19923,7 @@ Here is how much of TeX's memory you used:
  1137 hyphenation exceptions out of 8191
  89i,19n,83p,2022b,2595s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (53 pages, 14064884 bytes).
+Output written on main.pdf (53 pages, 14064609 bytes).
 PDF statistics:
  647 PDF objects out of 1000 (max. 8388607)
  545 compressed objects within 6 object streams
