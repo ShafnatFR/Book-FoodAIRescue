@@ -89,6 +89,48 @@
       \verb /home/shaf/Zotero/storage/7GAUH47M/Rai et al. - 2025 - Essential recycling and repurposing of food waste for environment and sustainability.pdf
       \endverb
     \endentry
+    \entry{immawanFoodWasteIndonesia2024a}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=bf84391f29958e40abf83b6b7392b67d}{%
+           family={Immawan},
+           familyi={I\bibinitperiod},
+           given={Taufiq},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{bf84391f29958e40abf83b6b7392b67d}
+      \strng{fullhash}{bf84391f29958e40abf83b6b7392b67d}
+      \strng{fullhashraw}{bf84391f29958e40abf83b6b7392b67d}
+      \strng{bibnamehash}{bf84391f29958e40abf83b6b7392b67d}
+      \strng{authorbibnamehash}{bf84391f29958e40abf83b6b7392b67d}
+      \strng{authornamehash}{bf84391f29958e40abf83b6b7392b67d}
+      \strng{authorfullhash}{bf84391f29958e40abf83b6b7392b67d}
+      \strng{authorfullhashraw}{bf84391f29958e40abf83b6b7392b67d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{In Indonesia, 23-48 million tons of food waste are generated annually, causing economic losses of IDR 213-551 trillion or around 4-5\% of GDP. Food waste offers potential for valorization into products like animal feed, organic fertilizer, and biofuel but faces challenges such as technological limitations, high costs, and safety concerns. This study examines the safety of food waste-derived products for human and animal use, focusing on applications in animal feed, the food industry, cosmetics, bio-refinery, and organic fertilizers. Key processes include contaminant removal and safety assessments, though limited studies address physicochemical, microbiological, and toxic contaminant evaluations. Identified gaps in Indonesian regulations, particularly regarding safety standards, highlight the need for clearer guidelines and support for eco-friendly technologies. Enhancing these frameworks can ensure the safe and sustainable valorization of food waste.}
+      \field{issn}{2686-2352, 1693-2102}
+      \field{journaltitle}{OPSI}
+      \field{month}{12}
+      \field{number}{2}
+      \field{shorttitle}{Food Waste in {{Indonesia}}}
+      \field{title}{Food Waste in {{Indonesia}}: {{Assessing}} Readiness for Valorization}
+      \field{urlday}{22}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{17}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{370}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.31315/opsi.v17i2.13307
+      \endverb
+      \verb{file}
+      \verb /home/shaf/Zotero/storage/GVKTM5GT/Immawan - 2024 - Food waste in Indonesia Assessing readiness for valorization.pdf
+      \endverb
+    \endentry
     \entry{yulianaPotensiGerakanFood2022b}{article}{}{}
       \name{author}{1}{}{%
         {{hash=3d9b9b8155504a153d2a8bdaaea07c25}{%
@@ -105,8 +147,8 @@
       \strng{authornamehash}{3d9b9b8155504a153d2a8bdaaea07c25}
       \strng{authorfullhash}{3d9b9b8155504a153d2a8bdaaea07c25}
       \strng{authorfullhashraw}{3d9b9b8155504a153d2a8bdaaea07c25}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Tujuan dalam penelitian ini adalah mengidentifikasi bagaimana peran dari Gerakan Anti Food Waste dalam penguatan perekonomian UMKM dengan Surplus Indonesia sebagai studi kasus. Penelitian menggunakan metode deskriptif kualitatif dengan menggunakan data sekunder. Responden dalam penelitian ini merupakan aktivis dalam Organisasi Non Profit yang juga turut andil memberikan kampanye untuk penghentian kerusakan lingkungan. Hasil penelitian menunjukkan bahwa kehadiran Surplus Indonesia mampu memperkuat perekonomian UMKM dengan bekerja sama dalam bentuk mitra dimana Surplus Indonesia akan menjadi pemasar produk yang tidak habis terjual. Serta memberikan win-win solution bagi produsen dan konsumen. Dari sisi produsen, Surplus Indonesia menjadi pemasar produk yang tidak habis terjual dan memperoleh keuntungan. Sementara dari sisi konsumen, akan memperoleh harga yang lebih murah.}
@@ -181,8 +223,8 @@
       \strng{authornamehash}{510f9237acdd6b1d90e589930225bb8f}
       \strng{authorfullhash}{2a5ec33d5ade94a75179fdc3a19934c3}
       \strng{authorfullhashraw}{2a5ec33d5ade94a75179fdc3a19934c3}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Stunting---defined by the World Health Organization as a height-for-age z-score {$<$} -2 SD---signals chronic undernutrition that impairs both physical and cognitive development. This study investigates how the three pillars of food security (availability, access, utilization) influence stunting prevention efforts in the Bondowoso Regency, East Java, Indonesia. A cross-sectional survey of 113 mothers of stunted children (0--59 months) was analysed with Structural Equation Modelling using Partial Least Squares (PLS-SEM). The model reveals significant positive paths from food security pillars to composite stunting prevention behaviours ({$\beta$} = 0.18--0.86, p {$<$} 0.05), with availability emerging as the strongest predictor. These findings highlight food security as a lever for reducing the local stunting prevalence (local 32\% vs. national 24.4\%) and provide evidence for community-based nutrition programmes in similar agrarian districts. Strengthening food security is therefore essential to safeguarding child well-being in vulnerable Indonesian communities.}
@@ -243,8 +285,8 @@
       \strng{authornamehash}{749bb02ac297638453a29c490c33eb94}
       \strng{authorfullhash}{dfc4996f12c19813730cb9285d451832}
       \strng{authorfullhashraw}{dfc4996f12c19813730cb9285d451832}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{This study examines sustainable food security strategies in Central Java, focusing on addressing the interrelated issues of inflation, poverty, and undernourishment. Through a systematic literature review, the research identifies effective approaches such as conditional cash transfers, public distribution systems, agricultural extension services, and community-based nutrition programs, which have been successfully implemented in other regions. The findings suggest that these strategies can be adapted to the local context in Central Java, with specific emphasis on enhancing food accessibility, improving nutritional outcomes, and promoting agricultural productivity. The proposed policies align with the strategic objectives outlined in the RENSTRA Dinas Ketahanan Pangan Provinsi Jawa Tengah 2024-2026, including the development of rural infrastructure, strengthening food distribution systems, and integrating nutrition interventions into existing healthcare services. The study highlights the importance of a coordinated, multi-sectoral approach to effectively tackle food security challenges in Central Java, ensuring that interventions are sustainable and impactful in reducing poverty and improving public health outcomes. This research provides a framework for policymakers in Central Java to design and implement comprehensive food security strategies that are both practical and aligned with regional development goals.}
@@ -295,8 +337,8 @@
       \strng{authornamehash}{838e55c3abcbd748eb346400da771db4}
       \strng{authorfullhash}{838e55c3abcbd748eb346400da771db4}
       \strng{authorfullhashraw}{838e55c3abcbd748eb346400da771db4}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{With the steady growth of the global population and the accelerated urbanization process, the carbon footprint resulting from food waste has a significant impact on the environment and sustainable development. Considering Shanghai's significance as a major urban center in China and a global hub for economic and cultural activities, this study primarily aims to accurately estimate household food waste generation and calculate the carbon footprint related to edible food waste. It analyzes the factors influencing household food waste generation and reviews the anti-food waste-related policies at both the national and Shanghai regional levels. The study reveals that although the Shanghai municipal government attaches great importance to the issue of food waste, the current policies mainly focus on the catering industry, and there is still a need for further strengthening measures to address food waste at the household level. In Shanghai, the per capita daily food waste generation is 0.57 kg, with 43.42\% being edible food waste, contributing to a per capita daily carbon footprint of 1.17 kgCO2eq. Employing the logistic regression analysis to scrutinize the characteristics of the respondents, it is ascertained that education level and annual household income significantly influence food waste generation. In addition, excessive food quantities and expiration dates lead to high-frequency food waste. The culmination of this study is the formulation of a series of pragmatic and impactful policy recommendations aimed at curbing the carbon footprint that stems from food waste.}
@@ -353,8 +395,8 @@
       \strng{authornamehash}{18b54904b4908e471308284a8e147a7e}
       \strng{authorfullhash}{562f5337a6d09cef204db3cdf0e6a886}
       \strng{authorfullhashraw}{562f5337a6d09cef204db3cdf0e6a886}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Food waste generated from the household sector is one of the largest contributors to environmental degradation in Indonesia. Food waste generated from the household sector is one of the main contributors to the increasing volume of organic waste in Indonesia. This issue not only creates social and economic problems but also poses a serious threat to environmental sustainability. This study aims to analyze the contribution of household food waste to environmental degradation and to review sustainable management strategies. This study employs a Systematic Literature Review (SLR) method guided by the PRISMA 2020 Statement to review relevant national research conducted during the period 2018-2025. The results of the literature selection show that the impacts of household food waste on environmental sustainability can be categorized into three main dimensions: (1) ecological impacts, including pollution and the increase of greenhouse gas emissions; (2) resource impacts, such as the wastage of energy, water, and land; and (3) social-environmental impacts, including the increasing burden of regional waste management and the declining quality of life for communities living near landfills. The findings emphasize that the management of household food waste plays a crucial role in achieving environmental sustainability, particularly in supporting the attainment of Sustainable Development Goal (SDG) 12, which focuses on responsible consumption and production. Therefore, it is necessary to implement strategies of reduction, reuse, and recycling of food waste at the household level to minimize the negative impacts on environmental sustainability in Indonesia.}
@@ -404,8 +446,8 @@
       \strng{authornamehash}{0d5a405a8bf4187717faa79e73d47cf6}
       \strng{authorfullhash}{0d5a405a8bf4187717faa79e73d47cf6}
       \strng{authorfullhashraw}{0d5a405a8bf4187717faa79e73d47cf6}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Restaurants are Indonesia's biggest producers of trash since they provide meals every day, which contributes to a rise in food waste. The purpose of this study was to examine the quantity and kind of food waste produced by large-scale restaurants in Bogor City, as well as the carbon footprint that this garbage leaves behind. Additional evaluation of the impact of food waste output and composition on CO2 emissions was done in this study. This study separates edible food waste from non-edible food waste using a sample technique based on Waste Composition Analysis (WCA). The emission factor is calculated in order to determine the carbon footprint. According to the study's findings, which included 120 samples from three restaurants in Bogor City, the average daily production of food waste from the simple payakumbuh, pagi sore, and bumi aki restaurants in Bogor City was 4,239.70 g/plate, and the average daily generation of edible food waste was 12,026.70 g/org. It is made up of 14.3\% foods high in protein, 40.1\% fruits and vegetables, and 45.6\% foods high in carbohydrates. Produce (40.1\%): fruits and vegetables; foods high in protein (14.3\%). Pagi Sore generates the least amount of edible food waste (988 g/org/day), whereas Payakumbuh restaurant produces the most (26,834 g/org/day).}
@@ -450,8 +492,8 @@
       \strng{authornamehash}{e08d5e9779a3b4f5967119b22d385396}
       \strng{authorfullhash}{e08d5e9779a3b4f5967119b22d385396}
       \strng{authorfullhashraw}{e08d5e9779a3b4f5967119b22d385396}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Food waste dianggap sebagai suatu permasalahan multidimensi ekonomi, lingkungan dan sosial. Laporan menyebutkan food waste sebagai kontributor terbesar timbulan sampah di Indonesia dengan penghasil utama di tingkat rumah tangga sebagai konsumen akhir dalam rantai pasok makanan. Penelitian terdahulu membahas berbagai faktor perilaku pendorong food waste seperti karakter demografi rumah tangga, kebiasaan berbelanja, mengonsumsi makanan, dan pengelolaan sampah. Penelitian ini bertujuan untuk mengidentifikasi berbagai faktor yang mempengaruhi timbulan food waste di tingkat rumah tangga. Pengumpulan data dengan survei kuisioner kepada 257responden rumah tangga di Kota Depok, studi literatur, dan wawancara dengan pemangku kepentingan, dan dianalisis menggunakan model regresi Ordinary Least Square. Hasil penelitian menunjukan bahwa perilaku memilah sampah, perencanaan berbelanja, serta motivasi ekonomi mempengaruhi timbulan food waste di rumah tangga. Temuan ini juga dapat dijadikan pertimbangan saat menyusun kebijakan dan kampanye pengurangan food waste.Â~Kata kunci : Sampah Organik, Sampah Makanan, Pemilahan Sampah, sampah rumah tangga}
@@ -467,48 +509,6 @@
       \field{urldateera}{ce}
       \verb{doi}
       \verb 10.32834/gg.v18i1.457
-      \endverb
-    \endentry
-    \entry{immawanFoodWasteIndonesia2024a}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=bf84391f29958e40abf83b6b7392b67d}{%
-           family={Immawan},
-           familyi={I\bibinitperiod},
-           given={Taufiq},
-           giveni={T\bibinitperiod}}}%
-      }
-      \strng{namehash}{bf84391f29958e40abf83b6b7392b67d}
-      \strng{fullhash}{bf84391f29958e40abf83b6b7392b67d}
-      \strng{fullhashraw}{bf84391f29958e40abf83b6b7392b67d}
-      \strng{bibnamehash}{bf84391f29958e40abf83b6b7392b67d}
-      \strng{authorbibnamehash}{bf84391f29958e40abf83b6b7392b67d}
-      \strng{authornamehash}{bf84391f29958e40abf83b6b7392b67d}
-      \strng{authorfullhash}{bf84391f29958e40abf83b6b7392b67d}
-      \strng{authorfullhashraw}{bf84391f29958e40abf83b6b7392b67d}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{In Indonesia, 23-48 million tons of food waste are generated annually, causing economic losses of IDR 213-551 trillion or around 4-5\% of GDP. Food waste offers potential for valorization into products like animal feed, organic fertilizer, and biofuel but faces challenges such as technological limitations, high costs, and safety concerns. This study examines the safety of food waste-derived products for human and animal use, focusing on applications in animal feed, the food industry, cosmetics, bio-refinery, and organic fertilizers. Key processes include contaminant removal and safety assessments, though limited studies address physicochemical, microbiological, and toxic contaminant evaluations. Identified gaps in Indonesian regulations, particularly regarding safety standards, highlight the need for clearer guidelines and support for eco-friendly technologies. Enhancing these frameworks can ensure the safe and sustainable valorization of food waste.}
-      \field{issn}{2686-2352, 1693-2102}
-      \field{journaltitle}{OPSI}
-      \field{month}{12}
-      \field{number}{2}
-      \field{shorttitle}{Food Waste in {{Indonesia}}}
-      \field{title}{Food Waste in {{Indonesia}}: {{Assessing}} Readiness for Valorization}
-      \field{urlday}{22}
-      \field{urlmonth}{4}
-      \field{urlyear}{2026}
-      \field{volume}{17}
-      \field{year}{2024}
-      \field{urldateera}{ce}
-      \field{pages}{370}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.31315/opsi.v17i2.13307
-      \endverb
-      \verb{file}
-      \verb /home/shaf/Zotero/storage/GVKTM5GT/Immawan - 2024 - Food waste in Indonesia Assessing readiness for valorization.pdf
       \endverb
     \endentry
     \entry{qianFoodWasteAssociated2022a}{article}{}{}

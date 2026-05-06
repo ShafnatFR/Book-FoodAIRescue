@@ -2377,18 +2377,19 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1" intorder="1">raiEssentialRecyclingRepurposing2025a</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">yulianaPotensiGerakanFood2022b</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">prayitnoExploringRoleFood2025b</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">pujiyantoStrategiKetahananPangan2025b</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">liuExploringHouseholdFood2023b</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">alliffiyaalkhansyaharsyDampakLimbahMakanan2025c</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">fernandezCarbonFootprintAnalysis2024c</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">lestariKebijakanPengelolaanSampah2022c</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">immawanFoodWasteIndonesia2024a</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">qianFoodWasteAssociated2022a</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">jamaliContextObjectDetection2025b</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">pathakUnmaskingCleverHans2026a</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">hopsonStudyAIObject2026b</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">immawanFoodWasteIndonesia2024a</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">yulianaPotensiGerakanFood2022b</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">prayitnoExploringRoleFood2025b</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">pujiyantoStrategiKetahananPangan2025b</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">liuExploringHouseholdFood2023b</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">alliffiyaalkhansyaharsyDampakLimbahMakanan2025c</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">fernandezCarbonFootprintAnalysis2024c</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">lestariKebijakanPengelolaanSampah2022c</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">immawanFoodWasteIndonesia2024a</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">qianFoodWasteAssociated2022a</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">jamaliContextObjectDetection2025b</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">pathakUnmaskingCleverHans2026a</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">hopsonStudyAIObject2026b</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

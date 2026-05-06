@@ -8,30 +8,30 @@
 \contentsline {section}{\numberline {1.1}Latar Belakang}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Rumusan Masalah}{3}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Tujuan}{3}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Tahapan Pengerjaan}{3}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}Produk Backlog}{4}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {1.4.2}Pelaksanaan Sprint}{5}{subsection.1.4.2}%
-\contentsline {subsection}{\numberline {1.4.3}Daily Standup}{5}{subsection.1.4.3}%
-\contentsline {subsection}{\numberline {1.4.4}Scrum Events}{6}{subsection.1.4.4}%
-\contentsline {chapter}{\numberline {2}PERSYARATAN SISTEM }{7}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Deskripsi Pengguna}{7}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Gambaran Sistem Saat Ini}{10}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Analisis Proses Bisnis}{10}{subsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.1.1}Pool Donatur (Beban Tersentralisasi Tanpa Relawan)}{12}{subsubsection.2.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.2.1.2}Pool Penerima (Kondisi Pasif dan Ketidakpastian)}{12}{subsubsection.2.2.1.2}%
-\contentsline {subsubsection}{\numberline {2.2.1.3}Kesimpulan Masalah (\textit {Pain Points}) pada Sistem As-Is}{13}{subsubsection.2.2.1.3}%
-\contentsline {subsubsection}{\numberline {2.2.1.4}Pool Penerima (Pusat Pemesanan dan Eksekusi Pengambilan)}{15}{subsubsection.2.2.1.4}%
-\contentsline {subsubsection}{\numberline {2.2.1.5}Pool Donatur (Penyedia Donasi yang Difasilitasi)}{15}{subsubsection.2.2.1.5}%
-\contentsline {subsubsection}{\numberline {2.2.1.6}Solusi Signifikan yang Ditawarkan (Menjawab Pain Points)}{16}{subsubsection.2.2.1.6}%
-\contentsline {subsubsection}{\numberline {2.2.1.7}Pool Penerima (Pemesan \& Penerima Akhir)}{18}{subsubsection.2.2.1.7}%
-\contentsline {subsubsection}{\numberline {2.2.1.8}Pool Donatur (Penyedia Donasi)}{18}{subsubsection.2.2.1.8}%
-\contentsline {subsubsection}{\numberline {2.2.1.9}Pool Relawan (Pahlawan Logistik)}{19}{subsubsection.2.2.1.9}%
-\contentsline {subsubsection}{\numberline {2.2.1.10}Interaksi Lintas Aktor (\textit {Message Flow} - Garis Putus-putus)}{19}{subsubsection.2.2.1.10}%
-\contentsline {subsubsection}{\numberline {2.2.1.11}Solusi Signifikan (Perbaikan dari As-Is)}{19}{subsubsection.2.2.1.11}%
-\contentsline {subsection}{\numberline {2.2.2}Pengalaman Pengguna}{21}{subsection.2.2.2}%
-\contentsline {section}{\numberline {2.3}Identifikasi Aplikasi Sejenis}{36}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Analisis Kebutuhan Sistem}{39}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Analisis Grup Akses}{40}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Analisis Kebutuhan Fungsional}{42}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Analisis Kebutuhan Dukungan Sistem}{44}{subsection.2.4.3}%
-\contentsline {section}{\numberline {2.5}Analisis Kinerja Sistem}{46}{section.2.5}%
+\contentsline {section}{\numberline {1.4}Tahapan Pengerjaan}{4}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Produk \textit {Backlog}}{4}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Pelaksanaan \textit {Sprint}}{5}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.3}\textit {Daily Standup}}{6}{subsection.1.4.3}%
+\contentsline {subsection}{\numberline {1.4.4}\textit {Scrum Events}}{6}{subsection.1.4.4}%
+\contentsline {chapter}{\numberline {2}PERSYARATAN SISTEM }{8}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Deskripsi Pengguna}{8}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Gambaran Sistem Saat Ini}{11}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Analisis Proses Bisnis}{11}{subsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.1.1}Pool Donatur (Beban Tersentralisasi Tanpa Relawan)}{13}{subsubsection.2.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.2.1.2}Pool Penerima (Kondisi Pasif dan Ketidakpastian)}{13}{subsubsection.2.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.2.1.3}Kesimpulan Masalah (\textit {Pain Points}) pada Sistem As-Is}{14}{subsubsection.2.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.2.1.4}Pool Penerima (Pusat Pemesanan dan Eksekusi Pengambilan)}{16}{subsubsection.2.2.1.4}%
+\contentsline {subsubsection}{\numberline {2.2.1.5}Pool Donatur (Penyedia Donasi yang Difasilitasi)}{16}{subsubsection.2.2.1.5}%
+\contentsline {subsubsection}{\numberline {2.2.1.6}Solusi Signifikan yang Ditawarkan (Menjawab Pain Points)}{17}{subsubsection.2.2.1.6}%
+\contentsline {subsubsection}{\numberline {2.2.1.7}Pool Penerima (Pemesan \& Penerima Akhir)}{19}{subsubsection.2.2.1.7}%
+\contentsline {subsubsection}{\numberline {2.2.1.8}Pool Donatur (Penyedia Donasi)}{19}{subsubsection.2.2.1.8}%
+\contentsline {subsubsection}{\numberline {2.2.1.9}Pool Relawan (Pahlawan Logistik)}{20}{subsubsection.2.2.1.9}%
+\contentsline {subsubsection}{\numberline {2.2.1.10}Interaksi Lintas Aktor (\textit {Message Flow} - Garis Putus-putus)}{20}{subsubsection.2.2.1.10}%
+\contentsline {subsubsection}{\numberline {2.2.1.11}Solusi Signifikan (Perbaikan dari As-Is)}{20}{subsubsection.2.2.1.11}%
+\contentsline {subsection}{\numberline {2.2.2}Pengalaman Pengguna}{22}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Identifikasi Aplikasi Sejenis}{37}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Analisis Kebutuhan Sistem}{40}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Analisis Grup Akses}{41}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Analisis Kebutuhan Fungsional}{43}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Analisis Kebutuhan Dukungan Sistem}{45}{subsection.2.4.3}%
+\contentsline {section}{\numberline {2.5}Analisis Kinerja Sistem}{47}{section.2.5}%
