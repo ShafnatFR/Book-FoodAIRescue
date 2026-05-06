@@ -18,123 +18,429 @@
 
 
 \refsection{0}
-  \datalist[entry]{apa/apasortcite//global/global/global}
-    \entry{arsy2025}{article}{}{}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{raiEssentialRecyclingRepurposing2025a}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=5ae13d7defba6cee1667daa6a4e1c4c0}{%
+           family={Rai},
+           familyi={R\bibinitperiod},
+           given={Navneet},
+           giveni={N\bibinitperiod}}}%
+        {{hash=646da1091453b6efc951e730f5b4c9b9}{%
+           family={Pavankumar},
+           familyi={P\bibinitperiod},
+           given={Theetha\bibnamedelima L.},
+           giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=e23b355a8465ab0bcf49f60775cecb56}{%
+           family={Ghotra},
+           familyi={G\bibinitperiod},
+           given={Baljit},
+           giveni={B\bibinitperiod}}}%
+        {{hash=c5227049762e95c3df24db4f4c04e6f5}{%
+           family={Dhillon},
+           familyi={D\bibinitperiod},
+           given={Simarata},
+           giveni={S\bibinitperiod}}}%
+        {{hash=cc8e6d5e7ca5d5bd79310ab200674824}{%
+           family={Juneja},
+           familyi={J\bibinitperiod},
+           given={Vijay},
+           giveni={V\bibinitperiod}}}%
+        {{hash=f9d6b07a5648ffd57a37cfdb19645eab}{%
+           family={Amaly},
+           familyi={A\bibinitperiod},
+           given={Noha},
+           giveni={N\bibinitperiod}}}%
+        {{hash=901e233dc8d2e19fc805f78b3a596f30}{%
+           family={Pandey},
+           familyi={P\bibinitperiod},
+           given={Pramod},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{c52251d987c16654398ca3c7a84fd51f}
+      \strng{fullhash}{fed08a543a7450d9a815aa10d9283271}
+      \strng{fullhashraw}{fed08a543a7450d9a815aa10d9283271}
+      \strng{bibnamehash}{c52251d987c16654398ca3c7a84fd51f}
+      \strng{authorbibnamehash}{c52251d987c16654398ca3c7a84fd51f}
+      \strng{authornamehash}{c52251d987c16654398ca3c7a84fd51f}
+      \strng{authorfullhash}{fed08a543a7450d9a815aa10d9283271}
+      \strng{authorfullhashraw}{fed08a543a7450d9a815aa10d9283271}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Food waste valorization by recycling and repurposing is critical for lowering the environmental and economic burden of discarded food and facilitating the transition to a circular economy. Several research have focused on recycling technology and end-use products; nonetheless, their economic, environmental, and social impacts are limited. This study employs an integrative review approach to analyze global challenges related to food waste and develop a comprehensive single-source reference on this critical issue. Food supply chain activities, including retail and consumption, microbial and food safety concerns, and greenhouse gas (GHG) emissions in the context of food waste, were evaluated. Despite significant efforts to overcome these challenges, approximately 1.3 billion tons of edible food are lost or wasted annually, leading to the emission of around 3.3 billion tons of greenhouse gases. The environmental impact, ranging from 347 to 2,969\,kg CO{$_2$} equivalent per ton of food waste, depends on multiple factors within food supply chains and waste management systems. This review focuses on the following challenges: (1) stress on croplands related to food production and its consequential impacts; (2) limitations of croplands, food production constraints, and waste generation trends at various stages of supply chains; (3) existing strategies for controlling waste by sources and categories, along with the detrimental economic impacts of food waste; and (4) currently available technologies for waste treatment and conversion into value-added products. Overall, food waste is primarily used for energy recovery, biofertilizers, and biomaterials. However, innovative food waste conversion strategies have the potential to create high-value products, foster industrial collaboration, and further support the circular economy.}
+      \field{issn}{2571-581X}
+      \field{journaltitle}{Frontiers in Sustainable Food Systems}
+      \field{month}{6}
+      \field{title}{Essential Recycling and Repurposing of Food Waste for Environment and Sustainability}
+      \field{urlday}{22}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{9}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \field{pages}{1575113}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/fsufs.2025.1575113
+      \endverb
+      \verb{file}
+      \verb /home/shaf/Zotero/storage/7GAUH47M/Rai et al. - 2025 - Essential recycling and repurposing of food waste for environment and sustainability.pdf
+      \endverb
+    \endentry
+    \entry{yulianaPotensiGerakanFood2022b}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=3d9b9b8155504a153d2a8bdaaea07c25}{%
+           family={Yuliana},
+           familyi={Y\bibinitperiod},
+           given={Lingga},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{3d9b9b8155504a153d2a8bdaaea07c25}
+      \strng{fullhash}{3d9b9b8155504a153d2a8bdaaea07c25}
+      \strng{fullhashraw}{3d9b9b8155504a153d2a8bdaaea07c25}
+      \strng{bibnamehash}{3d9b9b8155504a153d2a8bdaaea07c25}
+      \strng{authorbibnamehash}{3d9b9b8155504a153d2a8bdaaea07c25}
+      \strng{authornamehash}{3d9b9b8155504a153d2a8bdaaea07c25}
+      \strng{authorfullhash}{3d9b9b8155504a153d2a8bdaaea07c25}
+      \strng{authorfullhashraw}{3d9b9b8155504a153d2a8bdaaea07c25}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Tujuan dalam penelitian ini adalah mengidentifikasi bagaimana peran dari Gerakan Anti Food Waste dalam penguatan perekonomian UMKM dengan Surplus Indonesia sebagai studi kasus. Penelitian menggunakan metode deskriptif kualitatif dengan menggunakan data sekunder. Responden dalam penelitian ini merupakan aktivis dalam Organisasi Non Profit yang juga turut andil memberikan kampanye untuk penghentian kerusakan lingkungan. Hasil penelitian menunjukkan bahwa kehadiran Surplus Indonesia mampu memperkuat perekonomian UMKM dengan bekerja sama dalam bentuk mitra dimana Surplus Indonesia akan menjadi pemasar produk yang tidak habis terjual. Serta memberikan win-win solution bagi produsen dan konsumen. Dari sisi produsen, Surplus Indonesia menjadi pemasar produk yang tidak habis terjual dan memperoleh keuntungan. Sementara dari sisi konsumen, akan memperoleh harga yang lebih murah.}
+      \field{issn}{2355-956X, 0854-1922}
+      \field{journaltitle}{Efektor}
+      \field{month}{12}
+      \field{number}{2}
+      \field{title}{Potensi {{Gerakan Anti Food Waste}} Dalam {{Penguatan Perekonomian UMKM}}}
+      \field{urlday}{22}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{9}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{286\bibrangedash 295}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.29407/e.v9i2.18647
+      \endverb
+      \verb{file}
+      \verb /home/shaf/Zotero/storage/8CQNSER6/Yuliana - 2022 - Potensi Gerakan Anti Food Waste dalam Penguatan Perekonomian UMKM.pdf
+      \endverb
+    \endentry
+    \entry{prayitnoExploringRoleFood2025b}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=ccef1192283fafbe079b149283e57c44}{%
+           family={Prayitno},
+           familyi={P\bibinitperiod},
+           given={Gunawan},
+           giveni={G\bibinitperiod}}}%
+        {{hash=db8c7c21115295f2042097b1e4d50738}{%
+           family={Auliah},
+           familyi={A\bibinitperiod},
+           given={Aidha},
+           giveni={A\bibinitperiod}}}%
+        {{hash=64144ca2b635ba258a5c25f9a8281369}{%
+           family={Zuhriyah},
+           familyi={Z\bibinitperiod},
+           given={Lilik},
+           giveni={L\bibinitperiod}}}%
+        {{hash=7b46bd760d15ad699dc55a4f9ce61e01}{%
+           family={Efendi},
+           familyi={E\bibinitperiod},
+           given={Achmad},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7a18685007092aa3d60be2f1c0710e9c}{%
+           family={Arifin},
+           familyi={A\bibinitperiod},
+           given={Syamsul},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9f1da4502db45fa616ec5a38ed433c60}{%
+           family={Rahmawati},
+           familyi={R\bibinitperiod},
+           given={Rahmawati},
+           giveni={R\bibinitperiod}}}%
+        {{hash=633085f7a7515b1345dde2275e1a0c81}{%
+           family={Nugraha},
+           familyi={N\bibinitperiod},
+           given={Achmad\bibnamedelima Tjachja},
+           giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=ceced438bce6b46d5a611ff53e7686c8}{%
+           family={Siankwilimba},
+           familyi={S\bibinitperiod},
+           given={Enock},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{510f9237acdd6b1d90e589930225bb8f}
+      \strng{fullhash}{2a5ec33d5ade94a75179fdc3a19934c3}
+      \strng{fullhashraw}{2a5ec33d5ade94a75179fdc3a19934c3}
+      \strng{bibnamehash}{510f9237acdd6b1d90e589930225bb8f}
+      \strng{authorbibnamehash}{510f9237acdd6b1d90e589930225bb8f}
+      \strng{authornamehash}{510f9237acdd6b1d90e589930225bb8f}
+      \strng{authorfullhash}{2a5ec33d5ade94a75179fdc3a19934c3}
+      \strng{authorfullhashraw}{2a5ec33d5ade94a75179fdc3a19934c3}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Stunting---defined by the World Health Organization as a height-for-age z-score {$<$} -2 SD---signals chronic undernutrition that impairs both physical and cognitive development. This study investigates how the three pillars of food security (availability, access, utilization) influence stunting prevention efforts in the Bondowoso Regency, East Java, Indonesia. A cross-sectional survey of 113 mothers of stunted children (0--59 months) was analysed with Structural Equation Modelling using Partial Least Squares (PLS-SEM). The model reveals significant positive paths from food security pillars to composite stunting prevention behaviours ({$\beta$} = 0.18--0.86, p {$<$} 0.05), with availability emerging as the strongest predictor. These findings highlight food security as a lever for reducing the local stunting prevalence (local 32\% vs. national 24.4\%) and provide evidence for community-based nutrition programmes in similar agrarian districts. Strengthening food security is therefore essential to safeguarding child well-being in vulnerable Indonesian communities.}
+      \field{issn}{2075-4698}
+      \field{journaltitle}{Societies}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{number}{5}
+      \field{title}{Exploring the {{Role}} of {{Food Security}} in {{Stunting Prevention Efforts}} in the {{Bondowoso Community}}, {{Indonesia}}}
+      \field{urlday}{22}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{15}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \field{pages}{135}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/soc15050135
+      \endverb
+      \verb{file}
+      \verb /home/shaf/Zotero/storage/UI2U2RB6/Prayitno et al. - 2025 - Exploring the Role of Food Security in Stunting Prevention Efforts in the Bondowoso Community, Indon.pdf
+      \endverb
+    \endentry
+    \entry{pujiyantoStrategiKetahananPangan2025b}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=8ff2f5c51749aea031b06962ffaad11e}{%
+           family={Pujiyanto},
+           familyi={P\bibinitperiod},
+           given={Muhammad\bibnamedelima Aris},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=7d64e5487ef3a3b1346924f37be0d36a}{%
+           family={Setyorini},
+           familyi={S\bibinitperiod},
+           given={Fitri\bibnamedelima Adi},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=50ab41c5347e8d367a10767d94d0cc63}{%
+           family={Azizi},
+           familyi={A\bibinitperiod},
+           given={Ernes\bibnamedelima Septina},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=da98174e230cb75e29157cce80e5bec9}{%
+           family={Cahyaningsih},
+           familyi={C\bibinitperiod},
+           given={Anggi\bibnamedelima Fitria},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=388041ccca6acc7d94eedd3d18fbf19a}{%
+           family={Solekan},
+           familyi={S\bibinitperiod},
+           given={Muhamad},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{749bb02ac297638453a29c490c33eb94}
+      \strng{fullhash}{dfc4996f12c19813730cb9285d451832}
+      \strng{fullhashraw}{dfc4996f12c19813730cb9285d451832}
+      \strng{bibnamehash}{dfc4996f12c19813730cb9285d451832}
+      \strng{authorbibnamehash}{dfc4996f12c19813730cb9285d451832}
+      \strng{authornamehash}{749bb02ac297638453a29c490c33eb94}
+      \strng{authorfullhash}{dfc4996f12c19813730cb9285d451832}
+      \strng{authorfullhashraw}{dfc4996f12c19813730cb9285d451832}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This study examines sustainable food security strategies in Central Java, focusing on addressing the interrelated issues of inflation, poverty, and undernourishment. Through a systematic literature review, the research identifies effective approaches such as conditional cash transfers, public distribution systems, agricultural extension services, and community-based nutrition programs, which have been successfully implemented in other regions. The findings suggest that these strategies can be adapted to the local context in Central Java, with specific emphasis on enhancing food accessibility, improving nutritional outcomes, and promoting agricultural productivity. The proposed policies align with the strategic objectives outlined in the RENSTRA Dinas Ketahanan Pangan Provinsi Jawa Tengah 2024-2026, including the development of rural infrastructure, strengthening food distribution systems, and integrating nutrition interventions into existing healthcare services. The study highlights the importance of a coordinated, multi-sectoral approach to effectively tackle food security challenges in Central Java, ensuring that interventions are sustainable and impactful in reducing poverty and improving public health outcomes. This research provides a framework for policymakers in Central Java to design and implement comprehensive food security strategies that are both practical and aligned with regional development goals.}
+      \field{issn}{2614-4026, 2548-3439}
+      \field{journaltitle}{Agrifo : Jurnal Agribisnis Universitas Malikussaleh}
+      \field{month}{10}
+      \field{number}{2}
+      \field{shorttitle}{Strategi {{Ketahanan Pangan Berkelanjutan}} Di {{Jawa Tengah}}}
+      \field{title}{Strategi {{Ketahanan Pangan Berkelanjutan}} Di {{Jawa Tengah}}: {{Menangani Inflasi}}, {{Kemiskinan}} Dan {{Kekurangan Gizi}}}
+      \field{urlday}{22}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{10}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \field{pages}{70\bibrangedash 82}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.29103/ag.v10i2.21569
+      \endverb
+      \verb{file}
+      \verb /home/shaf/Zotero/storage/2TG3VBPV/Pujiyanto et al. - 2025 - Strategi Ketahanan Pangan Berkelanjutan di Jawa Tengah Menangani Inflasi, Kemiskinan dan Kekurangan.pdf
+      \endverb
+    \endentry
+    \entry{liuExploringHouseholdFood2023b}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=9d9ac6815e27331ba6620def723e357f}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Chang},
+           giveni={C\bibinitperiod}}}%
+        {{hash=e77a4c651228189d616c27ca802ad7b4}{%
+           family={Shang},
+           familyi={S\bibinitperiod},
+           given={Jie},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9be3de32b4a90f4dc041661f671a531c}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Chen},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{838e55c3abcbd748eb346400da771db4}
+      \strng{fullhash}{838e55c3abcbd748eb346400da771db4}
+      \strng{fullhashraw}{838e55c3abcbd748eb346400da771db4}
+      \strng{bibnamehash}{838e55c3abcbd748eb346400da771db4}
+      \strng{authorbibnamehash}{838e55c3abcbd748eb346400da771db4}
+      \strng{authornamehash}{838e55c3abcbd748eb346400da771db4}
+      \strng{authorfullhash}{838e55c3abcbd748eb346400da771db4}
+      \strng{authorfullhashraw}{838e55c3abcbd748eb346400da771db4}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{With the steady growth of the global population and the accelerated urbanization process, the carbon footprint resulting from food waste has a significant impact on the environment and sustainable development. Considering Shanghai's significance as a major urban center in China and a global hub for economic and cultural activities, this study primarily aims to accurately estimate household food waste generation and calculate the carbon footprint related to edible food waste. It analyzes the factors influencing household food waste generation and reviews the anti-food waste-related policies at both the national and Shanghai regional levels. The study reveals that although the Shanghai municipal government attaches great importance to the issue of food waste, the current policies mainly focus on the catering industry, and there is still a need for further strengthening measures to address food waste at the household level. In Shanghai, the per capita daily food waste generation is 0.57 kg, with 43.42\% being edible food waste, contributing to a per capita daily carbon footprint of 1.17 kgCO2eq. Employing the logistic regression analysis to scrutinize the characteristics of the respondents, it is ascertained that education level and annual household income significantly influence food waste generation. In addition, excessive food quantities and expiration dates lead to high-frequency food waste. The culmination of this study is the formulation of a series of pragmatic and impactful policy recommendations aimed at curbing the carbon footprint that stems from food waste.}
+      \field{issn}{2304-8158}
+      \field{journaltitle}{Foods}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{17}
+      \field{shorttitle}{Exploring {{Household Food Waste Reduction}} for {{Carbon Footprint Mitigation}}}
+      \field{title}{Exploring {{Household Food Waste Reduction}} for {{Carbon Footprint Mitigation}}: {{A Case Study}} in {{Shanghai}}, {{China}}}
+      \field{urlday}{22}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{12}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{3211}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/foods12173211
+      \endverb
+      \verb{file}
+      \verb /home/shaf/Zotero/storage/RFLW5542/Liu et al. - 2023 - Exploring Household Food Waste Reduction for Carbon Footprint Mitigation A Case Study in Shanghai,.pdf
+      \endverb
+    \endentry
+    \entry{alliffiyaalkhansyaharsyDampakLimbahMakanan2025c}{article}{}{}
       \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=6f685da9c00636372aef4bbcaddbee55}{%
+        {{hash=6f685da9c00636372aef4bbcaddbee55}{%
            family={Arsy},
            familyi={A\bibinitperiod},
            given={Alliffiya\bibnamedelima Alkhansyah},
-           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=07c8b4967d77f898ebc6be37cee6a5df}{%
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=07c8b4967d77f898ebc6be37cee6a5df}{%
            family={Irwansyah},
            familyi={I\bibinitperiod},
            given={Ferdi},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a7bbdabc050e270c1ef8c83264153fb1}{%
+           giveni={F\bibinitperiod}}}%
+        {{hash=a7bbdabc050e270c1ef8c83264153fb1}{%
            family={Ginting},
            familyi={G\bibinitperiod},
            given={Laurena},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3ac7f8ca77958fc100ddbd4a8f2a9a66}{%
+           giveni={L\bibinitperiod}}}%
+        {{hash=3ac7f8ca77958fc100ddbd4a8f2a9a66}{%
            family={Saragih},
            familyi={S\bibinitperiod},
            given={Vina\bibnamedelima Gabriela},
-           giveni={V\bibinitperiod\bibinitdelim G\bibinitperiod},
-           givenun=0}}%
+           giveni={V\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
       }
-      \strng{namehash}{da305a62e7d6775bd9cad58fa7f29537}
+      \strng{namehash}{18b54904b4908e471308284a8e147a7e}
       \strng{fullhash}{562f5337a6d09cef204db3cdf0e6a886}
       \strng{fullhashraw}{562f5337a6d09cef204db3cdf0e6a886}
       \strng{bibnamehash}{562f5337a6d09cef204db3cdf0e6a886}
       \strng{authorbibnamehash}{562f5337a6d09cef204db3cdf0e6a886}
-      \strng{authornamehash}{da305a62e7d6775bd9cad58fa7f29537}
+      \strng{authornamehash}{18b54904b4908e471308284a8e147a7e}
       \strng{authorfullhash}{562f5337a6d09cef204db3cdf0e6a886}
       \strng{authorfullhashraw}{562f5337a6d09cef204db3cdf0e6a886}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Jurnal Riset Rumpun Matematika dan Ilmu Pengetahuan Alam}
+      \field{abstract}{Food waste generated from the household sector is one of the largest contributors to environmental degradation in Indonesia. Food waste generated from the household sector is one of the main contributors to the increasing volume of organic waste in Indonesia. This issue not only creates social and economic problems but also poses a serious threat to environmental sustainability. This study aims to analyze the contribution of household food waste to environmental degradation and to review sustainable management strategies. This study employs a Systematic Literature Review (SLR) method guided by the PRISMA 2020 Statement to review relevant national research conducted during the period 2018-2025. The results of the literature selection show that the impacts of household food waste on environmental sustainability can be categorized into three main dimensions: (1) ecological impacts, including pollution and the increase of greenhouse gas emissions; (2) resource impacts, such as the wastage of energy, water, and land; and (3) social-environmental impacts, including the increasing burden of regional waste management and the declining quality of life for communities living near landfills. The findings emphasize that the management of household food waste plays a crucial role in achieving environmental sustainability, particularly in supporting the attainment of Sustainable Development Goal (SDG) 12, which focuses on responsible consumption and production. Therefore, it is necessary to implement strategies of reduction, reuse, and recycling of food waste at the household level to minimize the negative impacts on environmental sustainability in Indonesia.}
+      \field{issn}{2828-9390, 2828-9382}
+      \field{journaltitle}{JURNAL RISET RUMPUN MATEMATIKA DAN ILMU PENGETAHUAN ALAM}
       \field{month}{11}
       \field{number}{3}
-      \field{title}{Dampak Limbah Makanan di Sektor Rumah Tangga terhadap Keberlangsungan Lingkungan}
+      \field{title}{Dampak {{Limbah Makanan}} Di {{Sektor Rumah Tangga}} Terhadap {{Keberlangsungan Lingkungan}}}
+      \field{urlday}{22}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
       \field{volume}{4}
       \field{year}{2025}
+      \field{urldateera}{ce}
       \field{pages}{167\bibrangedash 176}
       \range{pages}{10}
       \verb{doi}
       \verb 10.55606/jurrimipa.v4i3.7322
       \endverb
+      \verb{file}
+      \verb /home/shaf/Zotero/storage/HR47IATW/Alliffiya Alkhansyah Arsy et al. - 2025 - Dampak Limbah Makanan di Sektor Rumah Tangga terhadap Keberlangsungan Lingkungan.pdf
+      \endverb
     \endentry
-    \entry{fernandez2024}{article}{}{}
+    \entry{fernandezCarbonFootprintAnalysis2024c}{article}{}{}
       \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=5f0a072fd1c48eca46d9d07524746413}{%
+        {{hash=5f0a072fd1c48eca46d9d07524746413}{%
            family={Fernandez},
            familyi={F\bibinitperiod},
            given={Yohana\bibnamedelima Bharagita},
-           giveni={Y\bibinitperiod\bibinitdelim B\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0a1982f24c5c0936ee0ddb7008ff7ef0}{%
+           giveni={Y\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=0a1982f24c5c0936ee0ddb7008ff7ef0}{%
            family={Ardiatma},
            familyi={A\bibinitperiod},
            given={Dodit},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6f580cacf4bc671e61868d3c2d38f27d}{%
+           giveni={D\bibinitperiod}}}%
+        {{hash=6f580cacf4bc671e61868d3c2d38f27d}{%
            family={Ilyas},
            familyi={I\bibinitperiod},
            given={Nurilman},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
+           giveni={N\bibinitperiod}}}%
       }
-      \strng{namehash}{79e511f31d268d2f68cf137fc9528e9c}
+      \strng{namehash}{0d5a405a8bf4187717faa79e73d47cf6}
       \strng{fullhash}{0d5a405a8bf4187717faa79e73d47cf6}
       \strng{fullhashraw}{0d5a405a8bf4187717faa79e73d47cf6}
       \strng{bibnamehash}{0d5a405a8bf4187717faa79e73d47cf6}
       \strng{authorbibnamehash}{0d5a405a8bf4187717faa79e73d47cf6}
-      \strng{authornamehash}{79e511f31d268d2f68cf137fc9528e9c}
+      \strng{authornamehash}{0d5a405a8bf4187717faa79e73d47cf6}
       \strng{authorfullhash}{0d5a405a8bf4187717faa79e73d47cf6}
       \strng{authorfullhashraw}{0d5a405a8bf4187717faa79e73d47cf6}
-      \field{sortinit}{F}
-      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Jurnal Info Sains: Informatika dan Sains}
-      \field{month}{06}
+      \field{abstract}{Restaurants are Indonesia's biggest producers of trash since they provide meals every day, which contributes to a rise in food waste. The purpose of this study was to examine the quantity and kind of food waste produced by large-scale restaurants in Bogor City, as well as the carbon footprint that this garbage leaves behind. Additional evaluation of the impact of food waste output and composition on CO2 emissions was done in this study. This study separates edible food waste from non-edible food waste using a sample technique based on Waste Composition Analysis (WCA). The emission factor is calculated in order to determine the carbon footprint. According to the study's findings, which included 120 samples from three restaurants in Bogor City, the average daily production of food waste from the simple payakumbuh, pagi sore, and bumi aki restaurants in Bogor City was 4,239.70 g/plate, and the average daily generation of edible food waste was 12,026.70 g/org. It is made up of 14.3\% foods high in protein, 40.1\% fruits and vegetables, and 45.6\% foods high in carbohydrates. Produce (40.1\%): fruits and vegetables; foods high in protein (14.3\%). Pagi Sore generates the least amount of edible food waste (988 g/org/day), whereas Payakumbuh restaurant produces the most (26,834 g/org/day).}
+      \field{issn}{2797-7889, 2089-3329}
+      \field{journaltitle}{Jurnal Info Sains : Informatika dan Sains}
+      \field{month}{6}
       \field{number}{02}
-      \field{title}{Carbon Footprint Analysis Of Food Waste From Restaurants In Bogor City}
+      \field{title}{Carbon {{Footprint Analysis Of Food Waste From Restaurants In Bogor City}}}
+      \field{urlday}{22}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
       \field{volume}{14}
       \field{year}{2024}
+      \field{urldateera}{ce}
       \field{pages}{187\bibrangedash 202}
       \range{pages}{16}
       \verb{doi}
       \verb 10.54209/infosains.v14i02.4607
       \endverb
+      \verb{file}
+      \verb /home/shaf/Zotero/storage/Y4GGFL6S/Fernandez et al. - 2024 - Carbon Footprint Analysis Of Food Waste From Restaurants In Bogor City.pdf
+      \endverb
     \endentry
-    \entry{lestari2022}{article}{}{}
+    \entry{lestariKebijakanPengelolaanSampah2022c}{article}{}{}
       \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=5cf2c124d8650607637dbb186d8c2cfc}{%
+        {{hash=5cf2c124d8650607637dbb186d8c2cfc}{%
            family={Lestari},
            familyi={L\bibinitperiod},
            given={Shinta\bibnamedelima Citra},
-           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0bcf45654c6c60e5dd6d662f55e73752}{%
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=0bcf45654c6c60e5dd6d662f55e73752}{%
            family={Halimatussadiah},
            familyi={H\bibinitperiod},
            given={Alin},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
+           giveni={A\bibinitperiod}}}%
       }
       \strng{namehash}{e08d5e9779a3b4f5967119b22d385396}
       \strng{fullhash}{e08d5e9779a3b4f5967119b22d385396}
@@ -144,161 +450,296 @@
       \strng{authornamehash}{e08d5e9779a3b4f5967119b22d385396}
       \strng{authorfullhash}{e08d5e9779a3b4f5967119b22d385396}
       \strng{authorfullhashraw}{e08d5e9779a3b4f5967119b22d385396}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Food waste dianggap sebagai suatu permasalahan multidimensi ekonomi, lingkungan dan sosial. Laporan menyebutkan food waste sebagai kontributor terbesar timbulan sampah di Indonesia dengan penghasil utama di tingkat rumah tangga sebagai konsumen akhir dalam rantai pasok makanan. Penelitian terdahulu membahas berbagai faktor perilaku pendorong food waste seperti karakter demografi rumah tangga, kebiasaan berbelanja, mengonsumsi makanan, dan pengelolaan sampah. Penelitian ini bertujuan untuk mengidentifikasi berbagai faktor yang mempengaruhi timbulan food waste di tingkat rumah tangga. Pengumpulan data dengan survei kuisioner kepada 257responden rumah tangga di Kota Depok, studi literatur, dan wawancara dengan pemangku kepentingan, dan dianalisis menggunakan model regresi Ordinary Least Square. Hasil penelitian menunjukan bahwa perilaku memilah sampah, perencanaan berbelanja, serta motivasi ekonomi mempengaruhi timbulan food waste di rumah tangga. Temuan ini juga dapat dijadikan pertimbangan saat menyusun kebijakan dan kampanye pengurangan food waste.Â~Kata kunci : Sampah Organik, Sampah Makanan, Pemilahan Sampah, sampah rumah tangga}
+      \field{issn}{26548240, 14124246}
       \field{journaltitle}{Jurnal Good Governance}
-      \field{month}{06}
-      \field{title}{Kebijakan Pengelolaan Sampah Nasional: Analisis Pendorong Food Waste di Tingkat Rumah Tangga}
+      \field{month}{6}
+      \field{shorttitle}{Kebijakan {{Pengelolaan Sampah Nasional}}}
+      \field{title}{Kebijakan {{Pengelolaan Sampah Nasional}}: {{Analisis Pendorong Food Waste}} Di {{Tingkat Rumah Tangga}}}
+      \field{urlday}{22}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
       \field{year}{2022}
+      \field{urldateera}{ce}
       \verb{doi}
       \verb 10.32834/gg.v18i1.457
       \endverb
     \endentry
-  \enddatalist
-  \datalist[entry]{apa/global//global/global/global}
-    \entry{arsy2025}{article}{}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=6f685da9c00636372aef4bbcaddbee55}{%
-           family={Arsy},
-           familyi={A\bibinitperiod},
-           given={Alliffiya\bibnamedelima Alkhansyah},
-           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=07c8b4967d77f898ebc6be37cee6a5df}{%
-           family={Irwansyah},
+    \entry{immawanFoodWasteIndonesia2024a}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=bf84391f29958e40abf83b6b7392b67d}{%
+           family={Immawan},
            familyi={I\bibinitperiod},
-           given={Ferdi},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a7bbdabc050e270c1ef8c83264153fb1}{%
-           family={Ginting},
-           familyi={G\bibinitperiod},
-           given={Laurena},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3ac7f8ca77958fc100ddbd4a8f2a9a66}{%
-           family={Saragih},
-           familyi={S\bibinitperiod},
-           given={Vina\bibnamedelima Gabriela},
-           giveni={V\bibinitperiod\bibinitdelim G\bibinitperiod},
-           givenun=0}}%
+           given={Taufiq},
+           giveni={T\bibinitperiod}}}%
       }
-      \strng{namehash}{da305a62e7d6775bd9cad58fa7f29537}
-      \strng{fullhash}{562f5337a6d09cef204db3cdf0e6a886}
-      \strng{fullhashraw}{562f5337a6d09cef204db3cdf0e6a886}
-      \strng{bibnamehash}{562f5337a6d09cef204db3cdf0e6a886}
-      \strng{authorbibnamehash}{562f5337a6d09cef204db3cdf0e6a886}
-      \strng{authornamehash}{da305a62e7d6775bd9cad58fa7f29537}
-      \strng{authorfullhash}{562f5337a6d09cef204db3cdf0e6a886}
-      \strng{authorfullhashraw}{562f5337a6d09cef204db3cdf0e6a886}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
+      \strng{namehash}{bf84391f29958e40abf83b6b7392b67d}
+      \strng{fullhash}{bf84391f29958e40abf83b6b7392b67d}
+      \strng{fullhashraw}{bf84391f29958e40abf83b6b7392b67d}
+      \strng{bibnamehash}{bf84391f29958e40abf83b6b7392b67d}
+      \strng{authorbibnamehash}{bf84391f29958e40abf83b6b7392b67d}
+      \strng{authornamehash}{bf84391f29958e40abf83b6b7392b67d}
+      \strng{authorfullhash}{bf84391f29958e40abf83b6b7392b67d}
+      \strng{authorfullhashraw}{bf84391f29958e40abf83b6b7392b67d}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Jurnal Riset Rumpun Matematika dan Ilmu Pengetahuan Alam}
-      \field{month}{11}
-      \field{number}{3}
-      \field{title}{Dampak Limbah Makanan di Sektor Rumah Tangga terhadap Keberlangsungan Lingkungan}
-      \field{volume}{4}
-      \field{year}{2025}
-      \field{pages}{167\bibrangedash 176}
-      \range{pages}{10}
-      \verb{doi}
-      \verb 10.55606/jurrimipa.v4i3.7322
-      \endverb
-    \endentry
-    \entry{fernandez2024}{article}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=5f0a072fd1c48eca46d9d07524746413}{%
-           family={Fernandez},
-           familyi={F\bibinitperiod},
-           given={Yohana\bibnamedelima Bharagita},
-           giveni={Y\bibinitperiod\bibinitdelim B\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0a1982f24c5c0936ee0ddb7008ff7ef0}{%
-           family={Ardiatma},
-           familyi={A\bibinitperiod},
-           given={Dodit},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6f580cacf4bc671e61868d3c2d38f27d}{%
-           family={Ilyas},
-           familyi={I\bibinitperiod},
-           given={Nurilman},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{79e511f31d268d2f68cf137fc9528e9c}
-      \strng{fullhash}{0d5a405a8bf4187717faa79e73d47cf6}
-      \strng{fullhashraw}{0d5a405a8bf4187717faa79e73d47cf6}
-      \strng{bibnamehash}{0d5a405a8bf4187717faa79e73d47cf6}
-      \strng{authorbibnamehash}{0d5a405a8bf4187717faa79e73d47cf6}
-      \strng{authornamehash}{79e511f31d268d2f68cf137fc9528e9c}
-      \strng{authorfullhash}{0d5a405a8bf4187717faa79e73d47cf6}
-      \strng{authorfullhashraw}{0d5a405a8bf4187717faa79e73d47cf6}
-      \field{sortinit}{F}
-      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Jurnal Info Sains: Informatika dan Sains}
-      \field{month}{06}
-      \field{number}{02}
-      \field{title}{Carbon Footprint Analysis Of Food Waste From Restaurants In Bogor City}
-      \field{volume}{14}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{In Indonesia, 23-48 million tons of food waste are generated annually, causing economic losses of IDR 213-551 trillion or around 4-5\% of GDP. Food waste offers potential for valorization into products like animal feed, organic fertilizer, and biofuel but faces challenges such as technological limitations, high costs, and safety concerns. This study examines the safety of food waste-derived products for human and animal use, focusing on applications in animal feed, the food industry, cosmetics, bio-refinery, and organic fertilizers. Key processes include contaminant removal and safety assessments, though limited studies address physicochemical, microbiological, and toxic contaminant evaluations. Identified gaps in Indonesian regulations, particularly regarding safety standards, highlight the need for clearer guidelines and support for eco-friendly technologies. Enhancing these frameworks can ensure the safe and sustainable valorization of food waste.}
+      \field{issn}{2686-2352, 1693-2102}
+      \field{journaltitle}{OPSI}
+      \field{month}{12}
+      \field{number}{2}
+      \field{shorttitle}{Food Waste in {{Indonesia}}}
+      \field{title}{Food Waste in {{Indonesia}}: {{Assessing}} Readiness for Valorization}
+      \field{urlday}{22}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{17}
       \field{year}{2024}
-      \field{pages}{187\bibrangedash 202}
-      \range{pages}{16}
+      \field{urldateera}{ce}
+      \field{pages}{370}
+      \range{pages}{1}
       \verb{doi}
-      \verb 10.54209/infosains.v14i02.4607
+      \verb 10.31315/opsi.v17i2.13307
+      \endverb
+      \verb{file}
+      \verb /home/shaf/Zotero/storage/GVKTM5GT/Immawan - 2024 - Food waste in Indonesia Assessing readiness for valorization.pdf
       \endverb
     \endentry
-    \entry{lestari2022}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=5cf2c124d8650607637dbb186d8c2cfc}{%
-           family={Lestari},
+    \entry{qianFoodWasteAssociated2022a}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=a08946d25fc9c46c1d3cecd82db23dbd}{%
+           family={Qian},
+           familyi={Q\bibinitperiod},
+           given={Long},
+           giveni={L\bibinitperiod}}}%
+        {{hash=694e4c0371521918ff283b93b48a930c}{%
+           family={Rao},
+           familyi={R\bibinitperiod},
+           given={Qingling},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=a32738d3ad07955ffd1e892501e478ac}{%
+           family={Liu},
            familyi={L\bibinitperiod},
-           given={Shinta\bibnamedelima Citra},
-           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0bcf45654c6c60e5dd6d662f55e73752}{%
-           family={Halimatussadiah},
-           familyi={H\bibinitperiod},
-           given={Alin},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
+           given={Hongbo},
+           giveni={H\bibinitperiod}}}%
+        {{hash=60eb8e1a5cd69cec436acd309f1a555e}{%
+           family={McCarthy},
+           familyi={M\bibinitperiod},
+           given={Breda},
+           giveni={B\bibinitperiod}}}%
+        {{hash=0e52c61eab86677f71dcd8c23954213c}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Li\bibnamedelima Xian},
+           giveni={L\bibinitperiod\bibinitdelim X\bibinitperiod}}}%
+        {{hash=e73836e62dac3886f6dde5f82968a876}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Lingen},
+           giveni={L\bibinitperiod}}}%
       }
-      \strng{namehash}{e08d5e9779a3b4f5967119b22d385396}
-      \strng{fullhash}{e08d5e9779a3b4f5967119b22d385396}
-      \strng{fullhashraw}{e08d5e9779a3b4f5967119b22d385396}
-      \strng{bibnamehash}{e08d5e9779a3b4f5967119b22d385396}
-      \strng{authorbibnamehash}{e08d5e9779a3b4f5967119b22d385396}
-      \strng{authornamehash}{e08d5e9779a3b4f5967119b22d385396}
-      \strng{authorfullhash}{e08d5e9779a3b4f5967119b22d385396}
-      \strng{authorfullhashraw}{e08d5e9779a3b4f5967119b22d385396}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
+      \strng{namehash}{787814625e66c41c0ece2892daba194f}
+      \strng{fullhash}{c13328f2eb9676f36bf0bfeb7a729764}
+      \strng{fullhashraw}{c13328f2eb9676f36bf0bfeb7a729764}
+      \strng{bibnamehash}{c13328f2eb9676f36bf0bfeb7a729764}
+      \strng{authorbibnamehash}{c13328f2eb9676f36bf0bfeb7a729764}
+      \strng{authornamehash}{787814625e66c41c0ece2892daba194f}
+      \strng{authorfullhash}{c13328f2eb9676f36bf0bfeb7a729764}
+      \strng{authorfullhashraw}{c13328f2eb9676f36bf0bfeb7a729764}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Jurnal Good Governance}
-      \field{month}{06}
-      \field{title}{Kebijakan Pengelolaan Sampah Nasional: Analisis Pendorong Food Waste di Tingkat Rumah Tangga}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{ABSTRACT In recent years, there has been widespread concern regarding the carbon footprint (CF) of food waste due to the key impact of CF on climate change, particularly as China's food waste is rising with its economic development. China has the largest scale of higher education in the world, and the amount of food waste in university canteens is considerable and cannot be ignored. This study attempts to assess the carbon footprint (CF) of food waste at Chinese universities for the first time based on a national survey. It is estimated that 1.55 million tons of food were wasted in Chinese university canteens in 2018, based on 9,192 samples covering 29 provinces in China. The associated CF was 2.51 Mt CO2eq. The top two food categories contributing to the total CF were meat and grains, accounting for 46.28\% and 36.52\%, respectively. Furthermore, the location of the university was significantly associated with the CF of plate waste. It also indicated that household income, meal satisfaction, sex, education, meal days, and food-saving campaigns were important factors influencing the CF of food waste. This study highlights areas that can help reduce the environmental impact of plate waste. It also provides targeted measures to reduce the associated CF of food waste in Chinese universities.}
+      \field{issn}{2096-4129, 2332-8878}
+      \field{journaltitle}{Ecosystem Health and Sustainability}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{1}
+      \field{shorttitle}{Food Waste and Associated Carbon Footprint}
+      \field{title}{Food Waste and Associated Carbon Footprint: Evidence from {{Chinese}} Universities}
+      \field{urlday}{22}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{8}
       \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{2130094}
+      \range{pages}{1}
       \verb{doi}
-      \verb 10.32834/gg.v18i1.457
+      \verb 10.1080/20964129.2022.2130094
+      \endverb
+      \verb{file}
+      \verb /home/shaf/Zotero/storage/LE97YGVL/Qian et al. - 2022 - Food waste and associated carbon footprint evidence from Chinese universities.pdf
+      \endverb
+    \endentry
+    \entry{jamaliContextObjectDetection2025b}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=5c6807cddeb3a340ce8e130036bcce9c}{%
+           family={Jamali},
+           familyi={J\bibinitperiod},
+           given={Mahtab},
+           giveni={M\bibinitperiod}}}%
+        {{hash=387de8da52dd16c79964e204ddf521ab}{%
+           family={Davidsson},
+           familyi={D\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=cd96637d60619c730d72966ea9c35398}{%
+           family={Khoshkangini},
+           familyi={K\bibinitperiod},
+           given={Reza},
+           giveni={R\bibinitperiod}}}%
+        {{hash=43ff6fb8189e574e51fe853ec494073d}{%
+           family={Ljungqvist},
+           familyi={L\bibinitperiod},
+           given={Martin\bibnamedelima Georg},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=eaa329836f4b5e14614781e6953c386a}{%
+           family={Mihailescu},
+           familyi={M\bibinitperiod},
+           given={Radu-Casian},
+           giveni={R\bibinithyphendelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{622ffc6b4f2e726b01fdf19159424d29}
+      \strng{fullhash}{d6904744a89ea815edb3b872b7c3584e}
+      \strng{fullhashraw}{d6904744a89ea815edb3b872b7c3584e}
+      \strng{bibnamehash}{d6904744a89ea815edb3b872b7c3584e}
+      \strng{authorbibnamehash}{d6904744a89ea815edb3b872b7c3584e}
+      \strng{authornamehash}{622ffc6b4f2e726b01fdf19159424d29}
+      \strng{authorfullhash}{d6904744a89ea815edb3b872b7c3584e}
+      \strng{authorfullhashraw}{d6904744a89ea815edb3b872b7c3584e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Abstract Context is an important factor in computer vision as it offers valuable information to clarify and analyze visual data. Utilizing the contextual information inherent in an image or a video can improve the precision and effectiveness of object detectors. For example, where recognizing an isolated object might be challenging, context information can improve comprehension of the scene. This study explores the impact of various context-based approaches to object detection. Initially, we investigate the role of context in object detection and survey it from several perspectives. We then review and discuss the most recent context-based object detection approaches and compare them. Finally, we conclude by addressing research questions and identifying gaps for further studies. More than 265 publications are included in this survey, covering different aspects of context in different categories of object detection, including general object detection, video object detection, small object detection, camouflaged object detection, zero-shot, one-shot, and few-shot object detection. This literature review presents a comprehensive overview of the latest advancements in context-based object detection, providing valuable contributions such as a thorough understanding of contextual information and effective methods for integrating various context types into object detection, thus benefiting researchers.}
+      \field{issn}{1573-7462}
+      \field{journaltitle}{Artificial Intelligence Review}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{6}
+      \field{shorttitle}{Context in Object Detection}
+      \field{title}{Context in Object Detection: A Systematic Literature Review}
+      \field{urlday}{22}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{58}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \field{pages}{175}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/s10462-025-11186-x
+      \endverb
+      \verb{file}
+      \verb /home/shaf/Zotero/storage/KVEPQYRS/Jamali et al. - 2025 - Context in object detection a systematic literature review.pdf
+      \endverb
+    \endentry
+    \entry{pathakUnmaskingCleverHans2026a}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=6dd9a707eb9149c413103dc3f2cf48b0}{%
+           family={Pathak},
+           familyi={P\bibinitperiod},
+           given={Abhay\bibnamedelima Kumar},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=62d662e733df42d3e375d48bc903b84e}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={Manjari},
+           giveni={M\bibinitperiod}}}%
+        {{hash=862bc7d0cfc340bd5272084c38fce991}{%
+           family={Jain},
+           familyi={J\bibinitperiod},
+           given={Garima},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{f134bd2760c6d694e62dd2d7df7057c3}
+      \strng{fullhash}{f134bd2760c6d694e62dd2d7df7057c3}
+      \strng{fullhashraw}{f134bd2760c6d694e62dd2d7df7057c3}
+      \strng{bibnamehash}{f134bd2760c6d694e62dd2d7df7057c3}
+      \strng{authorbibnamehash}{f134bd2760c6d694e62dd2d7df7057c3}
+      \strng{authornamehash}{f134bd2760c6d694e62dd2d7df7057c3}
+      \strng{authorfullhash}{f134bd2760c6d694e62dd2d7df7057c3}
+      \strng{authorfullhashraw}{f134bd2760c6d694e62dd2d7df7057c3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The Clever Hans (CH) effect is a historical analogy of a horse solving mathematical problems based on some cues, representing a critical failure in artificial intelligence (AI) systems, where models achieve higher performance by utilizing spurious correlations and artifacts presented in the datasets rather than relying on causal relationships or task-related features. This effect or phenomenon is prevalent across multiple domains of AI such as computer vision, natural language processing, medical imaging, and reinforcement learning. This review examines the Clever Hans effect, the conceptual foundation of spurious correlations, and current evaluation methods that obscure such behavior. We further survey state-of-the-art detection and mitigation strategies, focusing on both model-centric and data-centric techniques. Building on these insights, we propose a roadmap for robust AI development, which includes standard benchmarking, causal integration, human-in-the-loop auditing, and transparent policy frameworks. This study underscores that addressing the Clever Hans effect is not only necessary for technical robustness but also for the ethical and responsible deployment of AI systems in real-world, high-stakes environments.}
+      \field{issn}{2624-8212}
+      \field{journaltitle}{Frontiers in Artificial Intelligence}
+      \field{month}{1}
+      \field{shorttitle}{Unmasking the {{Clever Hans}} Effect in {{AI}} Models}
+      \field{title}{Unmasking the {{Clever Hans}} Effect in {{AI}} Models: Shortcut Learning, Spurious Correlations, and the Path toward Robust Intelligence}
+      \field{urlday}{22}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{8}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \field{pages}{1692454}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/frai.2025.1692454
+      \endverb
+      \verb{file}
+      \verb /home/shaf/Zotero/storage/QPDT7ZWT/Pathak et al. - 2026 - Unmasking the Clever Hans effect in AI models shortcut learning, spurious correlations, and the pat.pdf
+      \endverb
+    \endentry
+    \entry{hopsonStudyAIObject2026b}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=fa32de4cfe0f9a268e2bba1a3ad0b607}{%
+           family={Hopson},
+           familyi={H\bibinitperiod},
+           given={Aniya},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0f10f62765edf136876a4b2125fb4c82}{%
+           family={Boonthum-Denecke},
+           familyi={B\bibinithyphendelim D\bibinitperiod},
+           given={Chutima},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d89b585ed81ebb1bcd49cd8079b84885}{%
+           family={Mkpong-Ruffin},
+           familyi={M\bibinithyphendelim R\bibinitperiod},
+           given={Idongesit},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{e7f1e903e3aadef25b1f193805eef4e6}
+      \strng{fullhash}{e7f1e903e3aadef25b1f193805eef4e6}
+      \strng{fullhashraw}{e7f1e903e3aadef25b1f193805eef4e6}
+      \strng{bibnamehash}{e7f1e903e3aadef25b1f193805eef4e6}
+      \strng{authorbibnamehash}{e7f1e903e3aadef25b1f193805eef4e6}
+      \strng{authornamehash}{e7f1e903e3aadef25b1f193805eef4e6}
+      \strng{authorfullhash}{e7f1e903e3aadef25b1f193805eef4e6}
+      \strng{authorfullhashraw}{e7f1e903e3aadef25b1f193805eef4e6}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Artificial Intelligence (AI) has become an increasingly powerful tool in various domains, particularly in image classification and object detection. As AI advances, novel methods to deceive machine learning models, such as adversarial patches, have emerged. These subtle modifications to images can lead to misclassification of objects, posing a substantial challenge to their reliability. In this paper, we present our research findings and literature on adversarial examples and object detection. This research builds upon the previous work by investigating the impact of small patches on object detection using YOLOv8. We started by exploring patterns within images and their influence on model accuracy. Then a follow-up study evaluating how adversarial patches, particularly those targeting animal patterns, affect YOLOv8's ability to accurately detect objects. Additionally, we explore how untrained patterns impact the model's performance, aiming to identify vulnerabilities and enhance the robustness of object detection systems.}
+      \field{issn}{2641-4554, 2641-4546}
+      \field{journaltitle}{Journal of The Colloquium for Information Systems Security Education}
+      \field{month}{3}
+      \field{number}{1}
+      \field{shorttitle}{Study of {{AI Object Detection}}}
+      \field{title}{Study of {{AI Object Detection}}: {{Patterns}} on {{Animals}} with {{YOLO}} and {{Adversarial Patches}}}
+      \field{urlday}{22}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{13}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \field{pages}{7}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.53735/cisse.v13i1.242
       \endverb
     \endentry
   \enddatalist

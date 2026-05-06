@@ -17,19 +17,21 @@
 \contentsline {section}{\numberline {2.1}Deskripsi Pengguna}{7}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Gambaran Sistem Saat Ini}{10}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Analisis Proses Bisnis}{10}{subsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.1.1}Gambaran Umum}{12}{subsubsection.2.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.2.1.2}Partisipan (Aktor) yang Terlibat}{12}{subsubsection.2.2.1.2}%
-\contentsline {subsubsection}{\numberline {2.2.1.3}Alur Proses (\textit {Process Flow})}{12}{subsubsection.2.2.1.3}%
-\contentsline {subsubsection}{\numberline {2.2.1.4}Pertukaran Pesan (\textit {Message Flow})}{13}{subsubsection.2.2.1.4}%
-\contentsline {subsubsection}{\numberline {2.2.1.5}Analisis Kelemahan Sistem As-Is (\textit {Pain Points})}{13}{subsubsection.2.2.1.5}%
-\contentsline {subsubsection}{\numberline {2.2.1.6}Gambaran Umum}{15}{subsubsection.2.2.1.6}%
-\contentsline {subsubsection}{\numberline {2.2.1.7}Partisipan (Aktor) yang Terlibat}{15}{subsubsection.2.2.1.7}%
-\contentsline {subsubsection}{\numberline {2.2.1.8}Alur Proses Utama (\textit {Process Flow})}{15}{subsubsection.2.2.1.8}%
-\contentsline {subsubsection}{\numberline {2.2.1.9}Solusi yang Ditawarkan (Perbaikan dari Sistem As-Is)}{16}{subsubsection.2.2.1.9}%
-\contentsline {subsection}{\numberline {2.2.2}Pengalaman Pengguna}{17}{subsection.2.2.2}%
-\contentsline {section}{\numberline {2.3}Identifikasi Aplikasi Sejenis}{29}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Analisis Kebutuhan Sistem}{31}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Analisis Grup Akses}{32}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Analisis Kebutuhan Fungsional}{34}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Analisis Kebutuhan Dukungan Sistem}{36}{subsection.2.4.3}%
-\contentsline {section}{\numberline {2.5}Analisis Kinerja Sistem}{38}{section.2.5}%
+\contentsline {subsubsection}{\numberline {2.2.1.1}Pool Donatur (Beban Tersentralisasi Tanpa Relawan)}{12}{subsubsection.2.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.2.1.2}Pool Penerima (Kondisi Pasif dan Ketidakpastian)}{12}{subsubsection.2.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.2.1.3}Kesimpulan Masalah (\textit {Pain Points}) pada Sistem As-Is}{13}{subsubsection.2.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.2.1.4}Pool Penerima (Pusat Pemesanan dan Eksekusi Pengambilan)}{15}{subsubsection.2.2.1.4}%
+\contentsline {subsubsection}{\numberline {2.2.1.5}Pool Donatur (Penyedia Donasi yang Difasilitasi)}{15}{subsubsection.2.2.1.5}%
+\contentsline {subsubsection}{\numberline {2.2.1.6}Solusi Signifikan yang Ditawarkan (Menjawab Pain Points)}{16}{subsubsection.2.2.1.6}%
+\contentsline {subsubsection}{\numberline {2.2.1.7}Pool Penerima (Pemesan \& Penerima Akhir)}{18}{subsubsection.2.2.1.7}%
+\contentsline {subsubsection}{\numberline {2.2.1.8}Pool Donatur (Penyedia Donasi)}{18}{subsubsection.2.2.1.8}%
+\contentsline {subsubsection}{\numberline {2.2.1.9}Pool Relawan (Pahlawan Logistik)}{19}{subsubsection.2.2.1.9}%
+\contentsline {subsubsection}{\numberline {2.2.1.10}Interaksi Lintas Aktor (\textit {Message Flow} - Garis Putus-putus)}{19}{subsubsection.2.2.1.10}%
+\contentsline {subsubsection}{\numberline {2.2.1.11}Solusi Signifikan (Perbaikan dari As-Is)}{19}{subsubsection.2.2.1.11}%
+\contentsline {subsection}{\numberline {2.2.2}Pengalaman Pengguna}{21}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Identifikasi Aplikasi Sejenis}{36}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Analisis Kebutuhan Sistem}{39}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Analisis Grup Akses}{40}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Analisis Kebutuhan Fungsional}{42}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Analisis Kebutuhan Dukungan Sistem}{44}{subsection.2.4.3}%
+\contentsline {section}{\numberline {2.5}Analisis Kinerja Sistem}{46}{section.2.5}%
