@@ -1370,7 +1370,6 @@ INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
 INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
 INPUT image/Logo_Universitas_Telkom_Horizontal.png
 INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmbi8t.tfm
 INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
 INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
 INPUT image/Logo_Universitas_Telkom_Horizontal.png
@@ -1379,8 +1378,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/zptmcm7t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmbi8t.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmbi8r.tfm
 INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
 INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
 INPUT image/Logo_Universitas_Telkom_Horizontal.png
@@ -1402,10 +1399,13 @@ INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
 INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
 INPUT image/Logo_Universitas_Telkom_Horizontal.png
 INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmbi8t.tfm
 INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
 INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
 INPUT image/Logo_Universitas_Telkom_Horizontal.png
 INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmbi8t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmbi8r.tfm
 INPUT ./image/bab2/to-be metode pickup.png
 INPUT ./image/bab2/to-be metode pickup.png
 INPUT image/bab2/to-be metode pickup.png
