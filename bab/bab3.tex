@@ -1,8 +1,444 @@
+% !TEX root = ../main.tex
+% ==============================================================================
+% BAB 3: PEMODELAN DAN PERANCANGAN
+% ==============================================================================
+
 \chapter{PEMODELAN DAN PERANCANGAN}
-\label{chapter:PEMODELAN DAN PERANCANGAN}
+\label{chapter:pemodelan-dan-perancangan}
+
+% ==============================================================================
 \section{Arsitektur Sistem}
+% ==============================================================================
+
+Platform Food AI Rescue (FAR) dibangun di atas arsitektur \textit{Progressive Web App} (PWA) berbasis \textit{client-server} dengan pola \textit{Multi-Tier Architecture} yang terdiri dari tiga lapisan utama: lapisan presentasi (\textit{frontend}), lapisan logika bisnis (\textit{backend}), dan lapisan data (\textit{database}).
+
+\subsection{Lapisan Presentasi (\textit{Frontend})}
+Antarmuka pengguna dikembangkan menggunakan \textit{framework} React.js yang dikompilasi menjadi PWA. Pendekatan ini memungkinkan aplikasi dapat diakses melalui peramban web di berbagai perangkat (desktop maupun \textit{mobile}) tanpa memerlukan instalasi dari \textit{app store}. Komponen utama pada lapisan ini meliputi:
+\begin{itemize}
+    \item Modul dasbor per peran pengguna (Donatur, Penerima, Relawan, Admin, Super Admin).
+    \item Modul pemindaian Kode QR nirkontak (\textit{contactless}) menggunakan kamera perangkat.
+    \item Modul AI \textit{Quality Verification} yang mengintegrasikan pratinjau kamera dengan respons \textit{Google Gemini Vision API}.
+    \item Modul AI Generatif eksklusif korporat (\textit{Eco Packaging Editor} dan \textit{CSR Copywriter}).
+    \item Dasbor Dampak Sosial (SROI) dengan visualisasi data \textit{real-time}.
+\end{itemize}
+
+\subsection{Lapisan Logika Bisnis (\textit{Backend})}
+Lapisan \textit{backend} diimplementasikan menggunakan Node.js dengan pola arsitektur REST API. Seluruh permintaan dari \textit{frontend} diproses melalui \textit{endpoint} API yang terproteksi oleh mekanisme \textit{Role-Based Access Control} (RBAC) dengan 6 grup akses pengguna. Komponen utama pada lapisan ini meliputi:
+\begin{itemize}
+    \item \textit{Authentication \& Authorization Service}: Mengelola sesi pengguna dan validasi hak akses berbasis peran.
+    \item \textit{Donation Management Service}: Mengelola siklus hidup donasi mulai dari unggah, klaim, hingga serah terima.
+    \item \textit{Logistics \& Volunteer Service}: Mengelola penugasan misi relawan dan sistem gamifikasi \textit{leaderboard}.
+    \item \textit{AI Integration Service}: Menjadi jembatan antara aplikasi dan \textit{Google Gemini Vision API} untuk verifikasi makanan dan fitur generatif.
+    \item \textit{SROI Calculation Service}: Mengkalkulasi metrik dampak sosial secara otomatis berdasarkan riwayat transaksi.
+\end{itemize}
+
+\subsection{Lapisan Data (\textit{Database})}
+Seluruh data aplikasi disimpan dalam basis data relasional MySQL. Lapisan ini bertanggung jawab atas persistensi data transaksi donasi, profil pengguna, riwayat pemindaian QR, serta log kalkulasi SROI.
+
+% ==============================================================================
 \section{Pemodelan Sistem dan Data}
+% ==============================================================================
+
+\subsection{\textit{Use Case Diagram}}
+\textit{Use Case Diagram} menggambarkan interaksi antara setiap aktor dengan fungsionalitas utama sistem Food AI Rescue. Terdapat 6 aktor utama yang berinteraksi dengan sistem, yaitu Donatur Individu, Donatur Korporat, Penerima, Relawan, Admin Pengelola, dan Super Admin.
+
+\begin{table}[H]
+    \centering
+    \caption{Deskripsi \textit{Use Case} Utama}
+    \label{tab:usecase}
+    \renewcommand{\arraystretch}{1.3}
+    \begin{tabular}{|p{2cm}|p{6cm}|p{6.5cm}|}
+        \hline
+        \textbf{Kode UC} & \textbf{Nama \textit{Use Case}} & \textbf{Aktor} \\
+        \hline
+        UC-01 & Unggah Donasi Makanan & Donatur Individu, Donatur Korporat \\
+        \hline
+        UC-02 & Verifikasi Kelayakan Makanan (AI) & Donatur Individu, Donatur Korporat \\
+        \hline
+        UC-03 & Klaim Donasi & Penerima \\
+        \hline
+        UC-04 & Pilih Metode Pengambilan & Penerima \\
+        \hline
+        UC-05 & Klaim Misi Pengantaran & Relawan \\
+        \hline
+        UC-06 & Pindai QR Code Serah Terima & Donatur, Relawan \\
+        \hline
+        UC-07 & Lihat Dasbor SROI & Donatur, Admin Pengelola \\
+        \hline
+        UC-08 & \textit{Generate} Konten AI Korporat & Donatur Korporat \\
+        \hline
+        UC-09 & Verifikasi Akun Pengguna & Admin Pengelola \\
+        \hline
+        UC-10 & Kelola \textit{Backend} Sistem & Super Admin \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\noindent Berikut adalah narasi singkat untuk \textit{use case} inti sistem:
+
+\begin{description}
+    \item[UC-01 – Unggah Donasi Makanan:] Donatur mengunggah data makanan surplus meliputi foto, deskripsi, jumlah porsi, dan lokasi. Sebelum dipublikasikan, sistem mewajibkan donatur untuk menjalankan UC-02.
+    \item[UC-02 – Verifikasi Kelayakan Makanan (AI):] Donatur memindai foto makanan menggunakan kamera. Sistem mengirimkan gambar ke \textit{Google Gemini Vision API} untuk dianalisis kelayakan fisik, higienitas visual, dan kehalalannya. Hasil verifikasi ditampilkan secara instan.
+    \item[UC-06 – Pindai QR Code Serah Terima:] Merupakan \textit{use case} kritis untuk mencegah klaim ganda. Pada metode \textit{pick-up}, Donatur memindai QR Code Penerima. Pada metode diantar, Donatur memindai QR Code Relawan, kemudian Relawan memindai QR Code Penerima.
+    \item[UC-08 – Generate Konten AI Korporat:] Eksklusif untuk Donatur Korporat. Mencakup fitur \textit{Eco Packaging Editor} untuk menghasilkan desain kemasan ramah lingkungan dan \textit{CSR Copywriter} untuk menghasilkan konten promosi media sosial secara otomatis.
+\end{description}
+
+\subsection{\textit{Entity Relationship Diagram} (ERD)}
+ERD berikut menggambarkan struktur basis data relasional yang menjadi fondasi penyimpanan data platform Food AI Rescue. Entitas utama dan relasinya dijabarkan sebagai berikut:
+
+\begin{longtable}{|p{4.5cm}|p{6cm}|p{4cm}|}
+    \caption{Daftar Seluruh Entitas Basis Data Food AI Rescue}
+    \label{tab:erd-entities-full} \\
+    \hline
+    \textbf{Entitas} & \textbf{Atribut Utama} & \textbf{Keterangan} \\
+    \hline
+    \endfirsthead
+    \hline
+    \textbf{Entitas} & \textbf{Atribut Utama} & \textbf{Keterangan} \\
+    \hline
+    \endhead
+    \hline
+    \multicolumn{3}{r}{\textit{Bersambung ke halaman berikutnya}} \\
+    \endfoot
+    \hline
+    \endlastfoot
+    \tbltt{addresses} & id, user\_id, label, full\_address, latitude, longitude, is\_primary & Titik lokasi dan alamat pengguna \\
+    \hline
+    \tbltt{admin\_targets} & id, metric\_key, target\_value, label & Konfigurasi target metrik admin \\
+    \hline
+    \tbltt{ai\_verifications} & id, food\_id, is\_edible, halal\_score, quality\_score, reason, allergens & Log hasil verifikasi kelayakan oleh AI \\
+    \hline
+    \tbltt{badges} & id, name, role, min\_points, icon, description & Sistem lencana untuk gamifikasi \\
+    \hline
+    \tbltt{broadcasts} & id, title, content, target, type, author\_id & Pengumuman atau siaran sistem \\
+    \hline
+    \tbltt{broadcast\_reads} & user\_id, broadcast\_id, read\_at & Status keterbacaan pengumuman \\
+    \hline
+    \tbltt{claims} & id, food\_id, receiver\_id, volunteer\_id, claimed\_quantity, status & Data transaksi klaim dan pengantaran \\
+    \hline
+    \tbltt{corporate\_ai\_generations} & id, donor\_id, food\_id, type, title, content & Data hasil AI generatif untuk korporat \\
+    \hline
+    \tbltt{email\_verifications} & id, email, code, expires\_at & Data kode verifikasi email \\
+    \hline
+    \tbltt{faqs} & id, category, question, answer & Pertanyaan yang sering diajukan \\
+    \hline
+    \tbltt{food\_items} & id, provider\_id, name, current\_quantity, category, status & Data pasokan dan donasi makanan \\
+    \hline
+    \tbltt{food\_requests} & id, receiver\_id, title, description, needed\_quantity, status & Permintaan spesifik donasi makanan \\
+    \hline
+    \tbltt{leaderboard\_snapshots} & id, user\_id, points, rank, period, snapshot\_date & Rekaman riwayat peringkat pengguna \\
+    \hline
+    \tbltt{notifications} & id, user\_id, type, title, message, is\_read & Sistem notifikasi pengguna \\
+    \hline
+    \tbltt{password\_resets} & id, user\_id, token, expires\_at & Token untuk pemulihan kata sandi \\
+    \hline
+    \tbltt{point\_histories} & id, user\_id, amount, activity\_type, reference\_id & Riwayat perolehan poin gamifikasi \\
+    \hline
+    \tbltt{quests} & id, title, description, target\_value, reward\_points & Daftar misi harian/spesifik gamifikasi \\
+    \hline
+    \tbltt{rank\_levels} & id, role, name, min\_points, benefits, color & Tingkatan level (pangkat) pengguna \\
+    \hline
+    \tbltt{reports} & id, reporter\_id, claim\_id, category, status, is\_urgent & Laporan aduan atau kendala donasi \\
+    \hline
+    \tbltt{reviews} & id, claim\_id, user\_id, partner\_id, food\_id, rating & Ulasan dan penilaian pasca-donasi \\
+    \hline
+    \tbltt{social\_impacts} & id, food\_id, co2\_per\_portion, water\_saved\_liter, land\_saved\_sqm & Metrik kalkulasi dampak sosial lingkungan \\
+    \hline
+    \tbltt{system\_logs} & id, actor\_id, actor\_name, action, severity & Catatan aktivitas di dalam sistem \\
+    \hline
+    \tbltt{system\_settings} & setting\_key, setting\_value, updated\_at & Pengaturan dinamis platform \\
+    \hline
+    \tbltt{users} & id, name, email, password, role, status, points, avatar & Data profil utama seluruh pengguna \\
+    \hline
+    \tbltt{user\_ai\_keys} & id, user\_id, api\_key, label & Kunci API pribadi milik pengguna \\
+    \hline
+    \tbltt{user\_impact\_stats} & user\_id, total\_waste\_kg, total\_co2\_kg, total\_water\_liter & Akumulasi total dampak tiap pengguna \\
+    \hline
+    \tbltt{user\_quests} & id, user\_id, quest\_id, current\_value, is\_completed & Progres pengerjaan misi pengguna \\
+    \hline
+    \tbltt{verification\_codes} & id, identifier, channel, email, code, type, expires\_at & Kode OTP multi-saluran \\
+    \hline
+\end{longtable}
+
+\newpage
+\begin{landscape}
+    \centering
+    \vfill
+    \includegraphics[width=\linewidth, height=0.85\textheight, keepaspectratio]{image/bab3/erd.png}
+    \captionsetup{hypcap=false}
+    \captionof{figure}{Entity Relationship Diagram (ERD) Food AI Rescue}
+    \label{fig:erd}
+    \vfill
+\end{landscape}
+
+\newpage
+
+\noindent Relasi antar entitas utama adalah sebagai berikut:
+\begin{itemize}
+    \item Satu \texttt{users} (donatur) dapat memiliki banyak \texttt{donations} (relasi \textit{one-to-many}).
+    \item Satu \texttt{donations} dapat memiliki banyak \texttt{claims}, namun hanya satu klaim yang berstatus aktif pada satu waktu untuk mencegah \textit{double-claim}.
+    \item Satu \texttt{claims} memiliki tepat satu \texttt{deliveries} jika metode pengantaran yang dipilih adalah ``Diantar Relawan''.
+    \item Setiap \texttt{donations} yang berhasil diselesaikan akan menghasilkan satu entri pada \texttt{sroi\_records}.
+    \item Setiap \texttt{users} (relawan) memiliki satu entri pada \texttt{leaderboard} yang diperbarui setiap misi selesai.
+\end{itemize}
+
+\subsection{\textit{Class Diagram}}
+\textit{Class Diagram} menggambarkan struktur objek pada lapisan \textit{backend} (Node.js) yang mengimplementasikan logika bisnis sistem. Kelas-kelas utama beserta atribut dan metodenya adalah sebagai berikut:
+
+\begin{table}[H]
+    \centering
+    \caption{Kelas Utama pada Lapisan \textit{Backend}}
+    \label{tab:class-diagram}
+    \renewcommand{\arraystretch}{1.3}
+    \begin{tabular}{|p{3.5cm}|p{5.5cm}|p{5.5cm}|}
+        \hline
+        \textbf{Kelas} & \textbf{Atribut} & \textbf{Metode Utama} \\
+        \hline
+        \texttt{User} & id, name, email, role, address, qrCode, points & \texttt{register()}, \texttt{login()}, \texttt{generateQR()}, \texttt{getProfile()} \\
+        \hline
+        \texttt{Donation} & id, donorId, title, quantity, photoUrl, aiStatus, status, location & \texttt{create()}, \texttt{publish()}, \texttt{updateStatus()}, \texttt{getByLocation()} \\
+        \hline
+        \texttt{Claim} & id, donationId, receiverId, method, status & \texttt{create()}, \texttt{cancel()}, \texttt{complete()} \\
+        \hline
+        \texttt{Delivery} & id, claimId, volunteerId, pickupScanAt, deliveryScanAt & \texttt{assignVolunteer()}, \texttt{scanPickup()}, \texttt{scanDelivery()} \\
+        \hline
+        \texttt{AIService} & apiKey, model & \texttt{verifyFood()}, \texttt{generatePackaging()}, \texttt{generateCopywriting()} \\
+        \hline
+        \texttt{QRService} & -- & \texttt{generate()}, \texttt{validate()}, \texttt{markUsed()} \\
+        \hline
+        \texttt{SROICalculator} & -- & \texttt{calculate()}, \texttt{getReport()}, \texttt{getCarbonReduction()} \\
+        \hline
+        \texttt{Leaderboard} & volunteerId, totalMissions, totalPoints, rank & \texttt{update()}, \texttt{getRanking()}, \texttt{addPoints()} \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\noindent Hubungan antar kelas yang penting:
+\begin{itemize}
+    \item \texttt{Donation} berasosiasi dengan \texttt{User} (donatur) dan \texttt{AIService} (untuk verifikasi).
+    \item \texttt{Claim} berasosiasi dengan \texttt{Donation} dan \texttt{User} (penerima).
+    \item \texttt{Delivery} berasosiasi dengan \texttt{Claim}, \texttt{User} (relawan), dan \texttt{QRService}.
+    \item \texttt{SROICalculator} bergantung pada data \texttt{Donation} yang telah selesai.
+    \item \texttt{Leaderboard} diperbarui oleh \texttt{Delivery} setiap kali misi diselesaikan.
+\end{itemize}
+
+\subsection{\textit{Sequence Diagram}}
+\textit{Sequence Diagram} berikut menggambarkan alur interaksi antar objek untuk dua skenario kritis pada sistem.
+
+\subsubsection{Skenario 1: Verifikasi Kelayakan Makanan oleh AI}
+Alur interaksi pada proses verifikasi makanan sebelum donasi dipublikasikan:
+\begin{enumerate}
+    \item Donatur membuka halaman unggah donasi pada \textit{frontend}.
+    \item Donatur mengambil foto makanan menggunakan kamera perangkat.
+    \item \textit{Frontend} mengirimkan gambar ke \textit{backend} melalui \textit{endpoint} \texttt{POST /api/ai/verify}.
+    \item \textit{Backend} (\texttt{AIService}) meneruskan gambar beserta \textit{prompt} instruksi ke \textit{Google Gemini Vision API}.
+    \item \textit{Google Gemini Vision API} mengembalikan respons JSON berisi \textit{verdict} (layak/tidak layak), skor higienitas, dan catatan.
+    \item \textit{Backend} menyimpan log hasil verifikasi ke tabel \texttt{ai\_logs} dan mengembalikan respons ke \textit{frontend}.
+    \item \textit{Frontend} menampilkan hasil verifikasi kepada donatur. Jika layak, tombol ``Publikasikan Donasi'' aktif; jika tidak layak, donasi diblokir dari publikasi.
+\end{enumerate}
+
+\subsubsection{Skenario 2: Serah Terima dengan Pemindaian QR Code (Metode Diantar)}
+Alur interaksi pada proses serah terima berlapis antara Donatur, Relawan, dan Penerima:
+\begin{enumerate}
+    \item Relawan tiba di lokasi Donatur dan membuka halaman ``Pindai QR'' pada aplikasi.
+    \item Relawan memindai QR Code yang ditampilkan oleh Donatur.
+    \item \textit{Frontend} mengirimkan data QR ke \textit{backend} melalui \textit{endpoint} \texttt{POST /api/qr/scan/pickup}.
+    \item \textit{Backend} (\texttt{QRService}) memvalidasi kode, mencocokkan dengan data \texttt{deliveries}, dan memperbarui kolom \texttt{pickup\_scan\_at}.
+    \item \textit{Backend} mengembalikan konfirmasi valid; Donatur menyerahkan makanan kepada Relawan.
+    \item Relawan tiba di lokasi Penerima dan memindai QR Code Penerima melalui \texttt{POST /api/qr/scan/delivery}.
+    \item \textit{Backend} memvalidasi, memperbarui \texttt{delivery\_scan\_at}, mengubah status \texttt{claims} menjadi ``Selesai'', dan memicu \texttt{SROICalculator} untuk mengkalkulasi dampak.
+    \item \textit{Backend} memperbarui poin relawan pada tabel \texttt{leaderboard}.
+    \item Seluruh pihak menerima notifikasi konfirmasi penyelesaian transaksi.
+\end{enumerate}
+
+% ==============================================================================
 \section{Perancangan Antarmuka Pengguna}
+% ==============================================================================
+
+Perancangan antarmuka pengguna (\textit{User Interface}/UI) platform Food AI Rescue mengacu pada prinsip \textit{Human-Centered Design} yang telah diidentifikasi melalui artefak UX pada Bab 2 (\textit{User Persona}, \textit{Empathy Map}, dan \textit{Customer Journey Map}). Desain antarmuka dirancang agar intuitif, responsif di berbagai ukuran layar, dan mengutamakan kemudahan navigasi bagi seluruh segmen pengguna.
+
+\subsection{Prinsip Desain}
+Antarmuka platform FAR dirancang berdasarkan prinsip-prinsip berikut:
+\begin{enumerate}
+    \item \textbf{Kejelasan Peran (\textit{Role Clarity})}: Setiap pengguna langsung diarahkan ke dasbor yang sesuai dengan perannya setelah \textit{login}, sehingga tidak ada kebingungan navigasi lintas peran.
+    \item \textbf{Aksi Utama yang Menonjol}: Tombol aksi kritis seperti ``Donasikan Makanan'', ``Klaim Sekarang'', dan ``Pindai QR'' dirancang dengan kontras warna tinggi dan ukuran yang mudah dijangkau jari.
+    \item \textbf{Umpan Balik Instan}: Setiap interaksi dengan sistem AI memberikan respons visual yang jelas (indikator \textit{loading}, ikon centang hijau untuk layak, ikon silang merah untuk tidak layak).
+    \item \textbf{Desain Responsif}: Seluruh halaman dioptimalkan untuk tampilan \textit{mobile-first} mengingat mayoritas pengguna mengakses melalui perangkat \textit{smartphone}.
+\end{enumerate}
+
+\subsection{Halaman Utama per Peran Pengguna}
+Berikut adalah rancangan halaman utama untuk setiap peran pengguna:
+
+\begin{table}[H]
+    \centering
+    \caption{Rancangan Halaman Utama per Peran}
+    \label{tab:ui-pages}
+    \renewcommand{\arraystretch}{1.3}
+    \begin{tabular}{|p{3.5cm}|p{11cm}|}
+        \hline
+        \textbf{Peran} & \textbf{Halaman Utama dan Komponen Kunci} \\
+        \hline
+        Donatur Individu & Dasbor berisi tombol ``Donasikan Makanan'', riwayat donasi, dan widget SROI pribadi (porsi terselamatkan, estimasi CO$_2$ berkurang). \\
+        \hline
+        Donatur Korporat & Sama dengan Donatur Individu, ditambah panel eksklusif ``AI Generatif'' berisi \textit{Eco Packaging Editor} dan \textit{CSR Copywriter}. \\
+        \hline
+        Penerima & Halaman beranda berisi katalog makanan terdekat berbasis lokasi GPS, tombol ``Klaim'', dan halaman QR Code pribadi untuk serah terima. \\
+        \hline
+        Relawan & Halaman ``Misi Tersedia'' berisi daftar pengantaran aktif, peta rute, tombol ``Klaim Misi'', dan papan peringkat (\textit{leaderboard}) gamifikasi. \\
+        \hline
+        Admin Pengelola & Dasbor administratif berisi antrian verifikasi akun baru, laporan pengguna, peta panas (\textit{heatmap}) sebaran donasi, dan statistik SROI makro. \\
+        \hline
+        Super Admin & Panel manajemen \textit{backend} berisi monitor kesehatan server, manajemen basis data, dan log sistem. \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\subsection{Alur Navigasi Kritis}
+Dua alur navigasi yang paling sering digunakan dan paling kritis dalam sistem:
+
+\noindent \textbf{Alur Donasi (Donatur):}
+\begin{center}
+    \textit{Login} $\rightarrow$ Dasbor $\rightarrow$ Unggah Donasi $\rightarrow$ Pindai Foto (AI Verifikasi) $\rightarrow$ Isi Detail Donasi $\rightarrow$ Publikasikan $\rightarrow$ Tunggu Klaim
+\end{center}
+
+\noindent \textbf{Alur Klaim dan Terima (Penerima):}
+\begin{center}
+    \textit{Login} $\rightarrow$ Cari Makanan $\rightarrow$ Klaim $\rightarrow$ Pilih Metode $\rightarrow$ Tampilkan QR Code $\rightarrow$ Serah Terima $\rightarrow$ Konfirmasi Selesai
+\end{center}
+
+% ==============================================================================
 \section{Kebutuhan Perangkat Keras dan Perangkat Lunak}
+% ==============================================================================
+
 \subsection{Pengembangan Sistem}
+\label{subsec:kebutuhan-pengembangan}
+
+Kebutuhan perangkat keras dan perangkat lunak yang digunakan selama proses pengembangan platform Food AI Rescue adalah sebagai berikut:
+
+\subsubsection{Perangkat Keras Pengembangan}
+\begin{table}[H]
+    \centering
+    \caption{Spesifikasi Perangkat Keras untuk Pengembangan}
+    \label{tab:hardware-dev}
+    \renewcommand{\arraystretch}{1.3}
+    \begin{tabular}{|p{3cm}|p{7cm}|p{4.5cm}|}
+        \hline
+        \textbf{Komponen} & \textbf{Spesifikasi} & \textbf{Fungsi} \\
+        \hline
+        Prosesor & Minimal Intel Core i5 Gen 10 / AMD Ryzen 5 atau setara & Kompilasi kode dan menjalankan server lokal \\
+        \hline
+        RAM & Minimal 8 GB & Menjalankan lingkungan pengembangan dan emulator \\
+        \hline
+        Penyimpanan & Minimal 256 GB SSD & Menyimpan \textit{codebase}, dependensi, dan basis data lokal \\
+        \hline
+        Koneksi Internet & Minimal 10 Mbps & Akses ke \textit{Google Gemini API} dan repositori paket \\
+        \hline
+        Kamera & Resolusi minimal 8 MP & Pengujian fitur pemindaian QR Code dan verifikasi AI \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\subsubsection{Perangkat Lunak Pengembangan}
+\begin{table}[H]
+    \centering
+    \caption{Spesifikasi Perangkat Lunak untuk Pengembangan}
+    \label{tab:software-dev}
+    \renewcommand{\arraystretch}{1.3}
+    \begin{tabular}{|p{4cm}|p{2.5cm}|p{8cm}|}
+        \hline
+        \textbf{Perangkat Lunak} & \textbf{Versi} & \textbf{Fungsi} \\
+        \hline
+        Node.js & v20 LTS & \textit{Runtime} JavaScript untuk \textit{backend} REST API \\
+        \hline
+        React.js & v18 & \textit{Framework frontend} untuk membangun antarmuka PWA \\
+        \hline
+        MySQL & v8.0 & Sistem manajemen basis data relasional \\
+        \hline
+        Visual Studio Code & Terbaru & \textit{Integrated Development Environment} (IDE) utama \\
+        \hline
+        Git & v2.x & Sistem kontrol versi dan manajemen \textit{codebase} \\
+        \hline
+        Postman & Terbaru & Pengujian dan dokumentasi REST API \\
+        \hline
+        Google Gemini API & Gemini 1.5 Flash & Layanan AI untuk verifikasi makanan dan fitur generatif \\
+        \hline
+        \textit{npm} / \textit{yarn} & Terbaru & Manajer paket dependensi JavaScript \\
+        \hline
+    \end{tabular}
+\end{table}
+
 \subsection{Implementasi Sistem}
+\label{subsec:kebutuhan-implementasi}
+
+Kebutuhan perangkat keras dan perangkat lunak yang diperlukan untuk menjalankan platform Food AI Rescue pada lingkungan produksi (\textit{deployment}) adalah sebagai berikut:
+
+\subsubsection{Perangkat Keras Implementasi (Sisi Server)}
+\begin{table}[H]
+    \centering
+    \caption{Spesifikasi Perangkat Keras untuk Implementasi (Server)}
+    \label{tab:hardware-impl-server}
+    \renewcommand{\arraystretch}{1.3}
+    \begin{tabular}{|p{3cm}|p{7cm}|p{4.5cm}|}
+        \hline
+        \textbf{Komponen} & \textbf{Spesifikasi Minimum} & \textbf{Fungsi} \\
+        \hline
+        vCPU & 2 vCPU & Memproses permintaan API secara konkuren \\
+        \hline
+        RAM & 4 GB & Menjalankan proses Node.js dan MySQL secara bersamaan \\
+        \hline
+        Penyimpanan & 50 GB SSD & Menyimpan basis data, log, dan aset media donasi \\
+        \hline
+        Bandwidth & 100 GB/bulan & Melayani lalu lintas pengguna dan panggilan ke Gemini API \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\subsubsection{Perangkat Keras Implementasi (Sisi Pengguna)}
+\begin{table}[H]
+    \centering
+    \caption{Spesifikasi Perangkat Keras untuk Implementasi (Pengguna)}
+    \label{tab:hardware-impl-user}
+    \renewcommand{\arraystretch}{1.3}
+    \begin{tabular}{|p{3.5cm}|p{11cm}|}
+        \hline
+        \textbf{Komponen} & \textbf{Spesifikasi Minimum} \\
+        \hline
+        Perangkat & \textit{Smartphone} Android/iOS atau komputer dengan peramban modern \\
+        \hline
+        RAM & Minimal 2 GB \\
+        \hline
+        Kamera & Minimal 5 MP (untuk pemindaian QR Code dan verifikasi AI) \\
+        \hline
+        GPS & Wajib aktif (untuk fitur pencarian donasi berbasis lokasi) \\
+        \hline
+        Koneksi Internet & Minimal 4G/LTE atau Wi-Fi \\
+        \hline
+        Peramban & Google Chrome v90+, Mozilla Firefox v88+, atau Safari v14+ \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\subsubsection{Perangkat Lunak Implementasi}
+\begin{table}[H]
+    \centering
+    \caption{Spesifikasi Perangkat Lunak untuk Implementasi}
+    \label{tab:software-impl}
+    \renewcommand{\arraystretch}{1.3}
+    \begin{tabular}{|p{4cm}|p{2.5cm}|p{8cm}|}
+        \hline
+        \textbf{Perangkat Lunak} & \textbf{Versi} & \textbf{Fungsi} \\
+        \hline
+        Node.js & v20 LTS & \textit{Runtime} server untuk menjalankan REST API di produksi \\
+        \hline
+        MySQL & v8.0 & Basis data produksi untuk menyimpan seluruh data transaksi \\
+        \hline
+        Nginx & v1.24 & \textit{Web server} dan \textit{reverse proxy} untuk melayani aplikasi PWA \\
+        \hline
+        PM2 & Terbaru & \textit{Process manager} untuk menjaga stabilitas proses Node.js \\
+        \hline
+        SSL/TLS & Let's Encrypt & Enkripsi komunikasi HTTPS antara klien dan server \\
+        \hline
+        Google Gemini API & Gemini 1.5 Flash & Layanan AI eksternal untuk verifikasi dan fitur generatif \\
+        \hline
+    \end{tabular}
+\end{table}

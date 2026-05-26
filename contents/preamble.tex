@@ -16,6 +16,8 @@
 \usepackage{tocloft}
 \usepackage{booktabs}
 \usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{seqsplit}
 \usepackage{array}
 \renewcommand{\tabularxcolumn}[1]{m{#1}}
 \newcolumntype{L}{>{\raggedright\arraybackslash}X}
@@ -86,6 +88,10 @@
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 
+% --- Custom Commands ---
+\newcommand{\chapterservicename}{BAB} % Standard for Indonesian "BAB"
+\newcommand{\tbltt}[1]{{\small\ttfamily\seqsplit{#1}}}
+
 % --- Styling Bab & Seksi ---
 \titleformat{\chapter}[display]
   {\normalfont\bfseries\centering}
@@ -123,9 +129,6 @@
 \usepackage[style=ieee, sorting=none, backend=biber, isbn=false, url=false, eprint=false]{biblatex}
 \addbibresource{referensi.bib}
 
-
-% --- Custom Commands ---
-\newcommand{\chapterservicename}{BAB} % Standard for Indonesian "BAB"
 
 % Prevent hyphenation for Indonesian
 \hyphenpenalty=10000

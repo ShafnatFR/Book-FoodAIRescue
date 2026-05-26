@@ -1,20 +1,22 @@
 \babel@toc {indonesian}{}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Metode Scrum Menggunakan TorMonitorPYanto x Ko+Lab\relax }}{7}{figure.caption.1}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Metode Scrum Menggunakan TorMonitorPYanto x Ko+Lab}}{7}{figure.caption.1}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Segmentasi Pengguna Food AI Rescue\relax }}{8}{figure.caption.2}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Proses Bisnis Sistem Saat Ini (BPMN As-Is)\relax }}{12}{figure.2.2}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Proses Bisnis Sistem Usulan - Metode Pickup (BPMN To-Be)\relax }}{15}{figure.2.3}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Proses Bisnis Sistem Usulan - Metode Diantar (BPMN To-Be)\relax }}{18}{figure.2.4}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces User Persona Donatur Individu\relax }}{22}{figure.caption.3}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Empathy Map Donatur Individu\relax }}{23}{figure.caption.4}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Customer Journey Map Donatur Individu\relax }}{25}{figure.caption.5}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces User Persona Donatur Korporat\relax }}{26}{figure.caption.6}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Empathy Map Donatur Korporat\relax }}{27}{figure.caption.7}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Customer Journey Map Donatur Korporat\relax }}{29}{figure.caption.8}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces User Persona Penerima\relax }}{30}{figure.caption.9}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Empathy Map Penerima\relax }}{31}{figure.caption.10}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Customer Journey Map Penerima\relax }}{32}{figure.caption.11}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces User Persona Relawan\relax }}{34}{figure.caption.12}%
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Empathy Map Relawan\relax }}{35}{figure.caption.13}%
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Customer Journey Map Relawan\relax }}{36}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Segmentasi Pengguna Food AI Rescue}}{8}{figure.caption.2}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Proses Bisnis Sistem Saat Ini (BPMN As-Is)}}{12}{figure.2.2}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Proses Bisnis Sistem Usulan - Metode Pickup (BPMN To-Be)}}{15}{figure.2.3}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Proses Bisnis Sistem Usulan - Metode Diantar (BPMN To-Be)}}{18}{figure.2.4}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces User Persona Donatur Individu}}{22}{figure.caption.3}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Empathy Map Donatur Individu}}{23}{figure.caption.4}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Customer Journey Map Donatur Individu}}{25}{figure.caption.5}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces User Persona Donatur Korporat}}{26}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Empathy Map Donatur Korporat}}{27}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Customer Journey Map Donatur Korporat}}{29}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces User Persona Penerima}}{30}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Empathy Map Penerima}}{31}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Customer Journey Map Penerima}}{32}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces User Persona Relawan}}{34}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Empathy Map Relawan}}{35}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Customer Journey Map Relawan}}{36}{figure.caption.14}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Entity Relationship Diagram (ERD) Food AI Rescue}}{54}{figure.3.1}%

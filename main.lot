@@ -1,4 +1,14 @@
 \babel@toc {indonesian}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Perbandingan Fitur dan Kapabilitas Layanan Platform Food Rescue\relax }}{39}{table.caption.15}%
+\contentsline {table}{\numberline {2.1}{\ignorespaces Perbandingan Fitur dan Kapabilitas Layanan Platform Food Rescue}}{39}{table.caption.15}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Deskripsi \textit {Use Case} Utama}}{51}{table.caption.16}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Daftar Seluruh Entitas Basis Data Food AI Rescue}}{52}{table.3.2}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Kelas Utama pada Lapisan \textit {Backend}}}{56}{table.caption.17}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces Rancangan Halaman Utama per Peran}}{59}{table.caption.18}%
+\contentsline {table}{\numberline {3.5}{\ignorespaces Spesifikasi Perangkat Keras untuk Pengembangan}}{60}{table.caption.19}%
+\contentsline {table}{\numberline {3.6}{\ignorespaces Spesifikasi Perangkat Lunak untuk Pengembangan}}{60}{table.caption.20}%
+\contentsline {table}{\numberline {3.7}{\ignorespaces Spesifikasi Perangkat Keras untuk Implementasi (Server)}}{61}{table.caption.21}%
+\contentsline {table}{\numberline {3.8}{\ignorespaces Spesifikasi Perangkat Keras untuk Implementasi (Pengguna)}}{61}{table.caption.22}%
+\contentsline {table}{\numberline {3.9}{\ignorespaces Spesifikasi Perangkat Lunak untuk Implementasi}}{62}{table.caption.23}%
