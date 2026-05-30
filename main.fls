@@ -353,15 +353,6 @@ OUTPUT main.pdf
 INPUT ./main.out
 INPUT ./main.out
 OUTPUT main.out
-INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
-INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
-INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
-INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
-INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
-INPUT c:/texlive/2026/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
-INPUT c:/texlive/2026/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
-INPUT c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT c:/texlive/2026/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT ./contents/frontmatter.tex
 INPUT ./contents/frontmatter.tex
 INPUT contents/frontmatter.tex
@@ -376,6 +367,8 @@ INPUT ./image/logo.png
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
+INPUT c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT c:/texlive/2026/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT c:/texlive/2026/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
@@ -446,8 +439,11 @@ INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
 INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
 INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
 INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
 INPUT c:/texlive/2026/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
+INPUT c:/texlive/2026/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
+INPUT c:/texlive/2026/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT ./image/signature.png
 INPUT ./image/signature.png
 INPUT ./image/signature.png
@@ -490,13 +486,13 @@ INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
 INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
 INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
 INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
-INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
-INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
-INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
-INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
 INPUT ./main.lof
 INPUT ./main.lof
 INPUT main.lof
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
 OUTPUT main.lof
 INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
 INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
@@ -802,10 +798,6 @@ INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
 INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
 INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
 INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
-INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
-INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
-INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
-INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
 INPUT ./bab/bab3.tex
 INPUT ./bab/bab3.tex
 INPUT bab/bab3.tex
@@ -817,10 +809,11 @@ INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
 INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
 INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
 INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
-INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
-INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
-INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
-INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/bab3/Deployment Diagram Food AI Rescue.png
+INPUT ./image/bab3/Deployment Diagram Food AI Rescue.png
+INPUT ./image/bab3/Deployment Diagram Food AI Rescue.png
+INPUT ./image/bab3/Deployment Diagram Food AI Rescue.png
+INPUT ./image/bab3/Deployment Diagram Food AI Rescue.png
 INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
 INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
 INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
@@ -835,11 +828,144 @@ INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
 INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
 INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
 INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
 INPUT ./image/bab3/ERD.png
 INPUT ./image/bab3/ERD.png
 INPUT ./image/bab3/ERD.png
 INPUT ./image/bab3/ERD.png
 INPUT ./image/bab3/ERD.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/bab3/sequence/Sequence Diagram Melakukan Login (Global).png
+INPUT ./image/bab3/sequence/Sequence Diagram Melakukan Login (Global).png
+INPUT ./image/bab3/sequence/Sequence Diagram Melakukan Login (Global).png
+INPUT ./image/bab3/sequence/Sequence Diagram Melakukan Login (Global).png
+INPUT ./image/bab3/sequence/Sequence Diagram Melakukan Login (Global).png
+INPUT ./image/bab3/sequence/Sequence Diagram Unggah Surplus Makanan & Verifikasi AI (Donatur).png
+INPUT ./image/bab3/sequence/Sequence Diagram Unggah Surplus Makanan & Verifikasi AI (Donatur).png
+INPUT ./image/bab3/sequence/Sequence Diagram Unggah Surplus Makanan & Verifikasi AI (Donatur).png
+INPUT ./image/bab3/sequence/Sequence Diagram Unggah Surplus Makanan & Verifikasi AI (Donatur).png
+INPUT ./image/bab3/sequence/Sequence Diagram Unggah Surplus Makanan & Verifikasi AI (Donatur).png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/bab3/sequence/Sequence Diagram Konfirmasi Pesanan (Donatur).png
+INPUT ./image/bab3/sequence/Sequence Diagram Konfirmasi Pesanan (Donatur).png
+INPUT ./image/bab3/sequence/Sequence Diagram Konfirmasi Pesanan (Donatur).png
+INPUT ./image/bab3/sequence/Sequence Diagram Konfirmasi Pesanan (Donatur).png
+INPUT ./image/bab3/sequence/Sequence Diagram Konfirmasi Pesanan (Donatur).png
+INPUT c:/texlive/2026/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/bab3/sequence/Sequence Diagram Dasbor Dampak Sosial SROI (Donatur).png
+INPUT ./image/bab3/sequence/Sequence Diagram Dasbor Dampak Sosial SROI (Donatur).png
+INPUT ./image/bab3/sequence/Sequence Diagram Dasbor Dampak Sosial SROI (Donatur).png
+INPUT ./image/bab3/sequence/Sequence Diagram Dasbor Dampak Sosial SROI (Donatur).png
+INPUT ./image/bab3/sequence/Sequence Diagram Dasbor Dampak Sosial SROI (Donatur).png
+INPUT ./image/bab3/sequence/Sequence Diagram Pembuatan Logo & Rekomendasi Kemasan (Korporat).png
+INPUT ./image/bab3/sequence/Sequence Diagram Pembuatan Logo & Rekomendasi Kemasan (Korporat).png
+INPUT ./image/bab3/sequence/Sequence Diagram Pembuatan Logo & Rekomendasi Kemasan (Korporat).png
+INPUT ./image/bab3/sequence/Sequence Diagram Pembuatan Logo & Rekomendasi Kemasan (Korporat).png
+INPUT ./image/bab3/sequence/Sequence Diagram Pembuatan Logo & Rekomendasi Kemasan (Korporat).png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT c:/texlive/2026/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
+INPUT ./image/bab3/sequence/Sequence Diagram Generate CSR Copywriter (Korporat).png
+INPUT ./image/bab3/sequence/Sequence Diagram Generate CSR Copywriter (Korporat).png
+INPUT ./image/bab3/sequence/Sequence Diagram Generate CSR Copywriter (Korporat).png
+INPUT ./image/bab3/sequence/Sequence Diagram Generate CSR Copywriter (Korporat).png
+INPUT ./image/bab3/sequence/Sequence Diagram Generate CSR Copywriter (Korporat).png
+INPUT ./image/bab3/sequence/Sequence Diagram Pencarian & Klaim Makanan (Penerima).png
+INPUT ./image/bab3/sequence/Sequence Diagram Pencarian & Klaim Makanan (Penerima).png
+INPUT ./image/bab3/sequence/Sequence Diagram Pencarian & Klaim Makanan (Penerima).png
+INPUT ./image/bab3/sequence/Sequence Diagram Pencarian & Klaim Makanan (Penerima).png
+INPUT ./image/bab3/sequence/Sequence Diagram Pencarian & Klaim Makanan (Penerima).png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/bab3/sequence/Sequence Diagram Pelaporan Masalah (Penerima).png
+INPUT ./image/bab3/sequence/Sequence Diagram Pelaporan Masalah (Penerima).png
+INPUT ./image/bab3/sequence/Sequence Diagram Pelaporan Masalah (Penerima).png
+INPUT ./image/bab3/sequence/Sequence Diagram Pelaporan Masalah (Penerima).png
+INPUT ./image/bab3/sequence/Sequence Diagram Pelaporan Masalah (Penerima).png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/bab3/sequence/Sequence Diagram Pemberian Ulasan (Penerima).png
+INPUT ./image/bab3/sequence/Sequence Diagram Pemberian Ulasan (Penerima).png
+INPUT ./image/bab3/sequence/Sequence Diagram Pemberian Ulasan (Penerima).png
+INPUT ./image/bab3/sequence/Sequence Diagram Pemberian Ulasan (Penerima).png
+INPUT ./image/bab3/sequence/Sequence Diagram Pemberian Ulasan (Penerima).png
+INPUT ./image/bab3/sequence/Sequence Diagram Penerimaan Misi Pengantaran (Relawan).png
+INPUT ./image/bab3/sequence/Sequence Diagram Penerimaan Misi Pengantaran (Relawan).png
+INPUT ./image/bab3/sequence/Sequence Diagram Penerimaan Misi Pengantaran (Relawan).png
+INPUT ./image/bab3/sequence/Sequence Diagram Penerimaan Misi Pengantaran (Relawan).png
+INPUT ./image/bab3/sequence/Sequence Diagram Penerimaan Misi Pengantaran (Relawan).png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/bab3/sequence/Sequence Diagram Validasi Serah Terima (Relawan).png
+INPUT ./image/bab3/sequence/Sequence Diagram Validasi Serah Terima (Relawan).png
+INPUT ./image/bab3/sequence/Sequence Diagram Validasi Serah Terima (Relawan).png
+INPUT ./image/bab3/sequence/Sequence Diagram Validasi Serah Terima (Relawan).png
+INPUT ./image/bab3/sequence/Sequence Diagram Validasi Serah Terima (Relawan).png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/bab3/sequence/Sequence Diagram Kalkulasi Gamifikasi (Sistem Internal).png
+INPUT ./image/bab3/sequence/Sequence Diagram Kalkulasi Gamifikasi (Sistem Internal).png
+INPUT ./image/bab3/sequence/Sequence Diagram Kalkulasi Gamifikasi (Sistem Internal).png
+INPUT ./image/bab3/sequence/Sequence Diagram Kalkulasi Gamifikasi (Sistem Internal).png
+INPUT ./image/bab3/sequence/Sequence Diagram Kalkulasi Gamifikasi (Sistem Internal).png
+INPUT ./image/bab3/sequence/Sequence Diagram Verifikasi Akun (Admin).png
+INPUT ./image/bab3/sequence/Sequence Diagram Verifikasi Akun (Admin).png
+INPUT ./image/bab3/sequence/Sequence Diagram Verifikasi Akun (Admin).png
+INPUT ./image/bab3/sequence/Sequence Diagram Verifikasi Akun (Admin).png
+INPUT ./image/bab3/sequence/Sequence Diagram Verifikasi Akun (Admin).png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/bab3/sequence/Sequence Diagram Moderasi Komplain (Admin).png
+INPUT ./image/bab3/sequence/Sequence Diagram Moderasi Komplain (Admin).png
+INPUT ./image/bab3/sequence/Sequence Diagram Moderasi Komplain (Admin).png
+INPUT ./image/bab3/sequence/Sequence Diagram Moderasi Komplain (Admin).png
+INPUT ./image/bab3/sequence/Sequence Diagram Moderasi Komplain (Admin).png
+INPUT ./image/bab3/sequence/Sequence Diagram Manajemen Status Server (Super Admin).png
+INPUT ./image/bab3/sequence/Sequence Diagram Manajemen Status Server (Super Admin).png
+INPUT ./image/bab3/sequence/Sequence Diagram Manajemen Status Server (Super Admin).png
+INPUT ./image/bab3/sequence/Sequence Diagram Manajemen Status Server (Super Admin).png
+INPUT ./image/bab3/sequence/Sequence Diagram Manajemen Status Server (Super Admin).png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
+INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
 INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
 INPUT ./image/Logo_Universitas_Telkom_Horizontal.png
 INPUT ./image/Logo_Universitas_Telkom_Horizontal.png

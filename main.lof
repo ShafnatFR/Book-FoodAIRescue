@@ -19,4 +19,20 @@
 \contentsline {figure}{\numberline {2.15}{\ignorespaces Empathy Map Relawan}}{35}{figure.caption.13}%
 \contentsline {figure}{\numberline {2.16}{\ignorespaces Customer Journey Map Relawan}}{36}{figure.caption.14}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Entity Relationship Diagram (ERD) Food AI Rescue}}{54}{figure.3.1}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces \textit {Deployment Diagram} Arsitektur Sistem Food AI Rescue}}{49}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Entity Relationship Diagram (ERD) Food AI Rescue}}{53}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces \textit {Sequence Diagram} Melakukan \textit {Login} (Global)}}{56}{figure.caption.16}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces \textit {Sequence Diagram} Unggah Surplus Makanan \& Verifikasi AI (Donatur)}}{57}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces \textit {Sequence Diagram} Konfirmasi Pesanan (Donatur)}}{57}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces \textit {Sequence Diagram} Dasbor Dampak Sosial SROI (Donatur)}}{58}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces \textit {Sequence Diagram} Pembuatan Logo \& Rekomendasi Kemasan (Donatur Korporat)}}{58}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces \textit {Sequence Diagram} \textit {Generate} CSR \textit {Copywriter} (Donatur Korporat)}}{59}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces \textit {Sequence Diagram} Pencarian \& Klaim Makanan (Penerima)}}{60}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces \textit {Sequence Diagram} Pelaporan Masalah (Penerima)}}{60}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces \textit {Sequence Diagram} Pemberian Ulasan (Penerima)}}{61}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces \textit {Sequence Diagram} Penerimaan Misi Pengantaran (Relawan)}}{62}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces \textit {Sequence Diagram} Validasi Serah Terima (Relawan)}}{62}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces \textit {Sequence Diagram} Kalkulasi Gamifikasi (Sistem Internal)}}{63}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces \textit {Sequence Diagram} Verifikasi Akun (Admin Pengelola)}}{64}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces \textit {Sequence Diagram} Moderasi Komplain (Admin Pengelola)}}{64}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces \textit {Sequence Diagram} Manajemen Status \textit {Server} (Super Admin)}}{65}{figure.caption.30}%
