@@ -1,0 +1,312 @@
+%% Creator: Inkscape 1.4.4 (dcaf3e7, 2026-05-05), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'class diagram_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{2228.625bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.6961765)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0.43631212,0.69259692){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{Class Diagram - Aplikasi Food AI Rescue (FAR)}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{class diagram_svg-tex.pdf}}%
+    \put(0.00159852,0.67011774){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{Enums \& Types}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{class diagram_svg-tex.pdf}}%
+    \put(0.72110045,0.38457172){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{Data Models (Entities)}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{class diagram_svg-tex.pdf}}%
+    \put(0.51245162,0.57942281){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{Backend Services}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{class diagram_svg-tex.pdf}}%
+    \put(0.78234898,0.47274268){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{System Utilities}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{class diagram_svg-tex.pdf}}%
+    \put(0.10424028,0.68071844){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{Frontend Components (React)}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{class diagram_svg-tex.pdf}}%
+    \put(0.0165544,0.65732958){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}UserRole\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{class diagram_svg-tex.pdf}}%
+    \put(0.00765607,0.64881641){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}individual_donor\end{tabular}}}}%
+    \put(0.00765607,0.64333204){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}corporate_donor\end{tabular}}}}%
+    \put(0.00765607,0.63784764){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}recipient\end{tabular}}}}%
+    \put(0.00765607,0.63236323){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}volunteer\end{tabular}}}}%
+    \put(0.00765607,0.62687884){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}admin\end{tabular}}}}%
+    \put(0.00765607,0.62139447){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}super_admin\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{class diagram_svg-tex.pdf}}%
+    \put(0.06176975,0.65463734){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}FoodStatus\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{class diagram_svg-tex.pdf}}%
+    \put(0.06251052,0.64612417){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}available\end{tabular}}}}%
+    \put(0.06251052,0.6406398){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}claimed\end{tabular}}}}%
+    \put(0.06251052,0.63515539){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}completed\end{tabular}}}}%
+    \put(0.06251052,0.62967099){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}expired\end{tabular}}}}%
+    \put(0.06251052,0.62418659){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}reserved\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{class diagram_svg-tex.pdf}}%
+    \put(0.00866566,0.54509671){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ClaimStatus\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{class diagram_svg-tex.pdf}}%
+    \put(0.00967525,0.53658353){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}active\end{tabular}}}}%
+    \put(0.00967525,0.53109916){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}completed\end{tabular}}}}%
+    \put(0.00967525,0.52561475){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}cancelled\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{class diagram_svg-tex.pdf}}%
+    \put(0.05090022,0.54509671){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}DeliveryMethod\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{class diagram_svg-tex.pdf}}%
+    \put(0.05190981,0.53658353){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}pickup\end{tabular}}}}%
+    \put(0.05190981,0.53109916){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}delivery\end{tabular}}}}%
+    \put(0.05190981,0.52561475){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}both\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{class diagram_svg-tex.pdf}}%
+    \put(0.82677724,0.37240834){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{«entity»}\end{tabular}}}}%
+    \put(0.82413692,0.36708268){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{UserData}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{class diagram_svg-tex.pdf}}%
+    \put(0.79496887,0.35856949){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+id: string\end{tabular}}}}%
+    \put(0.79496887,0.3530851){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+name: string\end{tabular}}}}%
+    \put(0.79496887,0.3476007){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+email: string\end{tabular}}}}%
+    \put(0.79496887,0.34211631){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+role: UserRole\end{tabular}}}}%
+    \put(0.79496887,0.33663192){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+status: string\end{tabular}}}}%
+    \put(0.79496887,0.33114752){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+points: number\end{tabular}}}}%
+    \put(0.79496887,0.32566313){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+joinDate: string\end{tabular}}}}%
+    \put(0.79496887,0.32017874){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+phone: string\end{tabular}}}}%
+    \put(0.79496887,0.31469434){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+address: string\end{tabular}}}}%
+    \put(0.79496887,0.30920995){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+avatar: string\end{tabular}}}}%
+    \put(0.79496887,0.30372556){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+password: string\end{tabular}}}}%
+    \put(0.79496887,0.29824116){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+isNewUser: boolean\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{class diagram_svg-tex.pdf}}%
+    \put(0.79496887,0.29006453){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+authenticate(): boolean\end{tabular}}}}%
+    \put(0.79496887,0.28458013){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+updatePoints(val: number): void\end{tabular}}}}%
+    \put(0.79496887,0.27909574){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+verifyOTP(code: string): boolean\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{class diagram_svg-tex.pdf}}%
+    \put(0.92315457,0.24519984){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{«entity»}\end{tabular}}}}%
+    \put(0.92041303,0.23987418){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{FoodItem}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{class diagram_svg-tex.pdf}}%
+    \put(0.88751472,0.23136101){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+id: string\end{tabular}}}}%
+    \put(0.88751472,0.22587662){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+providerId: string\end{tabular}}}}%
+    \put(0.88751472,0.22039222){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+providerName: string\end{tabular}}}}%
+    \put(0.88751472,0.21490783){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+name: string\end{tabular}}}}%
+    \put(0.88751472,0.20942344){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+description: string\end{tabular}}}}%
+    \put(0.88751472,0.20393904){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+quantity: string\end{tabular}}}}%
+    \put(0.88751472,0.19845465){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+currentQuantity: number\end{tabular}}}}%
+    \put(0.88751472,0.19297026){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+category: string\end{tabular}}}}%
+    \put(0.88751472,0.18748586){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+expiryTime: string\end{tabular}}}}%
+    \put(0.88751472,0.18200147){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+createdAt: string\end{tabular}}}}%
+    \put(0.88751472,0.17651708){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+imageUrl: string\end{tabular}}}}%
+    \put(0.88751472,0.17103268){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+status: FoodStatus\end{tabular}}}}%
+    \put(0.88751472,0.16554829){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+deliveryMethod: DeliveryMethod\end{tabular}}}}%
+    \put(0.88751472,0.1600639){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+aiVerification: JSON\end{tabular}}}}%
+    \put(0.88751472,0.1545795){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+socialImpact: JSON\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{class diagram_svg-tex.pdf}}%
+    \put(0.88751472,0.14640287){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+deductStock(qty: number): boolean\end{tabular}}}}%
+    \put(0.88751472,0.14091847){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+checkExpiry(): boolean\end{tabular}}}}%
+    \put(0.88751472,0.13543408){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+updateStatus(sts: string): void\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=20]{class diagram_svg-tex.pdf}}%
+    \put(0.84162631,0.10150137){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{«entity»}\end{tabular}}}}%
+    \put(0.82954474,0.09617571){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{ClaimHistoryItem}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=21]{class diagram_svg-tex.pdf}}%
+    \put(0.80876662,0.08766254){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+id: string\end{tabular}}}}%
+    \put(0.80876662,0.08217815){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+foodId: string\end{tabular}}}}%
+    \put(0.80876662,0.07669375){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+providerId: string\end{tabular}}}}%
+    \put(0.80876662,0.07120936){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+receiverId: string\end{tabular}}}}%
+    \put(0.80876662,0.06572497){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+volunteerId: string\end{tabular}}}}%
+    \put(0.80876662,0.06024057){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+uniqueCode: string\end{tabular}}}}%
+    \put(0.80876662,0.05475618){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+status: ClaimStatus\end{tabular}}}}%
+    \put(0.80876662,0.04927179){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+isScanned: boolean\end{tabular}}}}%
+    \put(0.80876662,0.04378739){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+claimedQuantity: number\end{tabular}}}}%
+    \put(0.80876662,0.038303){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+deliveryMethod: DeliveryMethod\end{tabular}}}}%
+    \put(0.80876662,0.03281861){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+rating: number\end{tabular}}}}%
+    \put(0.80876662,0.02733421){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+review: string\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=22]{class diagram_svg-tex.pdf}}%
+    \put(0.80876662,0.01915758){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+generateQR(): string\end{tabular}}}}%
+    \put(0.80876662,0.01367318){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+assignVolunteer(vid: string): void\end{tabular}}}}%
+    \put(0.80876662,0.00818879){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+scanAndComplete(): boolean\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=23]{class diagram_svg-tex.pdf}}%
+    \put(0.8369001,0.22046485){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{«entity»}\end{tabular}}}}%
+    \put(0.83577926,0.21513919){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{Address}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=24]{class diagram_svg-tex.pdf}}%
+    \put(0.81886253,0.20662603){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+id: string\end{tabular}}}}%
+    \put(0.81886253,0.20114163){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+userId: string\end{tabular}}}}%
+    \put(0.81886253,0.19565724){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+label: string\end{tabular}}}}%
+    \put(0.81886253,0.19017285){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+fullAddress: string\end{tabular}}}}%
+    \put(0.81886253,0.18468845){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+contactName: string\end{tabular}}}}%
+    \put(0.81886253,0.17920406){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+contactPhone: string\end{tabular}}}}%
+    \put(0.81886253,0.17371967){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+isPrimary: boolean\end{tabular}}}}%
+    \put(0.81886253,0.16823527){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+lat: number\end{tabular}}}}%
+    \put(0.81886253,0.16275088){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+lng: number\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=25]{class diagram_svg-tex.pdf}}%
+    \put(0.63628971,0.56725942){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{«service»}\end{tabular}}}}%
+    \put(0.62606842,0.56193375){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}DatabaseService\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=26]{class diagram_svg-tex.pdf}}%
+    \put(0.58648831,0.55342059){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-API_URL: string\end{tabular}}}}%
+    \put(0.58648831,0.54793618){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-headers: object\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=27]{class diagram_svg-tex.pdf}}%
+    \put(0.58648831,0.53975954){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+registerUser(data): Promise<UserData>\end{tabular}}}}%
+    \put(0.58648831,0.53427516){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+loginUser(credentials): Promise<UserData>\end{tabular}}}}%
+    \put(0.58648831,0.52879077){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+getInventory(providerId): Promise<FoodItem[]>\end{tabular}}}}%
+    \put(0.58648831,0.52330637){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+addFoodItem(item): Promise<FoodItem>\end{tabular}}}}%
+    \put(0.58648831,0.51782195){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+processClaimTransaction(data): Promise<void>\end{tabular}}}}%
+    \put(0.58648831,0.5123376){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+submitReview(id, rating, review): void\end{tabular}}}}%
+    \put(0.58648831,0.50685319){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+getClaims(filters): Promise<ClaimHistoryItem[]>\end{tabular}}}}%
+    \put(0.58648831,0.50136879){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+callCorporateAI(type, payload): Promise<any>\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=28]{class diagram_svg-tex.pdf}}%
+    \put(0.57636725,0.46327154){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{«service»}\end{tabular}}}}%
+    \put(0.57507996,0.45794588){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}AIService\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=29]{class diagram_svg-tex.pdf}}%
+    \put(0.51867744,0.44943269){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-apiKeys: string[]\end{tabular}}}}%
+    \put(0.51867744,0.4439483){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-currentKeyIndex: number\end{tabular}}}}%
+    \put(0.51867744,0.43846388){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-model: GenerativeModel\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=30]{class diagram_svg-tex.pdf}}%
+    \put(0.51867744,0.43028729){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+verifyFoodSafety(imageBlob, foodId): Promise<object>\end{tabular}}}}%
+    \put(0.51867744,0.42480287){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+generateCSRContent(userId): Promise<string>\end{tabular}}}}%
+    \put(0.51867744,0.41931848){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+designPackaging(prompt): Promise<object>\end{tabular}}}}%
+    \put(0.51867744,0.41383407){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+rotateKey(): void\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=31]{class diagram_svg-tex.pdf}}%
+    \put(0.70761426,0.45788705){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{«service»}\end{tabular}}}}%
+    \put(0.70451992,0.45256139){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}FileService\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=32]{class diagram_svg-tex.pdf}}%
+    \put(0.66944304,0.4440482){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-uploadPath: string\end{tabular}}}}%
+    \put(0.66944304,0.43856381){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-maxFileSize: number\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=33]{class diagram_svg-tex.pdf}}%
+    \put(0.66944304,0.43038715){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+uploadImage(base64, filename): string\end{tabular}}}}%
+    \put(0.66944304,0.4249028){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+optimizeImage(image): Buffer\end{tabular}}}}%
+    \put(0.66944304,0.41941839){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+deleteFile(path): void\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=34]{class diagram_svg-tex.pdf}}%
+    \put(0.82385297,0.46057929){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{«utility»}\end{tabular}}}}%
+    \put(0.80842696,0.45525364){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}GamificationService\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=35]{class diagram_svg-tex.pdf}}%
+    \put(0.78857479,0.44674045){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-rankLevels: array\end{tabular}}}}%
+    \put(0.78857479,0.44125605){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-badges: array\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=36]{class diagram_svg-tex.pdf}}%
+    \put(0.78857479,0.4330794){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+calculateXP(task): number\end{tabular}}}}%
+    \put(0.78857479,0.42759505){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+evaluateRank(userPoints): object\end{tabular}}}}%
+    \put(0.78857479,0.42211063){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+awardBadge(userId, badgeId): void\end{tabular}}}}%
+    \put(0.78857479,0.41662624){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+getLeaderboard(): array\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=37]{class diagram_svg-tex.pdf}}%
+    \put(0.93369366,0.44964206){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{«utility»}\end{tabular}}}}%
+    \put(0.92486779,0.4443164){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ExpiryChecker\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=38]{class diagram_svg-tex.pdf}}%
+    \put(0.89155309,0.43311097){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+checkAndExpireItems(items): FoodItem[]\end{tabular}}}}%
+    \put(0.89155309,0.42762657){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+isFoodExpired(expiryTime): boolean\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=39]{class diagram_svg-tex.pdf}}%
+    \put(0.33707181,0.66855506){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{«component»}\end{tabular}}}}%
+    \put(0.34638506,0.6632294){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}App\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=40]{class diagram_svg-tex.pdf}}%
+    \put(0.29437994,0.65471622){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-currentView: string\end{tabular}}}}%
+    \put(0.29437994,0.64923182){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-role: UserRole\end{tabular}}}}%
+    \put(0.29437994,0.64374742){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-currentUser: UserData\end{tabular}}}}%
+    \put(0.29437994,0.63826305){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-isDarkMode: boolean\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=41]{class diagram_svg-tex.pdf}}%
+    \put(0.29437994,0.63008641){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+handleLogin(data): void\end{tabular}}}}%
+    \put(0.29437994,0.624602){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+handleLogout(): void\end{tabular}}}}%
+    \put(0.29437994,0.6191176){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+handleClaimFood(item, qty): Promise<string>\end{tabular}}}}%
+    \put(0.29437994,0.61363323){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+fetchData(forceRefresh): Promise<void>\end{tabular}}}}%
+    \put(0.29437994,0.60814884){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+renderContent(): void\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=42]{class diagram_svg-tex.pdf}}%
+    \put(0.1357716,0.55362994){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{«component»}\end{tabular}}}}%
+    \put(0.1333684,0.54830427){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ProviderIndex\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=43]{class diagram_svg-tex.pdf}}%
+    \put(0.11029783,0.53979111){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-foodItems: FoodItem[]\end{tabular}}}}%
+    \put(0.11029783,0.5343067){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-claimHistory: ClaimHistoryItem[]\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=44]{class diagram_svg-tex.pdf}}%
+    \put(0.11029783,0.52613005){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+renderDashboard(): void\end{tabular}}}}%
+    \put(0.11029783,0.52064569){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+renderInventory(): void\end{tabular}}}}%
+    \put(0.11029783,0.51516128){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+renderOrders(): void\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=45]{class diagram_svg-tex.pdf}}%
+    \put(0.23461902,0.55362994){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{«component»}\end{tabular}}}}%
+    \put(0.23171086,0.54830427){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ReceiverIndex\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=46]{class diagram_svg-tex.pdf}}%
+    \put(0.20486286,0.53979111){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-availableFood: FoodItem[]\end{tabular}}}}%
+    \put(0.20486286,0.5343067){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-selectedFood: FoodItem\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=47]{class diagram_svg-tex.pdf}}%
+    \put(0.20486286,0.52613005){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+renderFoodList(): void\end{tabular}}}}%
+    \put(0.20486286,0.52064569){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+renderFoodDetail(): void\end{tabular}}}}%
+    \put(0.20486286,0.51516128){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+handleClaim(food): Promise<void>\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=48]{class diagram_svg-tex.pdf}}%
+    \put(0.33695646,0.55362994){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{«component»}\end{tabular}}}}%
+    \put(0.33286126,0.54830427){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}VolunteerIndex\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=49]{class diagram_svg-tex.pdf}}%
+    \put(0.30834595,0.53979111){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-missions: array\end{tabular}}}}%
+    \put(0.30834595,0.5343067){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-leaderboard: array\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=50]{class diagram_svg-tex.pdf}}%
+    \put(0.30834595,0.52613005){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+renderMissions(): void\end{tabular}}}}%
+    \put(0.30834595,0.52064569){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+acceptMission(id): Promise<void>\end{tabular}}}}%
+    \put(0.30834595,0.51516128){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+renderLeaderboard(): void\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=51]{class diagram_svg-tex.pdf}}%
+    \put(0.43868887,0.55632218){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{«component»}\end{tabular}}}}%
+    \put(0.43852865,0.55099652){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}AdminIndex\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=52]{class diagram_svg-tex.pdf}}%
+    \put(0.40947333,0.54248335){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-users: UserData[]\end{tabular}}}}%
+    \put(0.40947333,0.53699895){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-reports: array\end{tabular}}}}%
+    \put(0.40947333,0.53151454){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-systemLogs: array\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=53]{class diagram_svg-tex.pdf}}%
+    \put(0.40947333,0.52333794){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+renderCommunity(): void\end{tabular}}}}%
+    \put(0.40947333,0.51785352){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+renderModeration(): void\end{tabular}}}}%
+    \put(0.40947333,0.51236913){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+verifyUser(userId): Promise<void>\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=54]{class diagram_svg-tex.pdf}}%
+    \put(0.8446071,0.26205051){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}memiliki\end{tabular}}}}%
+    \put(0.83638684,0.26983351){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1\end{tabular}}}}%
+    \put(0.84047121,0.22962508){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}*\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=55]{class diagram_svg-tex.pdf}}%
+    \put(0.88499075,0.26205051){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}membuat (Donatur)\end{tabular}}}}%
+    \put(0.87014923,0.26983351){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1\end{tabular}}}}%
+    \put(0.8856201,0.25444625){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}*\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=56]{class diagram_svg-tex.pdf}}%
+    \put(0.74768635,0.19020127){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}melakukan klaim (Penerima)\end{tabular}}}}%
+    \put(0.7874289,0.30333772){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1\end{tabular}}}}%
+    \put(0.80179906,0.07755003){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}*\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=57]{class diagram_svg-tex.pdf}}%
+    \put(0.89273094,0.11835204){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}histori pesanan\end{tabular}}}}%
+    \put(0.89187902,0.12630853){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1\end{tabular}}}}%
+    \put(0.879934,0.1107249){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}*\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=58]{class diagram_svg-tex.pdf}}%
+    \put(0.49495204,0.5911772){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}«uses»\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=59]{class diagram_svg-tex.pdf}}%
+    \put(0.25130406,0.48449708){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}«triggers»\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=60]{class diagram_svg-tex.pdf}}%
+    \put(0.61643951,0.48449708){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}«integrates»\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=61]{class diagram_svg-tex.pdf}}%
+    \put(0.68408211,0.48449708){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}«uses»\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=62]{class diagram_svg-tex.pdf}}%
+    \put(0.76653205,0.48449708){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}«triggers XP»\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=63]{class diagram_svg-tex.pdf}}%
+    \put(0.83787649,0.39632613){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}update points \& rank\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=64]{class diagram_svg-tex.pdf}}%
+    \put(0.94422009,0.32565475){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}update status expired\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

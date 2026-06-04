@@ -30,28 +30,31 @@
 \contentsline {subsubsection}{\numberline {2.2.1.11}Solusi Signifikan (Perbaikan dari As-Is)}{20}{subsubsection.2.2.1.11}%
 \contentsline {subsection}{\numberline {2.2.2}Pengalaman Pengguna}{22}{subsection.2.2.2}%
 \contentsline {section}{\numberline {2.3}Identifikasi Aplikasi Sejenis}{37}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Analisis Kebutuhan Sistem}{39}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Analisis Grup Akses}{40}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Analisis Kebutuhan Fungsional}{42}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Analisis Kebutuhan Dukungan Sistem}{44}{subsection.2.4.3}%
-\contentsline {section}{\numberline {2.5}Analisis Kinerja Sistem}{46}{section.2.5}%
-\contentsline {chapter}{\numberline {3}PEMODELAN DAN PERANCANGAN}{48}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Arsitektur Sistem}{48}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Pemodelan Sistem dan Data}{50}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}\textit {Entity Relationship Diagram} (ERD)}{50}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}\textit {Class Diagram}}{54}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}\textit {Sequence Diagram}}{55}{subsection.3.2.3}%
-\contentsline {subsubsection}{\numberline {3.2.3.1}Alur Global (Umum)}{55}{subsubsection.3.2.3.1}%
-\contentsline {subsubsection}{\numberline {3.2.3.2}Alur Donatur (Individu \& Korporat)}{56}{subsubsection.3.2.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.3.3}Alur Eksklusif Donatur Korporat (AI Generatif)}{58}{subsubsection.3.2.3.3}%
-\contentsline {subsubsection}{\numberline {3.2.3.4}Alur Penerima Donasi}{59}{subsubsection.3.2.3.4}%
-\contentsline {subsubsection}{\numberline {3.2.3.5}Alur Relawan}{61}{subsubsection.3.2.3.5}%
-\contentsline {subsubsection}{\numberline {3.2.3.6}Alur Sistem Internal}{63}{subsubsection.3.2.3.6}%
-\contentsline {subsubsection}{\numberline {3.2.3.7}Alur Admin \& Super Admin}{63}{subsubsection.3.2.3.7}%
-\contentsline {section}{\numberline {3.3}Perancangan Antarmuka Pengguna}{68}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Prinsip Desain}{68}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Halaman Utama per Peran Pengguna}{69}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Alur Navigasi Kritis}{70}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}Kebutuhan Perangkat Keras dan Perangkat Lunak}{70}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Pengembangan Sistem}{70}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Implementasi Sistem}{73}{subsection.3.4.2}%
+\contentsline {section}{\numberline {2.4}Analisis Kebutuhan Sistem}{40}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Analisis Grup Akses}{41}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Analisis Kebutuhan Fungsional}{43}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Analisis Kebutuhan Dukungan Sistem}{45}{subsection.2.4.3}%
+\contentsline {section}{\numberline {2.5}Analisis Kinerja Sistem}{47}{section.2.5}%
+\contentsline {chapter}{\numberline {3}PEMODELAN DAN PERANCANGAN}{49}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Arsitektur Sistem}{49}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Pemodelan Sistem dan Data}{51}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}\textit {Use Case}}{51}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}\textit {Entity Relationship Diagram} (ERD)}{51}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}\textit {Class Diagram}}{55}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}\textit {Sequence Diagram}}{63}{subsection.3.2.4}%
+\contentsline {subsubsection}{\numberline {3.2.4.1}Alur Global (Umum)}{63}{subsubsection.3.2.4.1}%
+\contentsline {subsubsection}{\numberline {3.2.4.2}Alur Donatur (Individu \& Korporat)}{64}{subsubsection.3.2.4.2}%
+\contentsline {subsubsection}{\numberline {3.2.4.3}Alur Eksklusif Donatur Korporat (AI Generatif)}{66}{subsubsection.3.2.4.3}%
+\contentsline {subsubsection}{\numberline {3.2.4.4}Alur Penerima Donasi}{67}{subsubsection.3.2.4.4}%
+\contentsline {subsubsection}{\numberline {3.2.4.5}Alur Relawan}{69}{subsubsection.3.2.4.5}%
+\contentsline {subsubsection}{\numberline {3.2.4.6}Alur Sistem Internal}{71}{subsubsection.3.2.4.6}%
+\contentsline {subsubsection}{\numberline {3.2.4.7}Alur Admin \& Super Admin}{71}{subsubsection.3.2.4.7}%
+\contentsline {section}{\numberline {3.3}Perancangan Antarmuka Pengguna}{76}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Antarmuka Pemasaran Publik dan Autentikasi}{77}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Antarmuka Dasbor Donatur (Individu dan Korporat)}{77}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Antarmuka Dasbor Penerima Donasi}{77}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Antarmuka Dasbor Relawan}{77}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Antarmuka Dasbor Admin dan Super Admin}{77}{subsection.3.3.5}%
+\contentsline {section}{\numberline {3.4}Kebutuhan Perangkat Keras dan Perangkat Lunak}{77}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Pengembangan Sistem}{77}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Implementasi Sistem}{80}{subsection.3.4.2}%

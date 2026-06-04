@@ -18,14 +18,12 @@
 \usepackage{tabularx}
 \usepackage{longtable}
 \usepackage{seqsplit}
+\usepackage{svg}
 \usepackage{array}
 \renewcommand{\tabularxcolumn}[1]{m{#1}}
 \newcolumntype{L}{>{\raggedright\arraybackslash}X}
 \newcolumntype{C}{>{\centering\arraybackslash}X}
 \newcolumntype{R}{>{\raggedleft\arraybackslash}X}
-% Column types for longtable (fixed width, compatible with longtable)
-\newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
-\newcolumntype{Q}[1]{>{\centering\arraybackslash}p{#1}}
 \usepackage{caption}
 \usepackage{subcaption}
 % \usepackage{hyperref} (Moved to the end)
@@ -35,8 +33,8 @@
 \usepackage{mathptmx} % Use Times New Roman style font
 \usepackage{amssymb}
 \usepackage{pifont}
-\newcommand{\cmark}{\scalebox{1.2}{\textcolor{blue}{\ding{51}}}}%
-\newcommand{\xmark}{\scalebox{1.2}{\textcolor{red}{\ding{55}}}}%
+\newcommand{\cmark}{\scalebox{2.0}{\textcolor{blue}{\ding{51}}}}%
+\newcommand{\xmark}{\scalebox{2.0}{\textcolor{red}{\ding{55}}}}%
 
 % --- Global Style Adjustments ---
 \let\cleardoublepage\clearpage

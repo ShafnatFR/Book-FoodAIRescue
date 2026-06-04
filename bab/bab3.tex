@@ -95,6 +95,8 @@ Tahapan pemodelan sistem dan data bertujuan untuk memvisualisasikan alur interak
 %     \item[UC-08 – Generate Konten AI Korporat:] Eksklusif untuk Donatur Korporat. Mencakup fitur \textit{Eco Packaging Editor} untuk menghasilkan desain kemasan ramah lingkungan dan \textit{CSR Copywriter} untuk menghasilkan konten promosi media sosial secara otomatis.
 % \end{description}
 
+\subsection{\textit{Use Case}}
+
 \subsection{\textit{Entity Relationship Diagram} (ERD)}
 ERD berikut menggambarkan struktur basis data relasional yang menjadi fondasi penyimpanan data platform Food AI Rescue. Entitas utama dan relasinya dijabarkan sebagai berikut:
 
@@ -195,50 +197,94 @@ ERD berikut menggambarkan struktur basis data relasional yang menjadi fondasi pe
 \end{itemize}
 
 \subsection{\textit{Class Diagram}}
-\textit{Class Diagram} menggambarkan struktur objek pada lapisan \textit{backend} (Node.js) yang mengimplementasikan logika bisnis sistem. Kelas-kelas utama beserta atribut dan metodenya adalah sebagai berikut:
+\textit{Class Diagram} (Diagram Kelas) pada aplikasi \textit{Food AI Rescue} (FAR) dimodelkan menggunakan pendekatan \textit{Service-Oriented Architecture} (SOA) yang memisahkan antara entitas data (Model), layanan pemroses (\textit{Service}/\textit{Utility}), dan antarmuka pengguna (\textit{Component}). Pemisahan ini ditandai dengan penggunaan \textit{stereotype} (seperti \texttt{<<entity>>}, \texttt{<<service>>}, dan \texttt{<<component>>}) guna mengidentifikasi peran masing-masing kelas di dalam sistem.
 
-\begin{longtable}{|p{3.5cm}|p{5.5cm}|p{5.5cm}|}
-    \caption{Kelas Utama pada Lapisan \textit{Backend}}
+Rincian spesifikasi kelas, deskripsi fungsi, beserta daftar atribut dan metode (operasi) yang menyertainya dijabarkan secara lengkap pada Tabel \ref{tab:class-diagram} berikut:
+
+\begin{longtable}{|p{0.4cm}|p{2.8cm}|p{3.5cm}|p{3cm}|p{3.8cm}|}
+    \caption{Spesifikasi dan Penjelasan \textit{Class Diagram}}
     \label{tab:class-diagram} \\
     \hline
-    \textbf{Kelas} & \textbf{Atribut} & \textbf{Metode Utama} \\
+    \textbf{No} & \textbf{Nama Kelas \& \textit{Stereotype}} & \textbf{Deskripsi / Fungsi} & \textbf{Atribut Utama} & \textbf{Operasi / Metode Utama} \\
     \hline
     \endfirsthead
     \hline
-    \textbf{Kelas} & \textbf{Atribut} & \textbf{Metode Utama} \\
+    \textbf{No} & \textbf{Nama Kelas \& \textit{Stereotype}} & \textbf{Deskripsi / Fungsi} & \textbf{Atribut Utama} & \textbf{Operasi / Metode Utama} \\
     \hline
     \endhead
     \hline
-    \multicolumn{3}{r}{\textit{Bersambung ke halaman berikutnya}} \\
+    \multicolumn{5}{r}{\textit{Bersambung ke halaman berikutnya}} \\
     \endfoot
     \hline
     \endlastfoot
-    \texttt{User} & id, name, email, role, address, qrCode, points & \texttt{register()}, \texttt{login()}, \texttt{generateQR()}, \texttt{getProfile()} \\
+
+    1 & \textbf{System Enums} \newline \texttt{<<enumeration>>} & Kumpulan tipe data statis konstan yang digunakan untuk membatasi nilai input (seperti jenis peran, status makanan, dan metode pengiriman) guna mencegah anomali data di seluruh sistem. & \tbltt{UserRole, FoodStatus, ClaimStatus, DeliveryMethod} & \textit{(Tidak memiliki operasi/metode, hanya berisi nilai konstan)} \\
     \hline
-    \texttt{Donation} & id, donorId, title, quantity, photoUrl, aiStatus, status, location & \texttt{create()}, \texttt{publish()}, \texttt{updateStatus()}, \texttt{getByLocation()} \\
+
+    2 & \textbf{UserData} \newline \texttt{<<entity>>} & Merepresentasikan model data profil pengguna terdaftar, termasuk penyimpanan kredensial, peran (\textit{role}), dan total poin kontribusi (SROI/XP). & \tbltt{id, name, email, role, status, points, phone, address, password} & \tbltt{authenticate(), updatePoints(), verifyOTP()} \\
     \hline
-    \texttt{Claim} & id, donationId, receiverId, method, status & \texttt{create()}, \texttt{cancel()}, \texttt{complete()} \\
+
+    3 & \textbf{FoodItem} \newline \texttt{<<entity>>} & Merepresentasikan model data inventaris makanan surplus dari donatur. Menyimpan data kuantitas, waktu kadaluarsa, hingga hasil JSON verifikasi AI dan kalkulasi dampak sosial. & \tbltt{id, providerId, name, currentQuantity, expiryTime, aiVerification, socialImpact} & \tbltt{deductStock(), checkExpiry(), updateStatus()} \\
     \hline
-    \texttt{Delivery} & id, claimId, volunteerId, pickupScanAt, deliveryScanAt & \texttt{assignVolunteer()}, \texttt{scanPickup()}, \texttt{scanDelivery()} \\
+
+    4 & \textbf{ClaimHistoryItem} \newline \texttt{<<entity>>} & Merepresentasikan model log transaksi pesanan yang menghubungkan entitas Donatur, Penerima, dan Relawan. Menyimpan kode unik serah terima dan data ulasan. & \tbltt{id, foodId, receiverId, volunteerId, uniqueCode, status, rating, review} & \tbltt{generateQR(), assignVolunteer(), scanAndComplete()} \\
     \hline
-    \texttt{AIService} & apiKey, model & \texttt{verifyFood()}, \texttt{generatePackaging()}, \texttt{generateCopywriting()} \\
+
+    5 & \textbf{Address} \newline \texttt{<<entity>>} & Model data yang menyimpan detail koordinat geolokasi dan alamat fisik pengguna untuk keperluan pemetaan dan penjemputan logistik. & \tbltt{id, userId, label, fullAddress, lat, lng, contactPhone} & \textit{(Sebagai entitas data murni, dimanipulasi oleh layanan basis data)} \\
     \hline
-    \texttt{QRService} & -- & \texttt{generate()}, \texttt{validate()}, \texttt{markUsed()} \\
+
+    6 & \textbf{DatabaseService} \newline \texttt{<<service>>} & Modul \textit{backend} utama yang bertugas mengelola koneksi dan mengeksekusi kueri langsung ke basis data MySQL (proses CRUD transaksi). & \tbltt{API\_URL, headers} & \tbltt{registerUser(), loginUser(), addFoodItem(), processClaimTransaction(), getClaims()} \\
     \hline
-    \texttt{SROICalculator} & -- & \texttt{calculate()}, \texttt{getReport()}, \texttt{getCarbonReduction()} \\
+
+    7 & \textbf{AIService} \newline \texttt{<<service>>} & Layanan integrasi sistem cerdas yang menangani komunikasi (API \textit{Call}) ke model \textit{Google Gemini} untuk validasi makanan dan \textit{Generate} CSR. & \tbltt{apiKeys, currentKeyIndex, model} & \tbltt{verifyFoodSafety(), generateCSRContent(), designPackaging(), rotateKey()} \\
     \hline
-    \texttt{Leaderboard} & volunteerId, totalMissions, totalPoints, rank & \texttt{update()}, \texttt{getRanking()}, \texttt{addPoints()} \\
+
+    8 & \textbf{FileService} \newline \texttt{<<service>>} & Modul pengelola media untuk menangani kompresi, penyimpanan (\textit{upload}), dan penghapusan berkas gambar/foto ke dalam direktori lokal server. & \tbltt{uploadPath, maxFileSize} & \tbltt{uploadImage(), optimizeImage(), deleteFile()} \\
     \hline
+
+    9 & \textbf{GamificationService} \newline \texttt{<<utility>>} & Skrip utilitas (\textit{helper}) yang berisi logika kalkulasi untuk menghitung \textit{Experience Point} (XP), menentukan pangkat (\textit{rank}), dan memberikan lencana ke pengguna. & \tbltt{rankLevels, badges} & \tbltt{calculateXP(), evaluateRank(), awardBadge(), getLeaderboard()} \\
+    \hline
+
+    10 & \textbf{ExpiryChecker} \newline \texttt{<<utility>>} & Pekerja latar belakang (\textit{background job}) yang secara berkala memeriksa waktu dan mengubah status makanan jika telah melewati batas waktu aman konsumsi. & \textit{(Skrip berjalan independen tanpa atribut state tetap)} & \tbltt{checkAndExpireItems(), isFoodExpired()} \\
+    \hline
+
+    11 & \textbf{App} \newline \texttt{<<component>>} & Komponen akar (\textit{root}) dari \textit{Frontend} (React) yang bertindak sebagai \textit{router} utama pengelola sesi dan pengarah antarmuka ke dasbor masing-masing \textit{role}. & \tbltt{currentView, role, currentUser, isDarkMode} & \tbltt{handleLogin(), handleLogout(), handleClaimFood(), renderContent()} \\
+    \hline
+
+    12 & \textbf{ProviderIndex} \newline \texttt{<<component>>} & Komponen antarmuka pengguna untuk Donatur (Individu/Korporat). Mengelola UI inventaris, riwayat donasi, dan pemicu alat AI Korporat. & \tbltt{foodItems, claimHistory} & \tbltt{renderDashboard(), renderInventory(), renderOrders()} \\
+    \hline
+
+    13 & \textbf{ReceiverIndex} \newline \texttt{<<component>>} & Komponen antarmuka pengguna untuk Penerima. Mengelola UI katalog makanan yang tersedia dan formulir penyelesaian klaim/laporan. & \tbltt{availableFood, selectedFood} & \tbltt{renderFoodList(), renderFoodDetail(), handleClaim()} \\
+    \hline
+
+    14 & \textbf{VolunteerIndex} \newline \texttt{<<component>>} & Komponen antarmuka pengguna untuk Relawan. Mengelola UI papan misi (\textit{Missions Board}) geografis dan visualisasi \textit{leaderboard} gamifikasi. & \tbltt{missions, leaderboard} & \tbltt{renderMissions(), acceptMission(), renderLeaderboard()} \\
+    \hline
+
+    15 & \textbf{AdminIndex} \newline \texttt{<<component>>} & Komponen antarmuka pengguna panel kontrol untuk Administrator. Digunakan untuk memoderasi laporan sengketa dan memverifikasi pengguna baru. & \tbltt{users, reports, systemLogs} & \tbltt{renderCommunity(), renderModeration(), verifyUser()} \\
+    \hline
+
 \end{longtable}
 
 \noindent Hubungan antar kelas yang penting:
 \begin{itemize}
-    \item \texttt{Donation} berasosiasi dengan \texttt{User} (donatur) dan \texttt{AIService} (untuk verifikasi).
-    \item \texttt{Claim} berasosiasi dengan \texttt{Donation} dan \texttt{User} (penerima).
-    \item \texttt{Delivery} berasosiasi dengan \texttt{Claim}, \texttt{User} (relawan), dan \texttt{QRService}.
-    \item \texttt{SROICalculator} bergantung pada data \texttt{Donation} yang telah selesai.
-    \item \texttt{Leaderboard} diperbarui oleh \texttt{Delivery} setiap kali misi diselesaikan.
+    \item \texttt{App} (\texttt{<<component>>}) bertindak sebagai orkestrator utama yang menginstansiasi \texttt{DatabaseService} dan \texttt{AIService} untuk seluruh operasi data dan AI.
+    \item \texttt{FoodItem} berasosiasi dengan \texttt{AIService} melalui atribut \texttt{aiVerification} yang diisi setelah proses \texttt{verifyFoodSafety()} selesai.
+    \item \texttt{ClaimHistoryItem} berasosiasi dengan \texttt{GamificationService} — setiap kali \texttt{scanAndComplete()} dipanggil, sistem memicu \texttt{calculateXP()} dan \texttt{evaluateRank()}.
+    \item \texttt{ExpiryChecker} memantau seluruh entitas \texttt{FoodItem} secara periodik dan memanggil \texttt{updateStatus()} jika makanan telah melewati \texttt{expiryTime}.
+    \item \texttt{FileService} digunakan oleh \texttt{DatabaseService} setiap kali ada operasi unggah foto makanan atau aset AI generatif.
 \end{itemize}
+
+\newpage
+\begin{landscape}
+    \centering
+    \vfill
+    \includesvg[width=\linewidth, height=0.85\textheight, keepaspectratio, inkscapelatex=false]{image/bab3/class diagram}
+    \captionsetup{hypcap=false}
+    \captionof{figure}{\textit{Class Diagram} Food AI Rescue}
+    \label{fig:class-diagram}
+    \vfill
+\end{landscape}
+\newpage
 
 \subsection{\textit{Sequence Diagram}}
 \textit{Sequence diagram} merupakan grafik dua dimensi di mana objek ditunjukkan pada dimensi horizontal, sedangkan garis waktu (\textit{lifeline}) ditunjukkan pada dimensi vertikal. Pada sistem Food AI Rescue, \textit{Sequence Diagram} digunakan untuk memvisualisasikan urutan interaksi antara pengguna (aktor) dan berbagai komponen sistem dalam mengeksekusi sebuah proses. Diagram ini menguraikan secara terperinci bagaimana aliran pesan (\textit{message}) dikirim dan diterima secara berurutan, dimulai dari interaksi pengguna pada antarmuka aplikasi (\textit{Client/Frontend}), pemrosesan permintaan oleh peladen (\textit{Backend API}), integrasi dengan layanan Kecerdasan Buatan (\textit{Google Gemini AI}), hingga proses penyimpanan dan pemberian respons oleh basis data (\textit{Database}).
@@ -523,64 +569,31 @@ Super Admin mengakses \textit{System Config} dan menggeser tuas ``Maintenance Mo
 \section{Perancangan Antarmuka Pengguna}
 % ==============================================================================
 
-Perancangan antarmuka pengguna (\textit{User Interface}/UI) pada platform \textit{Food AI Rescue} dikembangkan dengan berlandaskan pada prinsip \textit{Human-Centered Design} (HCD). Mengacu pada hasil ekstraksi artefak \textit{User Experience} (UX) pada tahap analisis---seperti \textit{User Persona}, \textit{Empathy Map}, dan \textit{Customer Journey Map}---desain visual dirancang secara spesifik untuk memecahkan titik keluhan (\textit{pain points}) pengguna di lapangan. Subbab ini akan menjabarkan prinsip desain visual antarmuka, tata letak fungsional untuk masing-masing peran dalam ekosistem \textit{Role-Based Access Control} (RBAC), serta pemetaan alur navigasi kritis guna memastikan pengalaman pengguna yang intuitif, inklusif, dan responsif lintas perangkat.
+Perancangan antarmuka pengguna (\textit{User Interface Design}) merupakan tahapan krusial dalam pengembangan sistem yang bertujuan untuk menjembatani interaksi antara pengguna dengan fungsionalitas di balik layar secara intuitif, efisien, dan estetis. Pada platform \textbf{Food AI Rescue}, antarmuka dirancang berbasis \textit{Progressive Web App} (PWA) menggunakan \textit{framework} React.js dengan TypeScript guna memberikan pengalaman pengguna (\textit{User Experience}/UX) yang sangat responsif, modern, dan dapat diakses dengan lancar lintas perangkat.
 
-Perancangan antarmuka pengguna (\textit{User Interface}/UI) platform Food AI Rescue mengacu pada prinsip \textit{Human-Centered Design} yang telah diidentifikasi melalui artefak UX pada Bab 2 (\textit{User Persona}, \textit{Empathy Map}, dan \textit{Customer Journey Map}). Desain antarmuka dirancang agar intuitif, responsif di berbagai ukuran layar, dan mengutamakan kemudahan navigasi bagi seluruh segmen pengguna.
+Secara visual, desain antarmuka aplikasi Food AI Rescue mengusung konsep premium interaktif dengan gaya tembus pandang (\textit{Glassmorphism}) yang dipadukan dengan pesona latar belakang \textit{mesh gradients}. Guna mempermudah navigasi dan interaksi, antarmuka ini juga dibekali dengan elemen visual dinamis seperti animasi alur operasional (\textit{Roadmap}) dan \textit{cursor follower} khusus yang dirancang untuk memandu pengguna baru dalam menjelajahi ekosistem aplikasi.
 
-\subsection{Prinsip Desain}
-Antarmuka platform FAR dirancang berdasarkan prinsip-prinsip berikut:
-\begin{enumerate}
-    \item \textbf{Kejelasan Peran (\textit{Role Clarity})}: Setiap pengguna langsung diarahkan ke dasbor yang sesuai dengan perannya setelah \textit{login}, sehingga tidak ada kebingungan navigasi lintas peran.
-    \item \textbf{Aksi Utama yang Menonjol}: Tombol aksi kritis seperti ``Donasikan Makanan'', ``Klaim Sekarang'', dan ``Pindai QR'' dirancang dengan kontras warna tinggi dan ukuran yang mudah dijangkau jari.
-    \item \textbf{Umpan Balik Instan}: Setiap interaksi dengan sistem AI memberikan respons visual yang jelas (indikator \textit{loading}, ikon centang hijau untuk layak, ikon silang merah untuk tidak layak).
-    \item \textbf{Desain Responsif}: Seluruh halaman dioptimalkan untuk tampilan \textit{mobile-first} mengingat mayoritas pengguna mengakses melalui perangkat \textit{smartphone}.
-\end{enumerate}
+Selain itu, tata letak setiap layar dirancang secara eksklusif mengikuti arsitektur hak akses (\textit{Role-Based Access Control}), sehingga masing-masing pengguna (Donatur Individu, Donatur Korporat, Penerima, Relawan, Admin, dan Super Admin) mendapatkan menu dan dasbor yang relevan dengan tugas mereka, mulai dari panel verifikasi keamanan pangan AI, pelacakan rute navigasi \textit{booking}, \textit{leaderboard} gamifikasi relawan, hingga visualisasi Dasbor Dampak Sosial (SROI).
 
-\subsection{Halaman Utama per Peran Pengguna}
-Berikut adalah rancangan halaman utama untuk setiap peran pengguna:
+\subsection{Antarmuka Pemasaran Publik dan Autentikasi}
 
-\begin{longtable}{|p{3.5cm}|p{11cm}|}
-    \caption{Rancangan Halaman Utama per Peran}
-    \label{tab:ui-pages} \\
-    \hline
-    \textbf{Peran} & \textbf{Halaman Utama dan Komponen Kunci} \\
-    \hline
-    \endfirsthead
-    \hline
-    \textbf{Peran} & \textbf{Halaman Utama dan Komponen Kunci} \\
-    \hline
-    \endhead
-    \hline
-    \multicolumn{2}{r}{\textit{Bersambung ke halaman berikutnya}} \\
-    \endfoot
-    \hline
-    \endlastfoot
-    Donatur Individu & Dasbor berisi tombol ``Donasikan Makanan'', riwayat donasi, dan widget SROI pribadi (porsi terselamatkan, estimasi CO$_2$ berkurang). \\
-    \hline
-    Donatur Korporat & Sama dengan Donatur Individu, ditambah panel eksklusif ``AI Generatif'' berisi \textit{Eco Packaging Editor} dan \textit{CSR Copywriter}. \\
-    \hline
-    Penerima & Halaman beranda berisi katalog makanan terdekat berbasis lokasi GPS, tombol ``Klaim'', dan halaman QR Code pribadi untuk serah terima. \\
-    \hline
-    Relawan & Halaman ``Misi Tersedia'' berisi daftar pengantaran aktif, peta rute, tombol ``Klaim Misi'', dan papan peringkat (\textit{leaderboard}) gamifikasi. \\
-    \hline
-    Admin Pengelola & Dasbor administratif berisi antrian verifikasi akun baru, laporan pengguna, peta panas (\textit{heatmap}) sebaran donasi, dan statistik SROI makro. \\
-    \hline
-    Super Admin & Panel manajemen \textit{backend} berisi monitor kesehatan server, manajemen basis data, dan log sistem. \\
-    \hline
-\end{longtable}
+% Tambahkan gambar dan penjelasan antarmuka halaman publik dan login di sini
 
-\subsection{Alur Navigasi Kritis}
-Dua alur navigasi yang paling sering digunakan dan paling kritis dalam sistem:
+\subsection{Antarmuka Dasbor Donatur (Individu dan Korporat)}
 
-\noindent \textbf{Alur Donasi (Donatur):}
-\begin{center}
-    \textit{Login} $\rightarrow$ Dasbor $\rightarrow$ Unggah Donasi $\rightarrow$ Pindai Foto (AI Verifikasi) $\rightarrow$ Isi Detail Donasi $\rightarrow$ Publikasikan $\rightarrow$ Tunggu Klaim
-\end{center}
+% Tambahkan gambar dan penjelasan antarmuka dasbor donatur di sini
 
-\noindent \textbf{Alur Klaim dan Terima (Penerima):}
-\begin{center}
-    \textit{Login} $\rightarrow$ Cari Makanan $\rightarrow$ Klaim $\rightarrow$ Pilih Metode $\rightarrow$ Tampilkan QR Code $\rightarrow$ Serah Terima $\rightarrow$ Konfirmasi Selesai
-\end{center}
+\subsection{Antarmuka Dasbor Penerima Donasi}
+
+% Tambahkan gambar dan penjelasan antarmuka dasbor penerima di sini
+
+\subsection{Antarmuka Dasbor Relawan}
+
+% Tambahkan gambar dan penjelasan antarmuka dasbor relawan di sini
+
+\subsection{Antarmuka Dasbor Admin dan Super Admin}
+
+% Tambahkan gambar dan penjelasan antarmuka dasbor admin dan super admin di sini
 
 % ==============================================================================
 \section{Kebutuhan Perangkat Keras dan Perangkat Lunak}
