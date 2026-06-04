@@ -1,15 +1,15 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'main.blg'
-[171] biber-MSWIN64:342> INFO - === 
-[241] Biber.pm:421> INFO - Reading 'main.bcf'
-[468] Biber.pm:1002> INFO - Found 13 citekeys in bib section 0
-[486] Biber.pm:4487> INFO - Processing section 0
-[505] Biber.pm:4678> INFO - Looking for bibtex file 'referensi.bib' for section 0
-[623] bibtex.pm:1713> INFO - LaTeX decoding ...
-[673] bibtex.pm:1519> INFO - Found BibTeX data source 'referensi.bib'
-[867] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[868] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'variable = shifted' with 'variable = non-ignorable'
-[868] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'indonesian'
-[868] Biber.pm:4313> INFO - No sort tailoring available for locale 'indonesian'
-[889] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[918] bbl.pm:779> INFO - Output to main.bbl
+[142] biber-MSWIN64:342> INFO - === 
+[196] Biber.pm:421> INFO - Reading 'main.bcf'
+[321] Biber.pm:1002> INFO - Found 13 citekeys in bib section 0
+[336] Biber.pm:4487> INFO - Processing section 0
+[349] Biber.pm:4678> INFO - Looking for bibtex file 'referensi.bib' for section 0
+[439] bibtex.pm:1713> INFO - LaTeX decoding ...
+[490] bibtex.pm:1519> INFO - Found BibTeX data source 'referensi.bib'
+[619] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[619] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'variable = shifted' with 'variable = non-ignorable'
+[619] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'indonesian'
+[619] Biber.pm:4313> INFO - No sort tailoring available for locale 'indonesian'
+[630] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[645] bbl.pm:779> INFO - Output to main.bbl
