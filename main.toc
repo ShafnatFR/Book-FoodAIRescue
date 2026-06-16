@@ -50,11 +50,36 @@
 \contentsline {subsubsection}{\numberline {3.2.4.6}Alur Sistem Internal}{72}{subsubsection.3.2.4.6}%
 \contentsline {subsubsection}{\numberline {3.2.4.7}Alur Admin \& Super Admin}{72}{subsubsection.3.2.4.7}%
 \contentsline {section}{\numberline {3.3}Perancangan Antarmuka Pengguna}{77}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Antarmuka Pemasaran Publik dan Autentikasi}{78}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Antarmuka Dasbor Donatur (Individu dan Korporat)}{78}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Antarmuka Dasbor Penerima Donasi}{78}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Antarmuka Dasbor Relawan}{78}{subsection.3.3.4}%
-\contentsline {subsection}{\numberline {3.3.5}Antarmuka Dasbor Admin dan Super Admin}{78}{subsection.3.3.5}%
-\contentsline {section}{\numberline {3.4}Kebutuhan Perangkat Keras dan Perangkat Lunak}{78}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Pengembangan Sistem}{78}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Implementasi Sistem}{81}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.3.1}Antarmuka Dasbor Donatur (Individu dan Korporat)}{78}{subsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.1}Daftar Donasi Baru}{78}{subsubsection.3.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.2}Dashboard Donatur}{78}{subsubsection.3.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.3.1.3}Hasil Audit Kualitas AI}{79}{subsubsection.3.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.3.1.4}Kitchen AI Asisten}{80}{subsubsection.3.3.1.4}%
+\contentsline {subsubsection}{\numberline {3.3.1.5}Manajemen Stok Donasi}{81}{subsubsection.3.3.1.5}%
+\contentsline {subsubsection}{\numberline {3.3.1.6}Copywriter AI (Eksklusif Donatur Korporat)}{82}{subsubsection.3.3.1.6}%
+\contentsline {subsubsection}{\numberline {3.3.1.7}Output Copywriter AI (Eksklusif Donatur Korporat)}{83}{subsubsection.3.3.1.7}%
+\contentsline {subsection}{\numberline {3.3.2}Antarmuka Dasbor Penerima Donasi}{84}{subsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.2.1}Detail Makanan}{84}{subsubsection.3.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.3.2.2}Detail Makanan Setelah Klaim}{85}{subsubsection.3.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.3.2.3}Halaman Utama (Katalog Makanan)}{86}{subsubsection.3.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.3.2.4}Riwayat Transaksi Makanan}{87}{subsubsection.3.3.2.4}%
+\contentsline {subsection}{\numberline {3.3.3}Antarmuka Dasbor Relawan}{88}{subsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.3.1}Detail Misi Pengantaran}{88}{subsubsection.3.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.3.2}Halaman Validasi Foto}{89}{subsubsection.3.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3.3}Halaman Utama (Missions Board)}{90}{subsubsection.3.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.3.4}Riwayat Misi dan Leaderboard}{91}{subsubsection.3.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.4}Antarmuka Dasbor Admin dan Super Admin}{92}{subsection.3.3.4}%
+\contentsline {subsubsection}{\numberline {3.3.4.1}Log Aktivitas Sistem}{92}{subsubsection.3.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.3.4.2}Daftar Admin}{93}{subsubsection.3.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.3.4.3}Broadcast Pesan}{94}{subsubsection.3.3.4.3}%
+\contentsline {subsubsection}{\numberline {3.3.4.4}Dashboard ESG (Environmental, Social, Governance)}{95}{subsubsection.3.3.4.4}%
+\contentsline {subsubsection}{\numberline {3.3.4.5}Dashboard Utama Admin}{96}{subsubsection.3.3.4.5}%
+\contentsline {subsubsection}{\numberline {3.3.4.6}Manajemen Distribusi}{97}{subsubsection.3.3.4.6}%
+\contentsline {subsubsection}{\numberline {3.3.4.7}Manajemen Komunitas}{98}{subsubsection.3.3.4.7}%
+\contentsline {subsubsection}{\numberline {3.3.4.8}Manajemen FAQ}{99}{subsubsection.3.3.4.8}%
+\contentsline {subsubsection}{\numberline {3.3.4.9}Milestone dan Ranking}{100}{subsubsection.3.3.4.9}%
+\contentsline {subsubsection}{\numberline {3.3.4.10}Moderasi Konten}{101}{subsubsection.3.3.4.10}%
+\contentsline {subsubsection}{\numberline {3.3.4.11}Pengaturan Sistem}{102}{subsubsection.3.3.4.11}%
+\contentsline {section}{\numberline {3.4}Kebutuhan Perangkat Keras dan Perangkat Lunak}{103}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Pengembangan Sistem}{103}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Implementasi Sistem}{106}{subsection.3.4.2}%

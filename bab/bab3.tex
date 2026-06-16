@@ -192,7 +192,7 @@ ERD berikut menggambarkan struktur basis data relasional yang menjadi fondasi pe
 \begin{landscape}
     \centering
     \vfill
-    \includegraphics[width=\linewidth, height=0.85\textheight, keepaspectratio]{image/bab3/erd.png}
+    \includesvg[width=\linewidth, height=0.85\textheight, keepaspectratio, inkscapelatex=false]{image/bab3/ERD}
     \captionsetup{hypcap=false}
     \captionof{figure}{Entity Relationship Diagram (ERD) Food AI Rescue}
     \label{fig:erd}
@@ -589,25 +589,333 @@ Secara visual, desain antarmuka aplikasi Food AI Rescue mengusung konsep premium
 
 Selain itu, tata letak setiap layar dirancang secara eksklusif mengikuti arsitektur hak akses (\textit{Role-Based Access Control}), sehingga masing-masing pengguna (Donatur Individu, Donatur Korporat, Penerima, Relawan, Admin, dan Super Admin) mendapatkan menu dan dasbor yang relevan dengan tugas mereka, mulai dari panel verifikasi keamanan pangan AI, pelacakan rute navigasi \textit{booking}, \textit{leaderboard} gamifikasi relawan, hingga visualisasi Dasbor Dampak Sosial (SROI).
 
-\subsection{Antarmuka Pemasaran Publik dan Autentikasi}
-
-% Tambahkan gambar dan penjelasan antarmuka halaman publik dan login di sini
-
 \subsection{Antarmuka Dasbor Donatur (Individu dan Korporat)}
 
-% Tambahkan gambar dan penjelasan antarmuka dasbor donatur di sini
+Antarmuka dasbor Donatur dirancang untuk memfasilitasi pengelolaan surplus makanan, pelacakan dampak sosial, dan integrasi fitur kecerdasan buatan. Donatur Individu dan Donatur Korporat memiliki sebagian besar fitur yang sama, dengan penambahan eksklusif fitur AI generatif untuk Donatur Korporat.
+
+% ------------------------------------------------------------------
+\subsubsection{Daftar Donasi Baru}
+
+Halaman ini menampilkan formulir unggah donasi makanan baru. Donatur mengisi informasi seperti nama makanan, jumlah porsi, kategori, waktu kedaluwarsa, dan mengunggah foto. Setiap unggahan akan melewati proses verifikasi AI sebelum dipublikasikan ke katalog.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Donatur/01-Daftar-Donasi-Baru.png}
+    \caption{Antarmuka Formulir Unggah Donasi Baru}
+    \label{fig:ui-donatur-upload}
+\end{figure}
+
+% ------------------------------------------------------------------
+\subsubsection{Dashboard Donatur}
+
+Dasbor utama yang menampilkan ringkasan statistik kontribusi donatur, termasuk jumlah total donasi, porsi makanan yang telah disalurkan, poin dampak sosial (SROI), dan grafik visual reduksi emisi karbon. Dasbor ini juga menampilkan notifikasi klaim masuk dan status verifikasi makanan terkini.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Donatur/02-Dashboard.png}
+    \caption{Antarmuka Dasbor Utama Donatur}
+    \label{fig:ui-donatur-dashboard}
+\end{figure}
+
+% ------------------------------------------------------------------
+\subsubsection{Hasil Audit Kualitas AI}
+
+Setelah donatur mengunggah foto makanan, sistem secara otomatis mengirimkan gambar ke Google Gemini Vision API untuk dianalisis. Halaman ini menampilkan hasil audit berupa skor keamanan pangan, daftar bahan, potensi alergen, status kehalalan, dan rekomendasi kelayakan konsumsi. Hasil ini menjadi acuan utama sebelum makanan dipublikasikan.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Donatur/03-Hasil-Audit-Kualitas-AI.png}
+    \caption{Antarmuka Hasil Audit Kualitas Makanan oleh AI}
+    \label{fig:ui-donatur-audit-ai}
+\end{figure}
+
+% ------------------------------------------------------------------
+\subsubsection{Kitchen AI Asisten}
+
+Fitur asisten dapur berbasis AI yang membantu donatur dalam mengidentifikasi makanan, memberikan saran penyimpanan, dan mengestimasi masa simpan optimal. Asisten ini juga dapat memberikan rekomendasi cara terbaik untuk mendonasikan makanan surplus agar tetap aman dan layak konsumsi.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Donatur/04-Kitchen-AI-Asisten.png}
+    \caption{Antarmuka Kitchen AI Asisten}
+    \label{fig:ui-donatur-kitchen-ai}
+\end{figure}
+
+% ------------------------------------------------------------------
+\subsubsection{Manajemen Stok Donasi}
+
+Halaman pengelolaan inventaris yang menampilkan daftar lengkap donasi makanan yang telah diunggah, status masing-masing item (tersedia, diklaim, kedaluwarsa), serta riwayat transaksi. Donatur dapat mengedit, menghapus, atau memperbarui informasi donasi secara langsung dari halaman ini.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Donatur/05-Manajemen-Stok.png}
+    \caption{Antarmuka Manajemen Stok Donasi}
+    \label{fig:ui-donatur-stok}
+\end{figure}
+
+% ------------------------------------------------------------------
+\subsubsection{Copywriter AI (Eksklusif Donatur Korporat)}
+
+Fitur eksklusif untuk Donatur Korporat yang mengintegrasikan AI generatif untuk menghasilkan konten promosi CSR (\textit{Corporate Social Responsibility}). Pengguna dapat memilih jenis makanan, nada bahasa (\textit{tone}), dan platform target (Instagram, LinkedIn, Twitter). Sistem akan menghasilkan dua versi teks takarir (\textit{caption}) yang siap digunakan untuk publikasi media sosial.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Donatur/06-Copywriter-AI.png}
+    \caption{Antarmuka Copywriter AI untuk Konten CSR}
+    \label{fig:ui-donatur-copywriter}
+\end{figure}
+
+% ------------------------------------------------------------------
+\subsubsection{Output Copywriter AI (Eksklusif Donatur Korporat)}
+
+Halaman hasil yang menampilkan dua versi konten CSR yang telah di-\textit{generate} oleh AI. Donatur Korporat dapat memilih, menyalin, mengedit, atau langsung membagikan konten tersebut ke platform media sosial. Setiap hasil generasi juga disimpan ke dalam riwayat untuk referensi di masa mendatang.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Donatur/07-Output-Copywriter-AI.png}
+    \caption{Antarmuka Output Hasil Copywriter AI}
+    \label{fig:ui-donatur-output-copywriter}
+\end{figure}
 
 \subsection{Antarmuka Dasbor Penerima Donasi}
 
-% Tambahkan gambar dan penjelasan antarmuka dasbor penerima di sini
+Antarmuka dasbor Penerima dirancang dengan fokus pada kemudahan akses terhadap katalog makanan yang tersedia, proses klaim yang sederhana, serta transparansi riwayat transaksi. Desain ini mengutamakan pengalaman pengguna yang intuitif dan responsif untuk memastikan penerima dapat dengan cepat menemukan dan mengklaim makanan yang mereka butuhkan.
+
+% ------------------------------------------------------------------
+\subsubsection{Detail Makanan}
+
+Halaman detail yang menampilkan informasi lengkap mengenai satu item donasi makanan, meliputi foto, nama, deskripsi, jumlah porsi tersedia, lokasi donatur, estimasi waktu kedaluwarsa, hasil verifikasi AI (skor keamanan dan alergen), serta peta lokasi. Dari halaman ini, penerima dapat langsung melakukan klaim dengan memilih metode pengambilan (\textit{pick-up} mandiri atau diantar relawan).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Penerima/01-Detail-Makanan.png}
+    \caption{Antarmuka Detail Informasi Makanan}
+    \label{fig:ui-penerima-detail}
+\end{figure}
+
+% ------------------------------------------------------------------
+\subsubsection{Detail Makanan Setelah Klaim}
+
+Setelah penerima berhasil melakukan klaim, halaman detail makanan akan menampilkan informasi tambahan seperti kode unik serah terima (QR Code), status klaim terkini (\textit{pending}, \textit{approved}, \textit{in progress}, atau \textit{completed}), estimasi waktu pengantaran, dan informasi relawan yang bertugas (jika metode pengantaran dipilih). Halaman ini juga menyediakan tombol untuk menghubungi donatur atau relawan, serta opsi untuk membatalkan klaim jika dibutuhkan.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Penerima/02-Detail-Makanan-Claim.png}
+    \caption{Antarmuka Detail Makanan Setelah Klaim}
+    \label{fig:ui-penerima-claim}
+\end{figure}
+
+% ------------------------------------------------------------------
+\subsubsection{Halaman Utama (Katalog Makanan)}
+
+Dasbor utama Penerima yang menampilkan katalog lengkap makanan surplus yang tersedia dalam bentuk kartu (\textit{card layout}). Setiap kartu menampilkan foto makanan, nama, jumlah porsi, jarak dari lokasi penerima, dan skor keamanan AI. Halaman ini dilengkapi dengan fitur pencarian, filter berdasarkan kategori makanan, dan penyortiran berdasarkan jarak atau waktu unggah.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Penerima/03-Halaman-Utama.png}
+    \caption{Antarmuka Halaman Utama Katalog Makanan (Penerima)}
+    \label{fig:ui-penerima-home}
+\end{figure}
+
+% ------------------------------------------------------------------
+\subsubsection{Riwayat Transaksi Makanan}
+
+Halaman riwayat yang menampilkan log lengkap seluruh transaksi klaim yang pernah dilakukan oleh penerima, termasuk status masing-masing transaksi (\textit{completed}, \textit{cancelled}, \textit{reported}), tanggal klaim, nama donatur, dan rating yang telah diberikan. Dari halaman ini, penerima juga dapat mengajukan laporan masalah (\textit{report}) atau memberikan ulasan (\textit{review}) untuk transaksi yang sudah selesai.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Penerima/04-Riwayat-Makanan.png}
+    \caption{Antarmuka Riwayat Transaksi Makanan (Penerima)}
+    \label{fig:ui-penerima-riwayat}
+\end{figure}
 
 \subsection{Antarmuka Dasbor Relawan}
 
-% Tambahkan gambar dan penjelasan antarmuka dasbor relawan di sini
+Antarmuka dasbor Relawan dirancang dengan fokus pada sistem gamifikasi, pelacakan misi pengantaran, dan validasi serah terima makanan. Desain ini mengintegrasikan elemen visual yang menarik seperti \textit{leaderboard}, poin pengalaman (XP), lencana (\textit{badges}), dan sistem peringkat untuk meningkatkan motivasi dan keterlibatan relawan dalam ekosistem platform.
+
+% ------------------------------------------------------------------
+\subsubsection{Detail Misi Pengantaran}
+
+Halaman detail yang menampilkan informasi lengkap mengenai satu misi pengantaran, meliputi nama makanan, jumlah porsi, lokasi pengambilan dari donatur, lokasi tujuan ke penerima, estimasi jarak tempuh, poin XP yang akan diperoleh, dan batas waktu pengantaran. Dari halaman ini, relawan dapat menerima atau menolak misi, serta mengakses navigasi peta untuk rute optimal.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Relawan/01-Detail-Misi.png}
+    \caption{Antarmuka Detail Misi Pengantaran}
+    \label{fig:ui-relawan-detail-misi}
+\end{figure}
+
+% ------------------------------------------------------------------
+\subsubsection{Halaman Validasi Foto}
+
+Sebelum memulai pengantaran, relawan diminta untuk memvalidasi kondisi makanan dengan memindai atau mengunggah foto makanan yang akan diantar. Sistem akan menggunakan AI untuk memverifikasi bahwa makanan masih dalam kondisi layak konsumsi dan sesuai dengan deskripsi awal dari donatur. Halaman ini memastikan transparansi dan kualitas dalam proses distribusi.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Relawan/02-Halaman-Validasi-Foto.png}
+    \caption{Antarmuka Halaman Validasi Foto Makanan}
+    \label{fig:ui-relawan-validasi-foto}
+\end{figure}
+
+% ------------------------------------------------------------------
+\subsubsection{Halaman Utama (Missions Board)}
+
+Dasbor utama relawan yang menampilkan \textit{Missions Board}—daftar misi pengantaran yang tersedia dalam bentuk kartu interaktif. Setiap kartu menampilkan informasi singkat misi, jarak tempuh, estimasi waktu, dan poin XP yang ditawarkan. Halaman ini juga dilengkapi dengan peta geografis yang menunjukkan lokasi misi di sekitar relawan, serta filter berdasarkan jarak, poin, atau tingkat urgensi.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Relawan/04-Halaman-Utama.png}
+    \caption{Antarmuka Halaman Utama \textit{Missions Board} (Relawan)}
+    \label{fig:ui-relawan-home}
+\end{figure}
+
+% ------------------------------------------------------------------
+\subsubsection{Riwayat Misi dan Leaderboard}
+
+Halaman riwayat yang menampilkan log lengkap seluruh misi yang pernah dikerjakan oleh relawan, termasuk status penyelesaian, poin yang diperoleh, rating dari penerima, dan lencana yang diraih. Halaman ini juga menampilkan \textit{leaderboard} global yang menunjukkan peringkat relawan berdasarkan total poin XP, memberikan elemen kompetisi sehat dan pengakuan atas kontribusi mereka.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Relawan/05-Riwayat-Misi.png}
+    \caption{Antarmuka Riwayat Misi dan \textit{Leaderboard} Gamifikasi}
+    \label{fig:ui-relawan-riwayat}
+\end{figure}
 
 \subsection{Antarmuka Dasbor Admin dan Super Admin}
 
-% Tambahkan gambar dan penjelasan antarmuka dasbor admin dan super admin di sini
+Antarmuka dasbor Admin dan Super Admin dirancang sebagai pusat kendali sistem yang menyediakan akses penuh terhadap pengelolaan pengguna, moderasi konten, pengaturan sistem, dan visualisasi metrik operasional platform. Desain antarmuka ini mengutamakan efisiensi navigasi, kejelasan informasi, dan kemudahan pengambilan keputusan untuk tugas-tugas administratif yang kompleks.
+
+% ------------------------------------------------------------------
+\subsubsection{Log Aktivitas Sistem}
+
+Halaman yang menampilkan catatan kronologis seluruh aktivitas penting yang terjadi di dalam sistem, meliputi tindakan pengguna (\textit{user actions}), perubahan konfigurasi, transaksi krusial, dan kejadian sistem (\textit{system events}). Setiap entri log mencatat informasi seperti timestamp, aktor (pengguna atau sistem), jenis tindakan, dan tingkat keparahan (\textit{severity level}). Halaman ini dilengkapi dengan fitur pencarian, filter berdasarkan tingkat keparahan, dan ekspor data log untuk keperluan audit.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Admin/01-Log-Aktivitas.png}
+    \caption{Antarmuka Log Aktivitas Sistem}
+    \label{fig:ui-admin-log}
+\end{figure}
+
+% ------------------------------------------------------------------
+\subsubsection{Daftar Admin}
+
+Halaman manajemen yang menampilkan daftar lengkap seluruh akun administrator beserta informasi peran, status aktif, dan hak akses masing-masing. Admin dengan level Super Admin dapat menambahkan, mengedit, atau menonaktifkan akun administrator lain. Halaman ini juga mencatat riwayat aktivitas setiap admin untuk keperluan akuntabilitas dan transparansi internal.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Admin/02-Daftar-Admin.png}
+    \caption{Antarmuka Daftar dan Manajemen Admin}
+    \label{fig:ui-admin-list}
+\end{figure}
+
+% ------------------------------------------------------------------
+\subsubsection{Broadcast Pesan}
+
+Fitur yang memungkinkan admin untuk mengirimkan pengumuman atau pesan siaran (\textit{broadcast}) kepada seluruh pengguna atau kelompok pengguna tertentu (berdasarkan peran, lokasi, atau status). Admin dapat memilih jenis pesan (informasi, peringatan, atau darurat), menulis konten pesan, dan menentukan target audiens. Setiap broadcast akan muncul sebagai notifikasi di dasbor pengguna yang dituju.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Admin/03-Broadcast-Pesan.png}
+    \caption{Antarmuka Broadcast Pesan Sistem}
+    \label{fig:ui-admin-broadcast}
+\end{figure}
+
+% ------------------------------------------------------------------
+\subsubsection{Dashboard ESG (Environmental, Social, Governance)}
+
+Dasbor khusus yang menampilkan visualisasi metrik dampak lingkungan dan sosial dari operasional platform Food AI Rescue. Halaman ini menyajikan grafik interaktif mengenai total reduksi limbah makanan (dalam kilogram), pengurangan emisi CO\textsubscript{2}, penghematan sumber daya air, jumlah porsi makanan yang berhasil diselamatkan, dan dampak sosial terhadap komunitas penerima. Data ini sangat penting untuk pelaporan keberlanjutan dan transparansi CSR.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Admin/04-Dashboard-ESG.png}
+    \caption{Antarmuka Dashboard ESG (Dampak Lingkungan dan Sosial)}
+    \label{fig:ui-admin-esg}
+\end{figure}
+
+% ------------------------------------------------------------------
+\subsubsection{Dashboard Utama Admin}
+
+Dasbor pusat yang menampilkan ringkasan statistik operasional platform secara menyeluruh, meliputi jumlah pengguna aktif, total donasi yang sedang berlangsung, transaksi yang diselesaikan hari ini, laporan yang menunggu moderasi, dan tren penggunaan platform. Dasbor ini dilengkapi dengan widget interaktif, grafik tren temporal, dan \textit{quick actions} untuk akses cepat ke fitur-fitur administratif yang sering digunakan.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Admin/05-Dashboard-Utama.png}
+    \caption{Antarmuka Dashboard Utama Admin}
+    \label{fig:ui-admin-dashboard}
+\end{figure}
+
+% ------------------------------------------------------------------
+\subsubsection{Manajemen Distribusi}
+
+Halaman pengelolaan logistik yang menampilkan peta geografis distribusi makanan secara \textit{real-time}, termasuk lokasi donatur, penerima, dan relawan yang sedang aktif. Admin dapat memantau status setiap transaksi pengantaran, mengidentifikasi bottleneck logistik, dan melakukan intervensi manual jika diperlukan (seperti menetapkan ulang relawan atau membatalkan transaksi bermasalah).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Admin/06-Manajemen-Distribusi.png}
+    \caption{Antarmuka Manajemen Distribusi Logistik}
+    \label{fig:ui-admin-distribusi}
+\end{figure}
+
+% ------------------------------------------------------------------
+\subsubsection{Manajemen Komunitas}
+
+Halaman yang menyediakan alat untuk mengelola interaksi komunitas dalam platform, termasuk forum diskusi, grup pengguna, dan fitur jejaring sosial internal. Admin dapat memoderasi konten yang dilaporkan, mengelola topik diskusi, dan memfasilitasi kolaborasi antar pengguna untuk memperkuat ekosistem platform.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Admin/07-Manajemen-Komunitas.png}
+    \caption{Antarmuka Manajemen Komunitas}
+    \label{fig:ui-admin-komunitas}
+\end{figure}
+
+% ------------------------------------------------------------------
+\subsubsection{Manajemen FAQ}
+
+Halaman untuk mengelola basis pengetahuan dan pertanyaan yang sering diajukan (\textit{Frequently Asked Questions}). Admin dapat menambahkan, mengedit, atau menghapus entri FAQ, mengkategorikannya berdasarkan topik, dan menyusunnya berdasarkan prioritas. FAQ ini akan ditampilkan di bagian bantuan platform untuk membantu pengguna menyelesaikan masalah secara mandiri.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Admin/08-Manajemen-FAQ.png}
+    \caption{Antarmuka Manajemen FAQ}
+    \label{fig:ui-admin-faq}
+\end{figure}
+
+% ------------------------------------------------------------------
+\subsubsection{Milestone dan Ranking}
+
+Halaman konfigurasi sistem gamifikasi yang memungkinkan admin untuk mengelola milestone, lencana (\textit{badges}), level peringkat, dan kriteria perolehan poin XP. Admin dapat menambahkan milestone baru, menyesuaikan threshold poin untuk setiap level, mendesain lencana khusus untuk event tertentu, dan memantau distribusi peringkat relawan secara keseluruhan.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Admin/09-Milestone-dan-Ranking.png}
+    \caption{Antarmuka Manajemen Milestone dan Ranking}
+    \label{fig:ui-admin-milestone}
+\end{figure}
+
+% ------------------------------------------------------------------
+\subsubsection{Moderasi Konten}
+
+Halaman yang menampilkan antrian laporan konten yang perlu dimoderasi, termasuk komplain dari penerima, foto makanan yang mencurigakan, ulasan yang tidak pantas, atau pelanggaran ketentuan layanan lainnya. Admin dapat meninjau setiap kasus, melihat bukti yang dilampirkan, mengambil tindakan (menyetujui, menolak, atau memberikan peringatan), dan mencatat keputusan moderasi untuk referensi di masa mendatang.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Admin/10-Moderasi-Konten.png}
+    \caption{Antarmuka Moderasi Konten dan Laporan}
+    \label{fig:ui-admin-moderasi}
+\end{figure}
+
+% ------------------------------------------------------------------
+\subsubsection{Pengaturan Sistem}
+
+Halaman konfigurasi tingkat lanjut yang memberikan akses ke seluruh pengaturan operasional platform. Admin dapat mengatur parameter sistem seperti durasi kadaluwarsa token, threshold verifikasi AI, biaya poin XP per aktivitas, mode pemeliharaan (\textit{maintenance mode}), integrasi API pihak ketiga, dan pengaturan keamanan lainnya. Perubahan pada halaman ini memerlukan konfirmasi tambahan untuk mencegah kesalahan konfigurasi yang dapat mengganggu operasional sistem.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Admin/11-Pengaturan-Sistem.png}
+    \caption{Antarmuka Pengaturan dan Konfigurasi Sistem}
+    \label{fig:ui-admin-pengaturan}
+\end{figure}
 
 % ==============================================================================
 \section{Kebutuhan Perangkat Keras dan Perangkat Lunak}
@@ -636,19 +944,21 @@ Kebutuhan perangkat keras (\textit{hardware}) yang digunakan oleh penulis dalam 
     \endfoot
     \hline
     \endlastfoot
-    1 & Laptop & Digunakan sebagai \textit{workstation} utama untuk mengembangkan dan menjalankan program atau aplikasi. & Lenovo IdeaPad 3 14IAU7 \\
+    1 & Laptop & Digunakan sebagai \textit{workstation} utama untuk mengembangkan dan menjalankan program atau aplikasi. & Lenovo IdeaPad 5 (82K1) \\
     \hline
-    2 & Prosesor & Berfungsi memproses instruksi komputasi dan menjalankan arsitektur aplikasi \textit{client-server}. & 12th Gen Intel(R) Core(TM) i3-1215U (1.20 GHz) \\
+    2 & Prosesor & Berfungsi memproses instruksi komputasi dan menjalankan arsitektur aplikasi \textit{client-server}. & 11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz (8 CPUs) \\
     \hline
-    3 & RAM & Memori sementara yang mendukung kinerja sistem saat mengompilasi kode dan mengolah data secara lokal. & 8 GB DDR4 \\
+    3 & RAM & Memori sementara yang mendukung kinerja sistem saat mengompilasi kode dan mengolah data secara lokal. & 16 GB DDR4 \\
     \hline
-    4 & Penyimpanan & Menyimpan sistem operasi, data \textit{database}, dan \textit{source code} proyek agar dapat diakses dengan cepat. & SSD 512 GB \\
+    4 & Penyimpanan & Menyimpan sistem operasi, data \textit{database}, dan \textit{source code} proyek agar dapat diakses dengan cepat. & SSD 512 GB (Samsung MZALQ512) \\
     \hline
-    5 & Monitor & Menampilkan antarmuka kode serta pratinjau \textit{output} dari \textit{Progressive Web App} (PWA) yang dibangun. & 14 inch, resolusi 1920$\times$1080 (\textit{Full HD}) \\
+    5 & GPU & Memproses rendering antarmuka, akselerasi grafis, dan mendukung eksekusi model AI secara lokal. & Intel(R) Iris(R) Xe Graphics + NVIDIA GeForce RTX 3050 Laptop GPU \\
     \hline
-    6 & \textit{Keyboard} & Alat \textit{input} untuk mengetik skrip kode pemrograman dan memberikan perintah operasional ke komputer. & -- \\
+    6 & Monitor & Menampilkan antarmuka kode serta pratinjau \textit{output} dari \textit{Progressive Web App} (PWA) yang dibangun. & 14 inch, resolusi 1920$\times$1080 (\textit{Full HD}), 165Hz \\
     \hline
-    7 & Internet & Sarana krusial untuk mengakses dokumentasi, mengunduh \textit{library} NPM, serta mengakses \textit{Google Gemini API}. & -- \\
+    7 & \textit{Keyboard} & Alat \textit{input} untuk mengetik skrip kode pemrograman dan memberikan perintah operasional ke komputer. & -- \\
+    \hline
+    8 & Internet & Sarana krusial untuk mengakses dokumentasi, mengunduh \textit{library} NPM, serta mengakses \textit{Google Gemini API}. & -- \\
     \hline
 \end{longtable}
 
@@ -670,7 +980,7 @@ Perangkat lunak (\textit{software}) meliputi sistem operasi, bahasa pemrograman,
     \endfoot
     \hline
     \endlastfoot
-    1 & Sistem Operasi & Menyediakan platform dasar untuk menjalankan dan mengelola seluruh aplikasi pengembangan. & Windows 11 Home Single Language \\
+    1 & Sistem Operasi & Menyediakan platform dasar untuk menjalankan dan mengelola seluruh aplikasi pengembangan. & Windows 10 Pro 64-bit (Build 19045) \\
     \hline
     2 & Lingkungan \textit{Backend} (Node.js \& Express.js) & Lingkungan eksekusi utama dan \textit{framework} API untuk memproses logika bisnis sistem di sisi server lokal. & Node.js / Express (v5.x) \\
     \hline
