@@ -1,4 +1,23 @@
 \chapter{PENUTUP}
 \label{chapter:PENUTUP}
+
 \section{Kesimpulan}
+
+Berdasarkan hasil perancangan, implementasi (pengkodean), dan pengujian perangkat lunak yang telah dipaparkan pada bab-bab sebelumnya, dapat ditarik kesimpulan bahwa platform FoodAI Rescue (FAR) telah berhasil dibangun sebagai solusi digital terpadu untuk mengatasi permasalahan manajemen donasi surplus makanan. Kesimpulan ini secara spesifik menjawab rumusan masalah dan tujuan yang telah ditetapkan:
+
+\begin{enumerate}[label=\arabic*.]
+    \item \textbf{Keberhasilan Pembangunan Alur Logistik Digital}: Platform agregator logistik berbasis \textit{Progressive Web App} (PWA) dengan arsitektur \textit{Role-Based Access Control} (RBAC) yang membagi pengguna ke dalam 6 peran telah berhasil diimplementasikan. Pengujian fungsionalitas (\textit{Black-box Testing}) membuktikan bahwa proses dari hulu ke hilir---mulai dari registrasi, publikasi donasi oleh donatur, hingga pencarian dan klaim oleh penerima---dapat berjalan secara \textit{real-time}. Sistem secara efektif menjembatani distribusi surplus makanan agar tidak membusuk menjadi \textit{food waste} di Tempat Pembuangan Akhir (TPA). Meskipun demikian, berdasarkan pengujian \textit{Boundary Value Analysis}, masih ditemukan celah kecil pada validasi input \textit{frontend} yang meloloskan kuantitas bernilai nol.
+    \item \textbf{Keandalan Validasi "Polisi Pangan" AI}: Implementasi teknologi \textit{Computer Vision} yang mendayagunakan Google Gemini Vision API telah sukses terintegrasi sebagai "Polisi Pangan". Pengujian partisi ekuivalen (\textit{Equivalence Partitioning}) memvalidasi bahwa algoritma AI ini secara otonom dan tangguh mampu menyetujui gambar makanan yang higienis, sekaligus memblokir unggahan objek acak maupun makanan yang terindikasi basi. Ini memberikan jaminan keamanan pangan dan kelayakan konsumsi secara preventif bagi masyarakat rentan sebelum makanan didistribusikan. 
+    \item \textbf{Integritas Distribusi dan Pelacakan Dampak SROI}: Ekosistem operasional relawan kurir telah berjalan sesuai arsitektur yang dirancang. Integrasi kewajiban pindai (\textit{mandatory scan}) Kode QR nirkontak di lapangan terbukti mengunci keamanan rantai pasok dan mencegah penyalahgunaan klaim ganda (\textit{double-claim}). Keberhasilan penyelesaian misi oleh relawan secara akurat memicu penambahan poin \textit{Experience} (XP) pada sistem Gamifikasi (\textit{Leaderboard}), yang secara bersamaan merender pembaruan metrik pada Dasbor Dampak Sosial (SROI) untuk melacak pencapaian reduksi emisi jejak karbon dan penghematan air secara transparan.
+\end{enumerate}
+
 \section{Saran}
+
+Meskipun purwarupa (\textit{v1}) platform FoodAI Rescue telah teruji secara fungsional untuk alur bisnis utamanya, masih terdapat ruang untuk pengembangan di masa depan. Adapun saran dan rekomendasi untuk penelitian maupun penyempurnaan sistem selanjutnya adalah sebagai berikut:
+
+\begin{enumerate}[label=\arabic*.]
+    \item \textbf{Migrasi Platform ke Lingkungan \textit{Mobile Native}}: Sangat disarankan untuk mengembangkan arsitektur FoodAI Rescue yang saat ini berbasis \textit{Progressive Web App} (PWA) menjadi aplikasi \textit{mobile native} penuh (Android/iOS). Migrasi ini akan memaksimalkan penggunaan perangkat keras gawai, meningkatkan responsivitas pemindai kamera bawaan untuk Kode QR, serta memastikan keakuratan fitur pelacakan rute navigasi (GPS) \textit{real-time} bagi relawan.
+    \item \textbf{Perluasan Metrik Kalkulator SROI}: Parameter pada Dasbor Dampak Sosial (SROI) dapat dikembangkan lebih lanjut. Selain menghitung emisi gas karbon dan air yang diselamatkan, sistem ke depannya diharapkan mampu mengkalkulasi konversi nilai ekonomi secara presisi (misalnya total estimasi nominal rupiah dari porsi makanan yang dicegah agar tidak terbuang).
+    \item \textbf{Integrasi Logistik dengan Pihak Ketiga (Komersial)}: Untuk mengantisipasi kelangkaan jumlah relawan aktif di suatu titik wilayah yang menyebabkan misi donasi menggantung di \textit{Missions Board}, pengembangan sistem selanjutnya dapat mempertimbangkan integrasi (\textit{API Bridging}) dengan armada kurir atau logistik pihak ketiga berskala komersial (seperti ojek \textit{online}) sebagai rencana cadangan (\textit{backup}). 
+    \item \textbf{Perluasan dan Spesialisasi Data Latih (\textit{Dataset}) AI}: Parameter \textit{Prompt Engineering} pada algoritma Gemini dapat ditingkatkan kembali agar model AI menjadi jauh lebih peka dalam membedakan, mengenali, dan mengklasifikasikan bentuk spesifik jajanan tradisional serta bumbu masakan lokal Indonesia yang beraneka ragam.
+\end{enumerate}

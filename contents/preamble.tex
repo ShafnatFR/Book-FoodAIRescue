@@ -8,7 +8,6 @@
 \usepackage{geometry}
 \usepackage{graphicx}
 \usepackage{grffile}
-\usepackage{pdflscape}
 \usepackage{float}
 \usepackage[table]{xcolor}
 \usepackage{fancyhdr}
@@ -17,11 +16,14 @@
 \usepackage{booktabs}
 \usepackage{tabularx}
 \usepackage{longtable}
+\usepackage{xltabular}
+\usepackage{multirow}
 \usepackage{seqsplit}
+\usepackage{pdflscape}
 \usepackage{svg}
 % Longtable alignment: flush left with text margin
 \setlength{\LTleft}{0pt}
-\setlength{\LTright}{0pt}
+\setlength{\LTright}{\fill}
 \usepackage{array}
 \renewcommand{\tabularxcolumn}[1]{m{#1}}
 \newcolumntype{L}{>{\raggedright\arraybackslash}X}
@@ -33,7 +35,8 @@
 \usepackage{tikz}
 \usepackage{setspace}
 \usepackage{enumitem}
-\usepackage{mathptmx} % Use Times New Roman style font
+\usepackage[sfdefault]{carlito} % Use Carlito (Calibri equivalent)
+\renewcommand{\familydefault}{\sfdefault}
 \usepackage{amssymb}
 \usepackage{pifont}
 \newcommand{\cmark}{\scalebox{2.0}{\textcolor{blue}{\ding{51}}}}%
@@ -92,6 +95,29 @@
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 
+% --- Landscape Page Style ---
+\fancypagestyle{lscape}{
+    \fancyhf{}
+    \fancyhead[C]{
+        \begin{tikzpicture}[remember picture,overlay]
+            % Gray strip along left edge (becomes top when landscape)
+            \node[anchor=south west, fill=gray!20, minimum width=1.8cm, minimum height=\paperheight, yshift=0cm] at (current page.south west) {};
+            % Logo centered in the gray strip: strip center = 0.9cm from left
+            \node[anchor=center, rotate=90] at ([xshift=0.9cm, yshift=0cm]current page.west) {
+                \includegraphics[height=1.2cm]{image/Logo_Universitas_Telkom_Horizontal.png}
+            };
+        \end{tikzpicture}
+    }
+    \fancyfoot[C]{
+        \begin{tikzpicture}[remember picture,overlay]
+            % Page number at right margin (becomes bottom right when landscape)
+            \node[anchor=center, rotate=90] at ([xshift=-1.18in, yshift=0cm]current page.east) {\thepage};
+        \end{tikzpicture}
+    }
+    \renewcommand{\headrulewidth}{0pt}
+    \renewcommand{\footrulewidth}{0pt}
+}
+
 % --- Custom Commands ---
 \newcommand{\chapterservicename}{BAB} % Standard for Indonesian "BAB"
 \newcommand{\tbltt}[1]{{\small\ttfamily\seqsplit{#1}}}
@@ -130,7 +156,7 @@
 \DeclareQuoteAlias{american}{indonesian}
 
 % --- Bibliography Setup ---
-\usepackage[style=ieee, sorting=none, backend=biber, isbn=false, url=false, eprint=false]{biblatex}
+\usepackage[style=ieee, sorting=none, backend=bibtex, isbn=false, url=false, eprint=false]{biblatex}
 \addbibresource{referensi.bib}
 
 

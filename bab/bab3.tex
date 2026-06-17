@@ -101,20 +101,22 @@ Tahapan pemodelan sistem dan data bertujuan untuk memvisualisasikan alur interak
 
 \newpage
 \begin{landscape}
+\pagestyle{lscape}
     \centering
     \vfill
-    \includesvg[width=\linewidth, height=0.85\textheight, keepaspectratio, inkscapelatex=false]{image/bab3/Use Case}
+    \includesvg[width=\linewidth, height=0.85\textheight, keepaspectratio, inkscapelatex=false]{image/bab3/UseCaseV2}
     \captionsetup{hypcap=false}
     \captionof{figure}{\textit{Use Case Diagram} Food AI Rescue}
     \label{fig:use-case}
     \vfill
 \end{landscape}
+\pagestyle{fancy}
 \newpage
 
 \subsection{\textit{Entity Relationship Diagram} (ERD)}
 ERD berikut menggambarkan struktur basis data relasional yang menjadi fondasi penyimpanan data platform Food AI Rescue. Entitas utama dan relasinya dijabarkan sebagai berikut:
 
-\begin{longtable}{|p{4.5cm}|p{6cm}|p{4cm}|}
+\begin{xltabular}{\textwidth}{|L|L|L|}
     \caption{Daftar Seluruh Entitas Basis Data Food AI Rescue}
     \label{tab:erd-entities-full} \\
     \hline
@@ -186,10 +188,11 @@ ERD berikut menggambarkan struktur basis data relasional yang menjadi fondasi pe
     \hline
     \tbltt{verification\_codes} & id, identifier, channel, email, code, type, expires\_at & Kode OTP multi-saluran \\
     \hline
-\end{longtable}
+\end{xltabular}
 
 \newpage
 \begin{landscape}
+\pagestyle{lscape}
     \centering
     \vfill
     \includesvg[width=\linewidth, height=0.85\textheight, keepaspectratio, inkscapelatex=false]{image/bab3/ERD}
@@ -198,6 +201,7 @@ ERD berikut menggambarkan struktur basis data relasional yang menjadi fondasi pe
     \label{fig:erd}
     \vfill
 \end{landscape}
+\pagestyle{fancy}
 
 \newpage
 
@@ -215,7 +219,7 @@ ERD berikut menggambarkan struktur basis data relasional yang menjadi fondasi pe
 
 Rincian spesifikasi kelas, deskripsi fungsi, beserta daftar atribut dan metode (operasi) yang menyertainya dijabarkan secara lengkap pada Tabel \ref{tab:class-diagram} berikut:
 
-\begin{longtable}{|p{0.4cm}|p{2.6cm}|p{3.4cm}|p{2.8cm}|p{3.6cm}|}
+\begin{xltabular}{\textwidth}{|c|L|L|L|L|}
     \caption{Spesifikasi dan Penjelasan \textit{Class Diagram}}
     \label{tab:class-diagram} \\
     \hline
@@ -277,7 +281,7 @@ Rincian spesifikasi kelas, deskripsi fungsi, beserta daftar atribut dan metode (
     15 & \textbf{AdminIndex} \newline \texttt{<<component>>} & Komponen antarmuka pengguna panel kontrol untuk Administrator. Digunakan untuk memoderasi laporan sengketa dan memverifikasi pengguna baru. & \tbltt{users, reports, systemLogs} & \tbltt{renderCommunity(), renderModeration(), verifyUser()} \\
     \hline
 
-\end{longtable}
+\end{xltabular}
 
 \noindent Hubungan antar kelas yang penting:
 \begin{itemize}
@@ -290,6 +294,7 @@ Rincian spesifikasi kelas, deskripsi fungsi, beserta daftar atribut dan metode (
 
 \newpage
 \begin{landscape}
+\pagestyle{lscape}
     \centering
     \vfill
     \includesvg[width=\linewidth, height=0.85\textheight, keepaspectratio, inkscapelatex=false]{image/bab3/class diagram}
@@ -298,6 +303,7 @@ Rincian spesifikasi kelas, deskripsi fungsi, beserta daftar atribut dan metode (
     \label{fig:class-diagram}
     \vfill
 \end{landscape}
+\pagestyle{fancy}
 \newpage
 
 \subsection{\textit{Sequence Diagram}}
@@ -515,7 +521,7 @@ Super Admin mengakses \textit{System Config} dan menggeser tuas ``Maintenance Mo
 
 \noindent Sebagai ringkasan, seluruh \textit{sequence diagram} yang telah dipaparkan di atas dirangkum dalam tabel berikut:
 
-\begin{longtable}{|p{0.6cm}|p{3cm}|p{4.5cm}|p{6cm}|}
+\begin{xltabular}{\textwidth}{|c|L|L|L|}
     \caption{Daftar dan Spesifikasi \textit{Sequence Diagram} Food AI Rescue}
     \label{tab:ringkasan-sd} \\
     \hline
@@ -577,7 +583,7 @@ Super Admin mengakses \textit{System Config} dan menggeser tuas ``Maintenance Mo
     15 & Super Admin & SD Manajemen Status \textit{Server} & Membahas alur pengaktifan \textit{Maintenance Mode}, yang memicu pemutusan sesi (akses) publik dan mengalihkan seluruh lalu lintas pengguna ke halaman pemeliharaan. \\
     \hline
 
-\end{longtable}
+\end{xltabular}
 
 % ==============================================================================
 \section{Perancangan Antarmuka Pengguna}
@@ -928,7 +934,7 @@ Guna menunjang keberhasilan rancang bangun platform \textit{Food AI Rescue}---ba
 
 Kebutuhan perangkat keras (\textit{hardware}) yang digunakan oleh penulis dalam proses pembuatan dan pengembangan platform \textit{Food AI Rescue} adalah sebagai berikut:
 
-\begin{longtable}{|p{0.5cm}|p{2.8cm}|p{5.5cm}|p{4.8cm}|}
+\begin{xltabular}{\textwidth}{|c|L|L|L|}
     \caption{Kebutuhan Perangkat Keras (\textit{Hardware}) Pengembangan}
     \label{tab:hardware-dev} \\
     \hline
@@ -960,11 +966,11 @@ Kebutuhan perangkat keras (\textit{hardware}) yang digunakan oleh penulis dalam 
     \hline
     8 & Internet & Sarana krusial untuk mengakses dokumentasi, mengunduh \textit{library} NPM, serta mengakses \textit{Google Gemini API}. & -- \\
     \hline
-\end{longtable}
+\end{xltabular}
 
 Perangkat lunak (\textit{software}) meliputi sistem operasi, bahasa pemrograman, \textit{framework}, dan alat desain yang digunakan oleh penulis dalam merancang hingga membangun aplikasi \textit{Food AI Rescue} di lingkungan lokal. Rinciannya adalah sebagai berikut:
 
-\begin{longtable}{|p{0.5cm}|p{3.5cm}|p{5cm}|p{4.5cm}|}
+\begin{xltabular}{\textwidth}{|c|L|L|L|}
     \caption{Kebutuhan Perangkat Lunak (\textit{Software}) Pengembangan}
     \label{tab:software-dev} \\
     \hline
@@ -1000,14 +1006,14 @@ Perangkat lunak (\textit{software}) meliputi sistem operasi, bahasa pemrograman,
     \hline
     10 & Google Gemini Vision API & Layanan Kecerdasan Buatan (AI) pihak ketiga untuk fitur verifikasi kelayakan makanan dan konten generatif. & API / \textit{Cloud Service} \\
     \hline
-\end{longtable}
+\end{xltabular}
 
 \subsection{Implementasi Sistem}
 \label{subsec:kebutuhan-implementasi}
 
 Agar platform \textit{Food AI Rescue} dapat dieksekusi dan dikembangkan secara optimal pada perangkat komputasi lain, dibutuhkan spesifikasi minimal untuk perangkat keras (\textit{hardware}) maupun perangkat lunak (\textit{software}) sebagai berikut:
 
-\begin{longtable}{|p{0.5cm}|p{2.8cm}|p{5.5cm}|p{4.8cm}|}
+\begin{xltabular}{\textwidth}{|c|L|L|L|}
     \caption{Kebutuhan Perangkat Keras dan Perangkat Lunak (Minimal) dalam Pengerjaan TA}
     \label{tab:hardware-impl} \\
     \hline
@@ -1033,4 +1039,4 @@ Agar platform \textit{Food AI Rescue} dapat dieksekusi dan dikembangkan secara o
     \hline
     5 & Node.js & Lingkungan eksekusi utama untuk menjalankan kerangka kerja server \textit{backend} (Express.js), \textit{frontend} (React), dan integrasi API. & Versi 18.x LTS atau yang lebih tinggi \\
     \hline
-\end{longtable}
+\end{xltabular}
