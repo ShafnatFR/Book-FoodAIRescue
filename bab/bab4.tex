@@ -2,6 +2,8 @@
 \label{chapter:IMPLEMENTASI DAN PENGUJIAN}
 \section{Implementasi}
 
+Tahap implementasi merupakan proses transformasi dari desain konseptual dan arsitektur sistem yang telah dirumuskan ke dalam wujud perangkat lunak yang fungsional. Fase ini mencakup pengodean komponen antarmuka pengguna (\textit{frontend}), pengembangan layanan logika bisnis (\textit{backend}), serta konfigurasi modul-modul operasional yang terintegrasi dengan teknologi Kecerdasan Buatan (AI) untuk merealisasikan ekosistem platform \textit{Food AI Rescue} secara utuh.
+
 \subsection{Struktur Antarmuka dan Modul Sistem}
 \begin{enumerate}[label=\arabic*.]
     \item Modul Pemasaran \& Publik: menangani antarmuka awal dan etalase informasi aplikasi sebelum pengguna masuk:
@@ -364,7 +366,7 @@ Langkah-langkah menyerahkan makanan secara nirkontak di titik tujuan akhir:
 
 \section{Pengujian}
 
-Pengujian pada platform FoodAI Rescue dieksekusi menggunakan metode \textit{Black-box Testing}. Metode ini dipilih karena berfokus pada evaluasi fungsionalitas antarmuka sistem---termasuk respons integrasi Kecerdasan Buatan (AI)---tanpa perlu menelusuri struktur internal atau kode sumber programnya. Teknik pengujian yang diterapkan juga disesuaikan dengan karakteristik fitur yang diuji, yang secara spesifik menitikberatkan pada penggunaan teknik \textit{Boundary Value Analysis} (BVA) dan \textit{Equivalence Partitioning} (EP).
+Pengujian pada platform FoodAI Rescue dieksekusi menggunakan metode \textit{Black-box Testing}. Metode ini dipilih karena berfokus pada evaluasi fungsionalitas antarmuka sistem, termasuk respons integrasi Kecerdasan Buatan (AI), tanpa perlu menelusuri struktur internal atau kode sumber programnya. Teknik pengujian yang diterapkan juga disesuaikan dengan karakteristik fitur yang diuji, yang secara spesifik menitikberatkan pada penggunaan teknik \textit{Boundary Value Analysis} (BVA) dan \textit{Equivalence Partitioning} (EP).
 
 Skenario pengujian otomasi dirancang untuk menyimulasikan interaksi dari berbagai target pengguna dengan batasan hak akses yang berbeda di dalam ekosistem aplikasi, meliputi:
 \begin{enumerate}[label=\arabic*.]
@@ -373,7 +375,7 @@ Skenario pengujian otomasi dirancang untuk menyimulasikan interaksi dari berbaga
     \item \textbf{Relawan (Kurir Logistik)}: Skenario pengujian ditujukan untuk menguji kapabilitas sistem dalam penerimaan misi pengantaran, validasi serah terima melalui pemindaian nirkontak (\textit{scan} QR Code), serta penambahan poin pengalaman (XP) pada sistem gamifikasi.
 \end{enumerate}
 
-Pendekatan pengujian berbasis simulasi multikomponen ini bertujuan untuk memastikan bahwa seluruh instrumen sistem mampu mengakomodasi kebutuhan interaksi yang saling berkaitan. Dengan menguji aplikasi dari berbagai sudut pandang otoritas pengguna---mulai dari hulu (penyediaan donasi) hingga hilir (distribusi akhir)---hasil pengujian diharapkan dapat secara komprehensif merefleksikan alur operasional di lapangan, memetakan potensi galat (\textit{bug}) sejak dini, dan menjamin keandalan sistem secara keseluruhan.
+Pendekatan pengujian berbasis simulasi multikomponen ini bertujuan untuk memastikan bahwa seluruh instrumen sistem mampu mengakomodasi kebutuhan interaksi yang saling berkaitan. Dengan menguji aplikasi dari berbagai sudut pandang otoritas pengguna, mulai dari hulu (penyediaan donasi) hingga hilir (distribusi akhir), hasil pengujian diharapkan dapat secara komprehensif merefleksikan alur operasional di lapangan, memetakan potensi galat (\textit{bug}) sejak dini, dan menjamin keandalan sistem secara keseluruhan.
 
 
 
@@ -408,19 +410,19 @@ Untuk membuktikan ketercapaian Tujuan 1, yaitu “membangun platform penghubung 
 Guna mendukung kelancaran eksekusi pengujian secara terotomatisasi, skenario pengujian dirancang dengan mengklasifikasikan parameter data uji ke dalam kelas ekuivalen (bernilai valid maupun invalid). Adapun rincian skenario pengujian untuk mengevaluasi fungsionalitas utama sistem (Tujuan 1) dijabarkan pada tabel berikut:
 
 \clearpage
-\begin{landscape}
 \pagestyle{lscape}
-\begin{longtable}{|c|p{3cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|p{3cm}|p{3cm}|}
+\begin{landscape}
+\begin{xltabular}{\linewidth}{|c|c|L|L|L|L|L|}
 \caption{Skenario Pengujian Fitur Utama (Tujuan 1)}
 \label{tab:skenario-tujuan1} \\
 \hline
 \rowcolor{gray!25}
-\centering\textbf{Fungsio\-nalitas} & \centering\textbf{ID \textit{Test Case}} & \centering\textbf{Deskripsi/Skenario} & \centering\textbf{Pra Kondisi} & \centering\textbf{Langkah Pengujian} & \centering\textbf{Data Pengujian} & \centering\arraybackslash\textbf{Hasil yang Diharapkan} \\ \hline
+\centering\textbf{Fungsio\-nalitas} & \centering\textbf{ID \textit{Test Case}} & \centering\textbf{Deskripsi atau \newline Skenario} & \centering\textbf{Pra Kondisi} & \centering\textbf{Langkah Pengujian} & \centering\textbf{Data Pengujian} & \centering\arraybackslash\textbf{Hasil yang Diharapkan} \\ \hline
 \endfirsthead
 
 \hline
 \rowcolor{gray!25}
-\centering\textbf{Fungsio\-nalitas} & \centering\textbf{ID \textit{Test Case}} & \centering\textbf{Deskripsi/Skenario} & \centering\textbf{Pra Kondisi} & \centering\textbf{Langkah Pengujian} & \centering\textbf{Data Pengujian} & \centering\arraybackslash\textbf{Hasil yang Diharapkan} \\ \hline
+\centering\textbf{Fungsio\-nalitas} & \centering\textbf{ID \textit{Test Case}} & \centering\textbf{Deskripsi atau \newline Skenario} & \centering\textbf{Pra Kondisi} & \centering\textbf{Langkah Pengujian} & \centering\textbf{Data Pengujian} & \centering\arraybackslash\textbf{Hasil yang Diharapkan} \\ \hline
 \endhead
 
 \hline
@@ -454,10 +456,10 @@ Guna mendukung kelancaran eksekusi pengujian secara terotomatisasi, skenario pen
 & TC5.1 & Donatur menyetujui \textit{request} klaim & Dashboard Donatur (Pesanan) & 1. Detail Pesanan \newline 2. Klik Setujui & $\bullet$ Ada pesanan aktif & Request disetujui, pesanan diproses \\ \cline{2-7}
 & TC5.2 & Donatur menolak \textit{request} klaim & Dashboard Donatur (Pesanan) & 1. Detail Pesanan \newline 2. Klik Tolak & $\bullet$ Alasan = stok rusak & Request ditolak, pesanan dibatalkan \\ \hline
 
-\end{longtable}
-\pagestyle{fancy}
+\end{xltabular}
 \end{landscape}
 \clearpage
+\pagestyle{fancy}
 
 \textbf{2) Cakupan Pengujian Skenario 2}
 
@@ -473,9 +475,9 @@ Pengujian pada skenario ini dirancang untuk membuktikan ketercapaian Tujuan 2 pa
 \end{enumerate}
 
 \clearpage
-\begin{landscape}
 \pagestyle{lscape}
-\begin{longtable}{|c|p{3cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|p{3cm}|p{3cm}|}
+\begin{landscape}
+\begin{xltabular}{\linewidth}{|c|c|L|L|L|L|L|}
 \caption{Skenario Pengujian Verifikasi AI (Tujuan 2)}
 \label{tab:skenario-tujuan2} \\
 \hline
@@ -499,10 +501,10 @@ Pengujian pada skenario ini dirancang untuk membuktikan ketercapaian Tujuan 2 pa
 & TC-AI.1 & Memvalidasi foto makanan layak konsumsi & Formulir Input Donasi & 1. Unggah foto makanan \newline 2. Sistem memanggil API AI \newline 3. Tampilkan hasil & $\bullet$ Foto makanan utuh dan higienis & AI memberikan skor tinggi, donasi disetujui masuk katalog \\ \cline{2-7}
 & TC-AI.2 & Memvalidasi foto objek benda mati & Formulir Input Donasi & 1. Unggah foto objek acak \newline 2. Sistem memanggil API AI \newline 3. Tampilkan hasil & $\bullet$ Foto bukan makanan (objek acak) & AI gagal identifikasi komposisi, publikasi ditolak, muncul galat \\ \cline{2-7}
 & TC-AI.3 & Memvalidasi foto makanan tidak layak & Formulir Input Donasi & 1. Unggah foto basi/berjamur \newline 2. Sistem memanggil API AI \newline 3. Tampilkan hasil & $\bullet$ Foto makanan kotor/berjamur & AI mendeteksi ketidaklayakan (skor rendah), publikasi diblokir \\ \hline
-\end{longtable}
-\pagestyle{fancy}
+\end{xltabular}
 \end{landscape}
 \clearpage
+\pagestyle{fancy}
 
 \textbf{c. Skenario 3 – Pembuktian Tujuan 3}
 
@@ -525,14 +527,14 @@ Untuk membuktikan ketercapaian Tujuan 3, yaitu “mengintegrasikan sistem gamifi
     \item \textbf{Validasi Akurasi Gamifikasi dan Dasbor SROI:}
     \begin{enumerate}[label=\alph*.]
         \item Memastikan sistem secara otomatis dan \textit{real-time} menambahkan poin \textit{Experience} (XP) kepada akun relawan sesaat setelah validasi Kode QR penerima dinyatakan sukses, yang memicu pembaruan posisi pada papan peringkat (\textit{Leaderboard}).
-        \item Memastikan sistem pada Dasbor Dampak Sosial (SROI) mampu mengakumulasi dan merender grafik kalkulasi konversi secara presisi—dari jumlah porsi makanan yang terselamatkan menjadi data metrik estimasi penghematan air (liter) dan reduksi emisi jejak karbon (kg CO$_2$).
+        \item Memastikan sistem pada Dasbor Dampak Sosial (SROI) mampu mengakumulasi dan merender grafik kalkulasi konversi secara presisi, dari jumlah porsi makanan yang terselamatkan menjadi data metrik estimasi penghematan air (liter) dan reduksi emisi jejak karbon (kg CO$_2$).
     \end{enumerate}
 \end{enumerate}
 
 \clearpage
-\begin{landscape}
 \pagestyle{lscape}
-\begin{longtable}{|c|p{3cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|p{3cm}|p{3cm}|}
+\begin{landscape}
+\begin{xltabular}{\linewidth}{|c|c|L|L|L|L|L|}
 \caption{Skenario Pengujian Operasional Logistik dan Verifikasi (Tujuan 3)}
 \label{tab:skenario-tujuan3} \\
 \hline
@@ -568,10 +570,10 @@ Untuk membuktikan ketercapaian Tujuan 3, yaitu “mengintegrasikan sistem gamifi
 \multirow{2}{2cm}{9. Verifikasi Penerima} 
 & TC9.1 & Relawan memasukkan kode penerima yang benar & Dashboard Relawan & 1. Buka Scan QR Penerima \newline 2. Input kode \newline 3. Verifikasi & $\bullet$ Kode = FAR-5089 & Verifikasi berhasil, misi selesai \\ \cline{2-7}
 & TC9.2 & Relawan memasukkan kode penerima yang salah & Dashboard Relawan & 1. Buka Scan QR Penerima \newline 2. Input kode \newline 3. Verifikasi & $\bullet$ Kode = FAR-0000 & Verifikasi gagal, peringatan kode salah \\ \hline
-\end{longtable}
-\pagestyle{fancy}
+\end{xltabular}
 \end{landscape}
 \clearpage
+\pagestyle{fancy}
 
 
 \subsection{Hasil Pengujian}
@@ -582,45 +584,63 @@ Tahapan ini memaparkan hasil evaluasi dari eksekusi rancangan pengujian (\textit
 
 Pengujian pada tahap ini difokuskan pada alur kerja utama aplikasi (\textit{core business flow}), mulai dari pendaftaran akun, autentikasi, penyediaan donasi, hingga proses klaim pesanan.
 
-\begin{table}[H]
-\centering
-\caption{Hasil Pengujian Fitur Utama (Tujuan 1)}
-\label{tab:hasil-tujuan1}
-\begin{tabularx}{\textwidth}{|c|L|L|L|c|}
+\begin{longtable}{|>{\centering\arraybackslash}m{1.0cm}|p{2.3cm}|p{4.0cm}|p{4.0cm}|>{\centering\arraybackslash}m{1.2cm}|}
+\caption{Hasil Pengujian Fitur Utama (Tujuan 1)} \label{tab:hasil-tujuan1} \\
 \hline
 \rowcolor{gray!25}
-\textbf{ID} & \textbf{Fitur yang Diuji} & \textbf{Langkah Pengujian (Simulasi Sistem)} & \textbf{Hasil Aktual Sistem} & \textbf{Status} \\ \hline
+\centering\textbf{ID} & \centering\textbf{Fitur yang Diuji} & \centering\textbf{Langkah Pengujian (Simulasi Sistem)} & \centering\textbf{Hasil Aktual Sistem} & \centering\arraybackslash\textbf{Status} \\ \hline
+\endfirsthead
+
+\hline
+\rowcolor{gray!25}
+\centering\textbf{ID} & \centering\textbf{Fitur yang Diuji} & \centering\textbf{Langkah Pengujian (Simulasi Sistem)} & \centering\textbf{Hasil Aktual Sistem} & \centering\arraybackslash\textbf{Status} \\ \hline
+\endhead
+
+\hline
+\endfoot
+
+\hline
+\endlastfoot
+
 \textbf{TC1.1} & Registrasi (Valid) & Sistem menyimulasikan pengisian formulir daftar (nama, email baru, \textit{password}, nomor WA) dan menekan tombol "Daftar". & Akun berhasil dibuat dan pengguna langsung diarahkan ke \textit{Dashboard}. & \textbf{Pass} \\ \hline
 \textbf{TC1.2} & Registrasi (Email Duplikat) & Sistem menyimulasikan pendaftaran menggunakan alamat email yang sudah pernah terdaftar di basis data. & Sistem menolak pendaftaran dan memunculkan peringatan "Email sudah digunakan". & \textbf{Pass} \\ \hline
 \textbf{TC1.3} & Registrasi (Sandi Tidak Cocok) & Sistem menginputkan kata sandi utama dan konfirmasi kata sandi yang berbeda. & Sistem menggagalkan proses dan memunculkan peringatan validasi \textit{password}. & \textbf{Pass} \\ \hline
 \textbf{TC2.1} & Login (Valid) & Sistem menginputkan email dan kata sandi yang benar, lalu menekan tombol "Masuk". & Autentikasi berhasil, pengguna dialihkan ke Dasbor sesuai perannya (\textit{Role}). & \textbf{Pass} \\ \hline
 \textbf{TC2.2} & Login (Invalid) & Sistem menginputkan kombinasi email atau kata sandi yang salah/tidak terdaftar. & Autentikasi ditolak, muncul peringatan galat "Kredensial salah". & \textbf{Pass} \\ \hline
 \textbf{TC3.1} & Input Donasi (Valid) & Donatur mengisi lengkap data makanan, mengunggah foto, dan memublikasikannya. & Data terkirim ke \textit{backend}, divalidasi, dan donasi berhasil masuk ke katalog. & \textbf{Pass} \\ \hline
-\textbf{TC3.2} & Input Donasi (Field Kosong) & Donatur sengaja mengosongkan \textit{field} wajib (seperti nama donasi) dan mencoba menyimpan. & Sistem \textbf{gagal} memblokir proses penyimpanan, peringatan validasi tidak muncul secara tepat. & \textbf{Failed} \\ \hline
-\textbf{TC3.3} & Input Donasi (Kuantitas Nol) & Donatur memasukkan angka 0 pada jumlah porsi makanan. & Sistem \textbf{gagal} menolak input batas bawah (BVA), sehingga donasi dengan porsi 0 lolos. & \textbf{Failed} \\ \hline
+\textbf{TC3.2} & Input Donasi (Field Kosong) & Donatur sengaja mengosongkan \textit{field} wajib (seperti nama donasi) dan mencoba menyimpan. & Sistem \textbf{berhasil} memblokir proses penyimpanan dan menampilkan peringatan bahwa field wajib harus diisi. & \textbf{Pass} \\ \hline
+\textbf{TC3.3} & Input Donasi (Kuantitas Nol) & Donatur memasukkan angka 0 pada jumlah porsi makanan. & Sistem \textbf{berhasil} menolak input batas bawah (BVA) dan memunculkan peringatan kuantitas tidak valid. & \textbf{Pass} \\ \hline
 \textbf{TC4.1} & Klaim Donasi & Penerima mencari makanan di katalog, mengatur lokasi, dan menekan "Klaim Sekarang". & Transaksi klaim berhasil dibuat dan status stok makanan terkunci. & \textbf{Pass} \\ \hline
 \textbf{TC5.1} & Terima Pesanan & Donatur membuka riwayat pesanan masuk dan menekan tombol "Setujui". & Status pesanan diperbarui menjadi "Siap Diambil" oleh sistem. & \textbf{Pass} \\ \hline
 \textbf{TC5.2} & Tolak Pesanan & Donatur menekan tombol "Tolak" karena alasan stok bermasalah. & Pesanan berhasil dibatalkan dan dikembalikan statusnya. & \textbf{Pass} \\ \hline
-\end{tabularx}
-\end{table}
+\end{longtable}
 
 \textbf{b. Hasil Pengujian Skenario 2 (Pembuktian Tujuan 2)}
 
 Pengujian ini berfokus pada ketangguhan validasi integrasi \textit{Google Gemini Vision API} yang bertindak sebagai "Polisi Pangan" saat donatur mengunggah foto makanan.
 
-\begin{table}[H]
-\centering
-\caption{Hasil Pengujian Verifikasi AI (Tujuan 2)}
-\label{tab:hasil-tujuan2}
-\begin{tabularx}{\textwidth}{|c|L|L|L|c|}
+\begin{longtable}{|>{\centering\arraybackslash}m{1.0cm}|p{2.3cm}|p{4.0cm}|p{4.0cm}|>{\centering\arraybackslash}m{1.2cm}|}
+\caption{Hasil Pengujian Verifikasi AI (Tujuan 2)} \label{tab:hasil-tujuan2} \\
 \hline
 \rowcolor{gray!25}
-\textbf{ID} & \textbf{Fitur yang Diuji} & \textbf{Langkah Pengujian (Simulasi Sistem)} & \textbf{Hasil Aktual Sistem} & \textbf{Status} \\ \hline
+\centering\textbf{ID} & \centering\textbf{Fitur yang Diuji} & \centering\textbf{Langkah Pengujian (Simulasi Sistem)} & \centering\textbf{Hasil Aktual Sistem} & \centering\arraybackslash\textbf{Status} \\ \hline
+\endfirsthead
+
+\hline
+\rowcolor{gray!25}
+\centering\textbf{ID} & \centering\textbf{Fitur yang Diuji} & \centering\textbf{Langkah Pengujian (Simulasi Sistem)} & \centering\textbf{Hasil Aktual Sistem} & \centering\arraybackslash\textbf{Status} \\ \hline
+\endhead
+
+\hline
+\endfoot
+
+\hline
+\endlastfoot
+
 \textbf{TC-AI.1} & Audit AI (Foto Valid) & Mengunggah foto makanan utuh dan menekan tombol "Lanjut ke Foto Audit AI". & AI mengekstraksi skor keamanan tinggi dan menyetujui publikasi donasi. & \textbf{Pass} \\ \hline
 \textbf{TC-AI.2} & Audit AI (Bukan Makanan) & Mengunggah foto objek acak (benda mati) untuk menguji \textit{Clever Hans effect}. & AI gagal mendeteksi komposisi makanan dan menolak proses publikasi. & \textbf{Pass} \\ \hline
 \textbf{TC-AI.3} & Audit AI (Tidak Layak) & Mengunggah foto makanan berjamur/kotor. & AI memberikan skor keamanan rendah dan memblokir publikasi. & \textbf{Pass} \\ \hline
-\end{tabularx}
-\end{table}
+\end{longtable}
 
 \textit{(Catatan: Kode TC-AI.x ditambahkan khusus untuk Buku TA guna menjelaskan apa yang terjadi di balik layar saat skrip Katalon Anda menekan tombol "Lanjut ke Foto Audit AI" pada skenario input donasi).}
 
@@ -628,22 +648,29 @@ Pengujian ini berfokus pada ketangguhan validasi integrasi \textit{Google Gemini
 
 Pengujian ini mengevaluasi keandalan operasional logistik di lapangan, keamanan sistem pindai Kode QR secara nirkontak, serta pemicu (\textit{trigger}) ke sistem poin gamifikasi.
 
-\begin{table}[H]
-\centering
-\caption{Hasil Pengujian Logistik dan Verifikasi (Tujuan 3)}
-\label{tab:hasil-tujuan3}
-\begin{tabularx}{\textwidth}{|c|L|L|L|c|}
+\begin{longtable}{|>{\centering\arraybackslash}m{1.0cm}|p{2.3cm}|p{4.0cm}|p{4.0cm}|>{\centering\arraybackslash}m{1.2cm}|}
+\caption{Hasil Pengujian Logistik dan Verifikasi (Tujuan 3)} \label{tab:hasil-tujuan3} \\
 \hline
 \rowcolor{gray!25}
-\textbf{ID} & \textbf{Fitur yang Diuji} & \textbf{Langkah Pengujian (Simulasi Sistem)} & \textbf{Hasil Aktual Sistem} & \textbf{Status} \\ \hline
+\centering\textbf{ID} & \centering\textbf{Fitur yang Diuji} & \centering\textbf{Langkah Pengujian (Simulasi Sistem)} & \centering\textbf{Hasil Aktual Sistem} & \centering\arraybackslash\textbf{Status} \\ \hline
+\endfirsthead
+
+\hline
+\rowcolor{gray!25}
+\centering\textbf{ID} & \centering\textbf{Fitur yang Diuji} & \centering\textbf{Langkah Pengujian (Simulasi Sistem)} & \centering\textbf{Hasil Aktual Sistem} & \centering\arraybackslash\textbf{Status} \\ \hline
+\endhead
+
+\hline
+\endfoot
+
+\hline
+\endlastfoot
+
 \textbf{TC6.1} & Ambil Misi Logistik & Relawan membuka \textit{Missions Board} dan menekan tombol "Ambil Misi Ini". & Misi berhasil ditugaskan ke relawan dan rute penjemputan ditampilkan. & \textbf{Pass} \\ \hline
 \textbf{TC6.2} & Batal Misi & Relawan menekan tombol "Batalkan Misi" sebelum diproses lebih lanjut. & Misi dilepas dan dikembalikan ke daftar agar bisa diambil relawan lain. & \textbf{Pass} \\ \hline
 \textbf{TC7.1} & Generate QR Code & Relawan menekan tombol "QR Ambil" saat tiba di lokasi donatur. & Sistem berhasil merender Kode QR unik milik relawan di layar. & \textbf{Pass} \\ \hline
 \textbf{TC8.1} & Verifikasi Penjemputan (Valid) & Donatur memindai atau menginput resi nirkontak relawan dengan kode yang \textbf{benar}. & Verifikasi sukses, makanan sah diserahkan ke relawan, misi berlanjut. & \textbf{Pass} \\ \hline
 \textbf{TC8.3} & Verifikasi Penjemputan (Invalid) & Donatur memasukkan resi dengan kode acak/salah (misal: \texttt{PICKUP-0000}). & Sistem menolak serah terima dan memunculkan peringatan kode salah. & \textbf{Pass} \\ \hline
 \textbf{TC9.1} & Verifikasi Pengantaran (Valid) & Relawan tiba di lokasi tujuan dan menginput kode unik penerima yang \textbf{benar}. & Verifikasi sukses, transaksi selesai (\textit{Completed}), dan poin Gamifikasi bertambah. & \textbf{Pass} \\ \hline
-\textbf{TC9.2} & Verifikasi Pengantaran (Invalid) & Relawan memasukkan kode penerima yang salah (misal: \texttt{FAR-0000}). & Verifikasi gagal, sistem mencegah penyelesaian misi untuk menghindari salah sasaran. & \textbf{Pass} \\ \hline
-\end{tabularx}
-\end{table}
-
-
+\textbf{TC9.2} & Verifikasi Pengantaran (Invalid) & Relawan menginput kode acak/salah (misal: \texttt{FAR-0000}). & Sistem menolak verifikasi dan memunculkan peringatan kode salah. & \textbf{Pass} \\ \hline
+\end{longtable}

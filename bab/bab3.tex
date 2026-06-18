@@ -40,7 +40,7 @@ Struktur teknis dari arsitektur sistem ini divisualisasikan pada Gambar \ref{fig
 % Placeholder: tambahkan gambar deployment diagram di sini
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{image/bab3/Deployment Diagram Food AI Rescue.png}
+    \includegraphics[width=0.9\textwidth]{image/bab3/Deployment Diagram Food AI Rescue.png}
     \caption{\textit{Deployment Diagram} Arsitektur Sistem Food AI Rescue}
     \label{fig:deployment-diagram}
 \end{figure}
@@ -287,7 +287,7 @@ Rincian spesifikasi kelas, deskripsi fungsi, beserta daftar atribut dan metode (
 \begin{itemize}
     \item \texttt{App} (\texttt{<<component>>}) bertindak sebagai orkestrator utama yang menginstansiasi \texttt{DatabaseService} dan \texttt{AIService} untuk seluruh operasi data dan AI.
     \item \texttt{FoodItem} berasosiasi dengan \texttt{AIService} melalui atribut \texttt{aiVerification} yang diisi setelah proses \texttt{verifyFoodSafety()} selesai.
-    \item \texttt{ClaimHistoryItem} berasosiasi dengan \texttt{GamificationService} — setiap kali \texttt{scanAndComplete()} dipanggil, sistem memicu \texttt{calculateXP()} dan \texttt{evaluateRank()}.
+    \item \texttt{ClaimHistoryItem} berasosiasi dengan \texttt{GamificationService}, setiap kali \texttt{scanAndComplete()} dipanggil, sistem memicu \texttt{calculateXP()} dan \texttt{evaluateRank()}.
     \item \texttt{ExpiryChecker} memantau seluruh entitas \texttt{FoodItem} secara periodik dan memanggil \texttt{updateStatus()} jika makanan telah melewati \texttt{expiryTime}.
     \item \texttt{FileService} digunakan oleh \texttt{DatabaseService} setiap kali ada operasi unggah foto makanan atau aset AI generatif.
 \end{itemize}
@@ -321,7 +321,7 @@ Pengguna memasukkan email dan kata sandi di Halaman \textit{Login}. Sistem mengi
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{image/bab3/sequence/Sequence Diagram Melakukan Login (Global).png}
+    \includegraphics[width=0.9\textwidth]{image/bab3/sequence/Sequence Diagram Melakukan Login (Global).png}
     \captionsetup{hypcap=false}
     \caption{\textit{Sequence Diagram} Melakukan \textit{Login} (Global)}
     \label{fig:sd-login}
@@ -337,7 +337,7 @@ Donatur mengisi data makanan dan mengunggah fotonya melalui \textit{Form Upload}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{image/bab3/sequence/Sequence Diagram Unggah Surplus Makanan & Verifikasi AI (Donatur).png}
+    \includegraphics[width=0.9\textwidth]{image/bab3/sequence/Sequence Diagram Unggah Surplus Makanan & Verifikasi AI (Donatur).png}
     \captionsetup{hypcap=false}
     \caption{\textit{Sequence Diagram} Unggah Surplus Makanan \& Verifikasi AI (Donatur)}
     \label{fig:sd-upload-donatur}
@@ -349,7 +349,7 @@ Donatur melihat daftar pesanan yang masuk dan mengklik ``Terima''. \textit{Dashb
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{image/bab3/sequence/Sequence Diagram Konfirmasi Pesanan (Donatur).png}
+    \includegraphics[width=0.9\textwidth]{image/bab3/sequence/Sequence Diagram Konfirmasi Pesanan (Donatur).png}
     \captionsetup{hypcap=false}
     \caption{\textit{Sequence Diagram} Konfirmasi Pesanan (Donatur)}
     \label{fig:sd-konfirmasi-donatur}
@@ -361,7 +361,7 @@ Donatur membuka halaman Dampak Sosial. Antarmuka memanggil \texttt{fetchImpactSt
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{image/bab3/sequence/Sequence Diagram Dasbor Dampak Sosial SROI (Donatur).png}
+    \includegraphics[width=0.9\textwidth]{image/bab3/sequence/Sequence Diagram Dasbor Dampak Sosial SROI (Donatur).png}
     \captionsetup{hypcap=false}
     \caption{\textit{Sequence Diagram} Dasbor Dampak Sosial SROI (Donatur)}
     \label{fig:sd-sroi-donatur}
@@ -377,7 +377,7 @@ Donatur Korporat memasukkan daftar makanan dan instruksi logo di \textit{Packagi
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{image/bab3/sequence/Sequence Diagram Pembuatan Logo & Rekomendasi Kemasan (Korporat).png}
+    \includegraphics[width=0.9\textwidth]{image/bab3/sequence/Sequence Diagram Pembuatan Logo & Rekomendasi Kemasan (Korporat).png}
     \captionsetup{hypcap=false}
     \caption{\textit{Sequence Diagram} Pembuatan Logo \& Rekomendasi Kemasan (Donatur Korporat)}
     \label{fig:sd-kemasan-korporat}
@@ -389,7 +389,7 @@ Pengguna korporat memilih jenis makanan, nada bahasa (\textit{tone}), dan platfo
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{image/bab3/sequence/Sequence Diagram Generate CSR Copywriter (Korporat).png}
+    \includegraphics[width=0.9\textwidth]{image/bab3/sequence/Sequence Diagram Generate CSR Copywriter (Korporat).png}
     \captionsetup{hypcap=false}
     \caption{\textit{Sequence Diagram} \textit{Generate} CSR \textit{Copywriter} (Donatur Korporat)}
     \label{fig:sd-csr-korporat}
@@ -405,7 +405,7 @@ Penerima memilih makanan dan metode pengambilan, lalu mengklik ``Klaim''. \texti
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{image/bab3/sequence/Sequence Diagram Pencarian & Klaim Makanan (Penerima).png}
+    \includegraphics[width=0.9\textwidth]{image/bab3/sequence/Sequence Diagram Pencarian & Klaim Makanan (Penerima).png}
     \captionsetup{hypcap=false}
     \caption{\textit{Sequence Diagram} Pencarian \& Klaim Makanan (Penerima)}
     \label{fig:sd-klaim-penerima}
@@ -417,7 +417,7 @@ Penerima mengisi alasan dan mengunggah bukti di \textit{Modal} Laporan (misal ji
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{image/bab3/sequence/Sequence Diagram Pelaporan Masalah (Penerima).png}
+    \includegraphics[width=0.9\textwidth]{image/bab3/sequence/Sequence Diagram Pelaporan Masalah (Penerima).png}
     \captionsetup{hypcap=false}
     \caption{\textit{Sequence Diagram} Pelaporan Masalah (Penerima)}
     \label{fig:sd-laporan-penerima}
@@ -429,7 +429,7 @@ Setelah makanan diterima, Penerima mengisi \textit{rating} dan komentar. \textit
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{image/bab3/sequence/Sequence Diagram Pemberian Ulasan (Penerima).png}
+    \includegraphics[width=0.9\textwidth]{image/bab3/sequence/Sequence Diagram Pemberian Ulasan (Penerima).png}
     \captionsetup{hypcap=false}
     \caption{\textit{Sequence Diagram} Pemberian Ulasan (Penerima)}
     \label{fig:sd-ulasan-penerima}
@@ -445,7 +445,7 @@ Relawan memilih misi dari \textit{Missions Board} dan mengklik ``Ambil Misi''. \
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{image/bab3/sequence/Sequence Diagram Penerimaan Misi Pengantaran (Relawan).png}
+    \includegraphics[width=0.9\textwidth]{image/bab3/sequence/Sequence Diagram Penerimaan Misi Pengantaran (Relawan).png}
     \captionsetup{hypcap=false}
     \caption{\textit{Sequence Diagram} Penerimaan Misi Pengantaran (Relawan)}
     \label{fig:sd-misi-relawan}
@@ -457,7 +457,7 @@ Saat mengantar makanan, Relawan memindai QR Code Penerima menggunakan kamera ata
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{image/bab3/sequence/Sequence Diagram Validasi Serah Terima (Relawan).png}
+    \includegraphics[width=0.9\textwidth]{image/bab3/sequence/Sequence Diagram Validasi Serah Terima (Relawan).png}
     \captionsetup{hypcap=false}
     \caption{\textit{Sequence Diagram} Validasi Serah Terima (Relawan)}
     \label{fig:sd-serahterima-relawan}
@@ -473,7 +473,7 @@ Berjalan di latar belakang tanpa interaksi langsung pengguna. Setelah validasi s
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{image/bab3/sequence/Sequence Diagram Kalkulasi Gamifikasi (Sistem Internal).png}
+    \includegraphics[width=0.9\textwidth]{image/bab3/sequence/Sequence Diagram Kalkulasi Gamifikasi (Sistem Internal).png}
     \captionsetup{hypcap=false}
     \caption{\textit{Sequence Diagram} Kalkulasi Gamifikasi (Sistem Internal)}
     \label{fig:sd-gamifikasi}
@@ -489,7 +489,7 @@ Admin memilih akun pendaftar baru dan mengklik ``Verifikasi'' di \textit{User Ma
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{image/bab3/sequence/Sequence Diagram Verifikasi Akun (Admin).png}
+    \includegraphics[width=0.9\textwidth]{image/bab3/sequence/Sequence Diagram Verifikasi Akun (Admin).png}
     \captionsetup{hypcap=false}
     \caption{\textit{Sequence Diagram} Verifikasi Akun (Admin Pengelola)}
     \label{fig:sd-verifikasi-admin}
@@ -501,7 +501,7 @@ Admin meninjau laporan keluhan pengguna di halaman \textit{Support Request} dan 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{image/bab3/sequence/Sequence Diagram Moderasi Komplain (Admin).png}
+    \includegraphics[width=0.9\textwidth]{image/bab3/sequence/Sequence Diagram Moderasi Komplain (Admin).png}
     \captionsetup{hypcap=false}
     \caption{\textit{Sequence Diagram} Moderasi Komplain (Admin Pengelola)}
     \label{fig:sd-moderasi-admin}
@@ -513,7 +513,7 @@ Super Admin mengakses \textit{System Config} dan menggeser tuas ``Maintenance Mo
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{image/bab3/sequence/Sequence Diagram Manajemen Status Server (Super Admin).png}
+    \includegraphics[width=0.9\textwidth]{image/bab3/sequence/Sequence Diagram Manajemen Status Server (Super Admin).png}
     \captionsetup{hypcap=false}
     \caption{\textit{Sequence Diagram} Manajemen Status \textit{Server} (Super Admin)}
     \label{fig:sd-server-superadmin}
@@ -521,7 +521,7 @@ Super Admin mengakses \textit{System Config} dan menggeser tuas ``Maintenance Mo
 
 \noindent Sebagai ringkasan, seluruh \textit{sequence diagram} yang telah dipaparkan di atas dirangkum dalam tabel berikut:
 
-\begin{xltabular}{\textwidth}{|c|L|L|L|}
+\begin{xltabular}{\textwidth}{|c|L|L|X|}
     \caption{Daftar dan Spesifikasi \textit{Sequence Diagram} Food AI Rescue}
     \label{tab:ringkasan-sd} \\
     \hline
@@ -606,7 +606,7 @@ Halaman ini menampilkan formulir unggah donasi makanan baru. Donatur mengisi inf
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Donatur/01-Daftar-Donasi-Baru.png}
+    \includegraphics[width=0.9\textwidth]{image/bab3/Desain Use Interface/Donatur/01-Daftar-Donasi-Baru.png}
     \caption{Antarmuka Formulir Unggah Donasi Baru}
     \label{fig:ui-donatur-upload}
 \end{figure}
@@ -618,7 +618,7 @@ Dasbor utama yang menampilkan ringkasan statistik kontribusi donatur, termasuk j
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Donatur/02-Dashboard.png}
+    \includegraphics[width=0.9\textwidth]{image/bab3/Desain Use Interface/Donatur/02-Dashboard.png}
     \caption{Antarmuka Dasbor Utama Donatur}
     \label{fig:ui-donatur-dashboard}
 \end{figure}
@@ -630,7 +630,7 @@ Setelah donatur mengunggah foto makanan, sistem secara otomatis mengirimkan gamb
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Donatur/03-Hasil-Audit-Kualitas-AI.png}
+    \includegraphics[width=0.9\textwidth]{image/bab3/Desain Use Interface/Donatur/03-Hasil-Audit-Kualitas-AI.png}
     \caption{Antarmuka Hasil Audit Kualitas Makanan oleh AI}
     \label{fig:ui-donatur-audit-ai}
 \end{figure}
@@ -642,7 +642,7 @@ Fitur asisten dapur berbasis AI yang membantu donatur dalam mengidentifikasi mak
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Donatur/04-Kitchen-AI-Asisten.png}
+    \includegraphics[width=0.9\textwidth]{image/bab3/Desain Use Interface/Donatur/04-Kitchen-AI-Asisten.png}
     \caption{Antarmuka Kitchen AI Asisten}
     \label{fig:ui-donatur-kitchen-ai}
 \end{figure}
@@ -654,7 +654,7 @@ Halaman pengelolaan inventaris yang menampilkan daftar lengkap donasi makanan ya
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Donatur/05-Manajemen-Stok.png}
+    \includegraphics[width=0.9\textwidth]{image/bab3/Desain Use Interface/Donatur/05-Manajemen-Stok.png}
     \caption{Antarmuka Manajemen Stok Donasi}
     \label{fig:ui-donatur-stok}
 \end{figure}
@@ -666,7 +666,7 @@ Fitur eksklusif untuk Donatur Korporat yang mengintegrasikan AI generatif untuk 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Donatur/06-Copywriter-AI.png}
+    \includegraphics[width=0.9\textwidth]{image/bab3/Desain Use Interface/Donatur/06-Copywriter-AI.png}
     \caption{Antarmuka Copywriter AI untuk Konten CSR}
     \label{fig:ui-donatur-copywriter}
 \end{figure}
@@ -678,7 +678,7 @@ Halaman hasil yang menampilkan dua versi konten CSR yang telah di-\textit{genera
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Donatur/07-Output-Copywriter-AI.png}
+    \includegraphics[width=0.9\textwidth]{image/bab3/Desain Use Interface/Donatur/07-Output-Copywriter-AI.png}
     \caption{Antarmuka Output Hasil Copywriter AI}
     \label{fig:ui-donatur-output-copywriter}
 \end{figure}
@@ -694,7 +694,7 @@ Halaman detail yang menampilkan informasi lengkap mengenai satu item donasi maka
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Penerima/01-Detail-Makanan.png}
+    \includegraphics[width=0.9\textwidth]{image/bab3/Desain Use Interface/Penerima/01-Detail-Makanan.png}
     \caption{Antarmuka Detail Informasi Makanan}
     \label{fig:ui-penerima-detail}
 \end{figure}
@@ -706,7 +706,7 @@ Setelah penerima berhasil melakukan klaim, halaman detail makanan akan menampilk
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Penerima/02-Detail-Makanan-Claim.png}
+    \includegraphics[width=0.9\textwidth]{image/bab3/Desain Use Interface/Penerima/02-Detail-Makanan-Claim.png}
     \caption{Antarmuka Detail Makanan Setelah Klaim}
     \label{fig:ui-penerima-claim}
 \end{figure}
@@ -718,7 +718,7 @@ Dasbor utama Penerima yang menampilkan katalog lengkap makanan surplus yang ters
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Penerima/03-Halaman-Utama.png}
+    \includegraphics[width=0.9\textwidth]{image/bab3/Desain Use Interface/Penerima/03-Halaman-Utama.png}
     \caption{Antarmuka Halaman Utama Katalog Makanan (Penerima)}
     \label{fig:ui-penerima-home}
 \end{figure}
@@ -730,7 +730,7 @@ Halaman riwayat yang menampilkan log lengkap seluruh transaksi klaim yang pernah
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Penerima/04-Riwayat-Makanan.png}
+    \includegraphics[width=0.9\textwidth]{image/bab3/Desain Use Interface/Penerima/04-Riwayat-Makanan.png}
     \caption{Antarmuka Riwayat Transaksi Makanan (Penerima)}
     \label{fig:ui-penerima-riwayat}
 \end{figure}
@@ -746,7 +746,7 @@ Halaman detail yang menampilkan informasi lengkap mengenai satu misi pengantaran
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Relawan/01-Detail-Misi.png}
+    \includegraphics[width=0.9\textwidth]{image/bab3/Desain Use Interface/Relawan/01-Detail-Misi.png}
     \caption{Antarmuka Detail Misi Pengantaran}
     \label{fig:ui-relawan-detail-misi}
 \end{figure}
@@ -758,7 +758,7 @@ Sebelum memulai pengantaran, relawan diminta untuk memvalidasi kondisi makanan d
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Relawan/02-Halaman-Validasi-Foto.png}
+    \includegraphics[width=0.9\textwidth]{image/bab3/Desain Use Interface/Relawan/02-Halaman-Validasi-Foto.png}
     \caption{Antarmuka Halaman Validasi Foto Makanan}
     \label{fig:ui-relawan-validasi-foto}
 \end{figure}
@@ -766,11 +766,11 @@ Sebelum memulai pengantaran, relawan diminta untuk memvalidasi kondisi makanan d
 % ------------------------------------------------------------------
 \subsubsection{Halaman Utama (Missions Board)}
 
-Dasbor utama relawan yang menampilkan \textit{Missions Board}—daftar misi pengantaran yang tersedia dalam bentuk kartu interaktif. Setiap kartu menampilkan informasi singkat misi, jarak tempuh, estimasi waktu, dan poin XP yang ditawarkan. Halaman ini juga dilengkapi dengan peta geografis yang menunjukkan lokasi misi di sekitar relawan, serta filter berdasarkan jarak, poin, atau tingkat urgensi.
+Dasbor utama relawan yang menampilkan \textit{Missions Board}, yaitu daftar misi pengantaran yang tersedia dalam bentuk kartu interaktif. Setiap kartu menampilkan informasi singkat misi, jarak tempuh, estimasi waktu, dan poin XP yang ditawarkan. Halaman ini juga dilengkapi dengan peta geografis yang menunjukkan lokasi misi di sekitar relawan, serta filter berdasarkan jarak, poin, atau tingkat urgensi.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Relawan/04-Halaman-Utama.png}
+    \includegraphics[width=0.9\textwidth]{image/bab3/Desain Use Interface/Relawan/04-Halaman-Utama.png}
     \caption{Antarmuka Halaman Utama \textit{Missions Board} (Relawan)}
     \label{fig:ui-relawan-home}
 \end{figure}
@@ -782,7 +782,7 @@ Halaman riwayat yang menampilkan log lengkap seluruh misi yang pernah dikerjakan
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Relawan/05-Riwayat-Misi.png}
+    \includegraphics[width=0.9\textwidth]{image/bab3/Desain Use Interface/Relawan/05-Riwayat-Misi.png}
     \caption{Antarmuka Riwayat Misi dan \textit{Leaderboard} Gamifikasi}
     \label{fig:ui-relawan-riwayat}
 \end{figure}
@@ -798,7 +798,7 @@ Halaman yang menampilkan catatan kronologis seluruh aktivitas penting yang terja
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Admin/01-Log-Aktivitas.png}
+    \includegraphics[width=0.9\textwidth]{image/bab3/Desain Use Interface/Admin/01-Log-Aktivitas.png}
     \caption{Antarmuka Log Aktivitas Sistem}
     \label{fig:ui-admin-log}
 \end{figure}
@@ -810,7 +810,7 @@ Halaman manajemen yang menampilkan daftar lengkap seluruh akun administrator bes
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Admin/02-Daftar-Admin.png}
+    \includegraphics[width=0.9\textwidth]{image/bab3/Desain Use Interface/Admin/02-Daftar-Admin.png}
     \caption{Antarmuka Daftar dan Manajemen Admin}
     \label{fig:ui-admin-list}
 \end{figure}
@@ -822,7 +822,7 @@ Fitur yang memungkinkan admin untuk mengirimkan pengumuman atau pesan siaran (\t
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Admin/03-Broadcast-Pesan.png}
+    \includegraphics[width=0.9\textwidth]{image/bab3/Desain Use Interface/Admin/03-Broadcast-Pesan.png}
     \caption{Antarmuka Broadcast Pesan Sistem}
     \label{fig:ui-admin-broadcast}
 \end{figure}
@@ -834,7 +834,7 @@ Dasbor khusus yang menampilkan visualisasi metrik dampak lingkungan dan sosial d
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Admin/04-Dashboard-ESG.png}
+    \includegraphics[width=0.9\textwidth]{image/bab3/Desain Use Interface/Admin/04-Dashboard-ESG.png}
     \caption{Antarmuka Dashboard ESG (Dampak Lingkungan dan Sosial)}
     \label{fig:ui-admin-esg}
 \end{figure}
@@ -846,7 +846,7 @@ Dasbor pusat yang menampilkan ringkasan statistik operasional platform secara me
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Admin/05-Dashboard-Utama.png}
+    \includegraphics[width=0.9\textwidth]{image/bab3/Desain Use Interface/Admin/05-Dashboard-Utama.png}
     \caption{Antarmuka Dashboard Utama Admin}
     \label{fig:ui-admin-dashboard}
 \end{figure}
@@ -858,7 +858,7 @@ Halaman pengelolaan logistik yang menampilkan peta geografis distribusi makanan 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Admin/06-Manajemen-Distribusi.png}
+    \includegraphics[width=0.9\textwidth]{image/bab3/Desain Use Interface/Admin/06-Manajemen-Distribusi.png}
     \caption{Antarmuka Manajemen Distribusi Logistik}
     \label{fig:ui-admin-distribusi}
 \end{figure}
@@ -870,7 +870,7 @@ Halaman yang menyediakan alat untuk mengelola interaksi komunitas dalam platform
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Admin/07-Manajemen-Komunitas.png}
+    \includegraphics[width=0.9\textwidth]{image/bab3/Desain Use Interface/Admin/07-Manajemen-Komunitas.png}
     \caption{Antarmuka Manajemen Komunitas}
     \label{fig:ui-admin-komunitas}
 \end{figure}
@@ -882,7 +882,7 @@ Halaman untuk mengelola basis pengetahuan dan pertanyaan yang sering diajukan (\
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Admin/08-Manajemen-FAQ.png}
+    \includegraphics[width=0.9\textwidth]{image/bab3/Desain Use Interface/Admin/08-Manajemen-FAQ.png}
     \caption{Antarmuka Manajemen FAQ}
     \label{fig:ui-admin-faq}
 \end{figure}
@@ -894,7 +894,7 @@ Halaman konfigurasi sistem gamifikasi yang memungkinkan admin untuk mengelola mi
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Admin/09-Milestone-dan-Ranking.png}
+    \includegraphics[width=0.9\textwidth]{image/bab3/Desain Use Interface/Admin/09-Milestone-dan-Ranking.png}
     \caption{Antarmuka Manajemen Milestone dan Ranking}
     \label{fig:ui-admin-milestone}
 \end{figure}
@@ -906,7 +906,7 @@ Halaman yang menampilkan antrian laporan konten yang perlu dimoderasi, termasuk 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Admin/10-Moderasi-Konten.png}
+    \includegraphics[width=0.9\textwidth]{image/bab3/Desain Use Interface/Admin/10-Moderasi-Konten.png}
     \caption{Antarmuka Moderasi Konten dan Laporan}
     \label{fig:ui-admin-moderasi}
 \end{figure}
@@ -918,7 +918,7 @@ Halaman konfigurasi tingkat lanjut yang memberikan akses ke seluruh pengaturan o
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{image/bab3/Desain Use Interface/Admin/11-Pengaturan-Sistem.png}
+    \includegraphics[width=0.9\textwidth]{image/bab3/Desain Use Interface/Admin/11-Pengaturan-Sistem.png}
     \caption{Antarmuka Pengaturan dan Konfigurasi Sistem}
     \label{fig:ui-admin-pengaturan}
 \end{figure}
@@ -927,7 +927,7 @@ Halaman konfigurasi tingkat lanjut yang memberikan akses ke seluruh pengaturan o
 \section{Kebutuhan Perangkat Keras dan Perangkat Lunak}
 % ==============================================================================
 
-Guna menunjang keberhasilan rancang bangun platform \textit{Food AI Rescue}---baik pada fase rekayasa lokal maupun penerapan di tingkat produksi (\textit{deployment})---diperlukan spesifikasi infrastruktur teknologi yang terukur dan andal. Subbab ini merincikan daftar kebutuhan spesifikasi minimum perangkat keras (\textit{hardware}) dan perangkat lunak (\textit{software}) yang berfungsi sebagai lingkungan operasional (\textit{environment}) bagi sistem basis data, peladen \textit{backend}, integrasi API \textit{Machine Learning}, hingga perangkat akses akhir yang digunakan oleh pengguna di lapangan.
+Guna menunjang keberhasilan rancang bangun platform \textit{Food AI Rescue}, baik pada fase rekayasa lokal maupun penerapan di tingkat produksi (\textit{deployment}), diperlukan spesifikasi infrastruktur teknologi yang terukur dan andal. Subbab ini merincikan daftar kebutuhan spesifikasi minimum perangkat keras (\textit{hardware}) dan perangkat lunak (\textit{software}) yang berfungsi sebagai lingkungan operasional (\textit{environment}) bagi sistem basis data, peladen \textit{backend}, integrasi API \textit{Machine Learning}, hingga perangkat akses akhir yang digunakan oleh pengguna di lapangan.
 
 \subsection{Pengembangan Sistem}
 \label{subsec:kebutuhan-pengembangan}

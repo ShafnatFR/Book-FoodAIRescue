@@ -2,8 +2,11 @@
 % PREAMBLE: TEMPLATE MODUL / BUKU STANDAR
 % ==============================================================================
 
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
+% \usepackage[utf8]{inputenc} % Removed for XeLaTeX/LuaLaTeX compatibility
+% \usepackage[T1]{fontenc} % Removed for XeLaTeX/LuaLaTeX compatibility
+\usepackage{fontspec}
+\setmainfont{Calibri}
+\setsansfont{Calibri}
 \usepackage[indonesian]{babel} % Support for Bahasa Indonesia
 \usepackage{geometry}
 \usepackage{graphicx}
@@ -35,8 +38,8 @@
 \usepackage{tikz}
 \usepackage{setspace}
 \usepackage{enumitem}
-\usepackage[sfdefault]{carlito} % Use Carlito (Calibri equivalent)
-\renewcommand{\familydefault}{\sfdefault}
+% \usepackage[sfdefault]{carlito} % Use Carlito (Calibri equivalent)
+% \renewcommand{\familydefault}{\sfdefault}
 \usepackage{amssymb}
 \usepackage{pifont}
 \newcommand{\cmark}{\scalebox{2.0}{\textcolor{blue}{\ding{51}}}}%
@@ -81,37 +84,51 @@
     \renewcommand{\headrulewidth}{0pt}
 }
 
-\pagestyle{fancy}
-\fancyhf{}
-\fancyhead[C]{
-    \begin{tikzpicture}[remember picture,overlay]
-        \node[anchor=north west, fill=gray!20, minimum width=\paperwidth-1cm, minimum height=1.8cm, xshift=1cm] at (current page.north west) {};
-        \node[anchor=east] at ([xshift=-1.18in, yshift=-1.0cm]current page.north east) {
-            \includegraphics[height=1.2cm]{image/Logo_Universitas_Telkom_Horizontal.png}
-        };
-    \end{tikzpicture}
+\fancypagestyle{fancy}{
+    \fancyhf{}
+    \fancyhead[C]{
+        \begin{tikzpicture}[remember picture,overlay]
+            \node[anchor=north west, fill=gray!20, minimum width=\paperwidth-1cm, minimum height=1.8cm, xshift=1cm] at (current page.north west) {};
+            \node[anchor=east] at ([xshift=-1.18in, yshift=-1.0cm]current page.north east) {
+                \includegraphics[height=1.2cm]{image/Logo_Universitas_Telkom_Horizontal.png}
+            };
+        \end{tikzpicture}
+    }
+    \fancyfoot[R]{\thepage}
+    \renewcommand{\headrulewidth}{0pt}
+    \renewcommand{\footrulewidth}{0pt}
 }
-\fancyfoot[R]{\thepage}
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}
+\pagestyle{fancy}
+
+% --- Fix Landscape Style ---
+\let\origlandscape\landscape
+\let\origendlandscape\endlandscape
+\renewenvironment{landscape}{%
+    \newgeometry{left=1.18in, right=1.58in, top=1.18in, bottom=1.18in, headheight=15pt, headsep=0.47in, footskip=1.08in}%
+    \origlandscape
+}{%
+    \origendlandscape
+    \restoregeometry
+}
 
 % --- Landscape Page Style ---
 \fancypagestyle{lscape}{
     \fancyhf{}
     \fancyhead[C]{
         \begin{tikzpicture}[remember picture,overlay]
-            % Gray strip along left edge (becomes top when landscape)
-            \node[anchor=south west, fill=gray!20, minimum width=1.8cm, minimum height=\paperheight, yshift=0cm] at (current page.south west) {};
-            % Logo centered in the gray strip: strip center = 0.9cm from left
-            \node[anchor=center, rotate=90] at ([xshift=0.9cm, yshift=0cm]current page.west) {
+            % Gray strip on physical left (= visual top in landscape view)
+            \node[anchor=south west, fill=gray!20, minimum width=1.8cm, minimum height=\paperheight] at (current page.south west) {};
+            % Logo centered in strip (0.9cm from left), at right margin of landscape content
+            % yshift=-1.18in from north west = 1.18in from visual right = matches portrait right margin
+            \node[anchor=center, rotate=90] at ([xshift=0.9cm, yshift=-1.18in]current page.north west) {
                 \includegraphics[height=1.2cm]{image/Logo_Universitas_Telkom_Horizontal.png}
             };
         \end{tikzpicture}
     }
     \fancyfoot[C]{
         \begin{tikzpicture}[remember picture,overlay]
-            % Page number at right margin (becomes bottom right when landscape)
-            \node[anchor=center, rotate=90] at ([xshift=-1.18in, yshift=0cm]current page.east) {\thepage};
+            % Page number at visual bottom-right (physical north east area), 1.18in from visual right
+            \node[anchor=center, rotate=90] at ([xshift=-0.5in, yshift=-1.18in]current page.north east) {\thepage};
         \end{tikzpicture}
     }
     \renewcommand{\headrulewidth}{0pt}
@@ -156,7 +173,7 @@
 \DeclareQuoteAlias{american}{indonesian}
 
 % --- Bibliography Setup ---
-\usepackage[style=ieee, sorting=none, backend=bibtex, isbn=false, url=false, eprint=false]{biblatex}
+\usepackage[style=ieee, sorting=none, backend=biber, isbn=false, url=false, eprint=false]{biblatex}
 \addbibresource{referensi.bib}
 
 
