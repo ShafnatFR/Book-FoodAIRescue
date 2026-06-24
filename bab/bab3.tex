@@ -116,6 +116,8 @@ Tahapan pemodelan sistem dan data bertujuan untuk memvisualisasikan alur interak
 \subsection{\textit{Entity Relationship Diagram} (ERD)}
 ERD berikut menggambarkan struktur basis data relasional yang menjadi fondasi penyimpanan data platform Food AI Rescue. Entitas utama dan relasinya dijabarkan sebagai berikut:
 
+% Tabel ERD berikut disembunyikan (di-hide) sementara
+\iffalse
 \begin{xltabular}{\textwidth}{|L|L|L|}
     \caption{Daftar Seluruh Entitas Basis Data Food AI Rescue}
     \label{tab:erd-entities-full} \\
@@ -189,6 +191,7 @@ ERD berikut menggambarkan struktur basis data relasional yang menjadi fondasi pe
     \tbltt{verification\_codes} & id, identifier, channel, email, code, type, expires\_at & Kode OTP multi-saluran \\
     \hline
 \end{xltabular}
+\fi
 
 \newpage
 \begin{landscape}
@@ -219,6 +222,8 @@ ERD berikut menggambarkan struktur basis data relasional yang menjadi fondasi pe
 
 Rincian spesifikasi kelas, deskripsi fungsi, beserta daftar atribut dan metode (operasi) yang menyertainya dijabarkan secara lengkap pada Tabel \ref{tab:class-diagram} berikut:
 
+% Tabel Class Diagram berikut disembunyikan (di-hide) sementara
+\iffalse
 \begin{xltabular}{\textwidth}{|c|L|L|L|L|}
     \caption{Spesifikasi dan Penjelasan \textit{Class Diagram}}
     \label{tab:class-diagram} \\
@@ -282,6 +287,7 @@ Rincian spesifikasi kelas, deskripsi fungsi, beserta daftar atribut dan metode (
     \hline
 
 \end{xltabular}
+\fi
 
 \noindent Hubungan antar kelas yang penting:
 \begin{itemize}
@@ -371,6 +377,7 @@ Donatur membuka halaman Dampak Sosial. Antarmuka memanggil \texttt{fetchImpactSt
 \subsubsection{Alur Eksklusif Donatur Korporat (AI Generatif)}
 % ------------------------------------------------------------------
 
+\iffalse
 \textbf{5. \textit{Sequence Diagram} Pembuatan Logo \& Rekomendasi Kemasan}
 
 Donatur Korporat memasukkan daftar makanan dan instruksi logo di \textit{Packaging Studio}. Studio memanggil \texttt{generatePackagingSolution} ke \textit{AI Service}. AI kemudian mengirim \textit{POST prompt image} ke Gemini API untuk membuat logo, dan \textit{POST prompt text} untuk mencari rekomendasi material ramah lingkungan. URL gambar dan teks rekomendasi dikembalikan untuk ditampilkan ke pengguna.
@@ -382,6 +389,7 @@ Donatur Korporat memasukkan daftar makanan dan instruksi logo di \textit{Packagi
     \caption{\textit{Sequence Diagram} Pembuatan Logo \& Rekomendasi Kemasan (Donatur Korporat)}
     \label{fig:sd-kemasan-korporat}
 \end{figure}
+\fi
 
 \textbf{6. \textit{Sequence Diagram} \textit{Generate} CSR \textit{Copywriter}}
 
@@ -507,6 +515,7 @@ Admin meninjau laporan keluhan pengguna di halaman \textit{Support Request} dan 
     \label{fig:sd-moderasi-admin}
 \end{figure}
 
+\iffalse
 \textbf{15. \textit{Sequence Diagram} Manajemen Status \textit{Server} (Super Admin)}
 
 Super Admin mengakses \textit{System Config} dan menggeser tuas ``Maintenance Mode'' (ON/OFF). \textit{Backend} menerima \texttt{toggleMaintenance(boolean)} dan memperbarui kunci pengaturan di \textit{Database}. Secara sistemik, tindakan ini akan membatalkan (\textit{invalidate}) seluruh sesi aktif pengguna lain, dan memunculkan tampilan ``mode pemeliharaan'' di seluruh aplikasi.
@@ -518,6 +527,7 @@ Super Admin mengakses \textit{System Config} dan menggeser tuas ``Maintenance Mo
     \caption{\textit{Sequence Diagram} Manajemen Status \textit{Server} (Super Admin)}
     \label{fig:sd-server-superadmin}
 \end{figure}
+\fi
 
 \noindent Sebagai ringkasan, seluruh \textit{sequence diagram} yang telah dipaparkan di atas dirangkum dalam tabel berikut:
 
@@ -533,7 +543,7 @@ Super Admin mengakses \textit{System Config} dan menggeser tuas ``Maintenance Mo
     \hline
     \endhead
     \hline
-    \multicolumn{4}{r}{\textit{Bersambung ke halaman berikutnya}} \\
+    % \multicolumn{4}{r}{\textit{Bersambung ke halaman berikutnya}} \\
     \endfoot
     \hline
     \endlastfoot
@@ -571,8 +581,8 @@ Super Admin mengakses \textit{System Config} dan menggeser tuas ``Maintenance Mo
     11 & Donatur Korporat & SD \textit{Generate} CSR \textit{Copywriter} & Membahas penarikan data transaksi aktual untuk diolah AI menjadi dua versi teks (untuk Donatur dan Penerima) dengan kustomisasi nada dan platform target, disertai fitur pengiriman \textit{request posting} ke akun Penerima. \\
     \hline
 
-    12 & Donatur Korporat & SD Pembuatan Logo \& Rekomendasi Kemasan & Menggambarkan alur pemrosesan AI ganda, di mana sistem menghasilkan gambar logo kemasan, sekaligus menganalisis spesifikasi makanan untuk memberikan rekomendasi material kemasan (misal: anti-air) dan nama vendor di internet. \\
-    \hline
+    % 12 & Donatur Korporat & SD Pembuatan Logo \& Rekomendasi Kemasan & Menggambarkan alur pemrosesan AI ganda, di mana sistem menghasilkan gambar logo kemasan, sekaligus menganalisis spesifikasi makanan untuk memberikan rekomendasi material kemasan (misal: anti-air) dan nama vendor di internet. \\
+    % \hline
 
     13 & Admin & SD Verifikasi \& Kelola Akun & Menggambarkan alur Admin saat menarik daftar pendaftar baru, memeriksa dokumen identitas, dan mengubah status akun menjadi aktif (terverifikasi) atau ditolak. \\
     \hline
@@ -580,8 +590,8 @@ Super Admin mengakses \textit{System Config} dan menggeser tuas ``Maintenance Mo
     14 & Admin & SD Moderasi Komplain & Membahas alur resolusi sengketa, di mana Admin meninjau bukti dari Penerima/Relawan dan menetapkan keputusan status final pada log transaksi (basis data). \\
     \hline
 
-    15 & Super Admin & SD Manajemen Status \textit{Server} & Membahas alur pengaktifan \textit{Maintenance Mode}, yang memicu pemutusan sesi (akses) publik dan mengalihkan seluruh lalu lintas pengguna ke halaman pemeliharaan. \\
-    \hline
+    % 15 & Super Admin & SD Manajemen Status \textit{Server} & Membahas alur pengaktifan \textit{Maintenance Mode}, yang memicu pemutusan sesi (akses) publik dan mengalihkan seluruh lalu lintas pengguna ke halaman pemeliharaan. \\
+    % \hline
 
 \end{xltabular}
 
@@ -946,7 +956,7 @@ Kebutuhan perangkat keras (\textit{hardware}) yang digunakan oleh penulis dalam 
     \hline
     \endhead
     \hline
-    \multicolumn{4}{r}{\textit{Bersambung ke halaman berikutnya}} \\
+    % \multicolumn{4}{r}{\textit{Bersambung ke halaman berikutnya}} \\
     \endfoot
     \hline
     \endlastfoot
@@ -982,7 +992,7 @@ Perangkat lunak (\textit{software}) meliputi sistem operasi, bahasa pemrograman,
     \hline
     \endhead
     \hline
-    \multicolumn{4}{r}{\textit{Bersambung ke halaman berikutnya}} \\
+    % \multicolumn{4}{r}{\textit{Bersambung ke halaman berikutnya}} \\
     \endfoot
     \hline
     \endlastfoot
@@ -1025,7 +1035,7 @@ Agar platform \textit{Food AI Rescue} dapat dieksekusi dan dikembangkan secara o
     \hline
     \endhead
     \hline
-    \multicolumn{4}{r}{\textit{Bersambung ke halaman berikutnya}} \\
+    % \multicolumn{4}{r}{\textit{Bersambung ke halaman berikutnya}} \\
     \endfoot
     \hline
     \endlastfoot

@@ -5,8 +5,30 @@
 % \usepackage[utf8]{inputenc} % Removed for XeLaTeX/LuaLaTeX compatibility
 % \usepackage[T1]{fontenc} % Removed for XeLaTeX/LuaLaTeX compatibility
 \usepackage{fontspec}
-\setmainfont{Calibri}
-\setsansfont{Calibri}
+\setmainfont{Aptos}[
+    Path = ./Microsoft Aptos Fonts/,
+    Extension = .ttf,
+    UprightFont = *,
+    BoldFont = *-Bold,
+    ItalicFont = *-Italic,
+    BoldItalicFont = *-Bold-Italic
+]
+\setsansfont{Aptos}[
+    Path = ./Microsoft Aptos Fonts/,
+    Extension = .ttf,
+    UprightFont = *,
+    BoldFont = *-Bold,
+    ItalicFont = *-Italic,
+    BoldItalicFont = *-Bold-Italic
+]
+\setmonofont{Aptos-Mono}[
+    Path = ./Microsoft Aptos Fonts/,
+    Extension = .ttf,
+    UprightFont = *,
+    BoldFont = *-Bold,
+    ItalicFont = *-Italic,
+    BoldItalicFont = *-Bold-Italic
+]
 \usepackage[indonesian]{babel} % Support for Bahasa Indonesia
 \usepackage{geometry}
 \usepackage{graphicx}
@@ -15,7 +37,17 @@
 \usepackage[table]{xcolor}
 \usepackage{fancyhdr}
 \usepackage{titlesec}
-\usepackage{tocloft}
+\usepackage[titles]{tocloft}
+\renewcommand{\cftchapleader}{\hfill}
+\renewcommand{\cftsecleader}{\hfill}
+\renewcommand{\cftsubsecleader}{\hfill}
+\renewcommand{\cftsubsubsecleader}{\hfill}
+\renewcommand{\cftfigleader}{\hfill}
+\renewcommand{\cfttableader}{\hfill}
+\renewcommand{\cftfigpresnum}{Gambar }
+\renewcommand{\cfttabpresnum}{Tabel }
+\setlength{\cftfignumwidth}{2.5cm}
+\setlength{\cfttabnumwidth}{2.5cm}
 \usepackage{booktabs}
 \usepackage{tabularx}
 \usepackage{longtable}
@@ -64,7 +96,7 @@
     bottom=1.58in,
     left=1.18in,
     right=1.18in,
-    headheight=15pt, % Recommended by fancyhdr
+    headheight=52pt, % Adjusted for new taller header
     headsep=0.47in,  % 1.18in - 15pt - 0.5in = 0.47in approx
     footskip=1.08in  % 1.58in - 0.5in = 1.08in
 }
@@ -72,29 +104,33 @@
 % --- Header & Footer ---
 \fancypagestyle{plain}{ % Re-define plain style for chapter start pages
     \fancyhf{}
-    \fancyhead[C]{
+    \fancyhead[C]{%
         \begin{tikzpicture}[remember picture,overlay]
-            \node[anchor=north west, fill=gray!20, minimum width=\paperwidth-1cm, minimum height=1.8cm, xshift=1cm] at (current page.north west) {};
-            \node[anchor=east] at ([xshift=-1.18in, yshift=-1.0cm]current page.north east) {
-                \includegraphics[height=1.2cm]{image/Logo_Universitas_Telkom_Horizontal.png}
+            \node[anchor=north, inner sep=0pt] at (current page.north) {
+                \includegraphics[width=\paperwidth,height=1.5cm]{image/header.png}
+            };
+            \node[anchor=east, inner sep=0pt, xshift=-1.5cm, yshift=-0.75cm] at (current page.north east) {
+                \includegraphics[height=0.5cm]{image/Logo_Universitas_Telkom_Horizontal.png}
             };
         \end{tikzpicture}
     }
-    \fancyfoot[R]{\thepage}
+    \fancyfoot[C]{\thepage}
     \renewcommand{\headrulewidth}{0pt}
 }
 
 \fancypagestyle{fancy}{
     \fancyhf{}
-    \fancyhead[C]{
+    \fancyhead[C]{%
         \begin{tikzpicture}[remember picture,overlay]
-            \node[anchor=north west, fill=gray!20, minimum width=\paperwidth-1cm, minimum height=1.8cm, xshift=1cm] at (current page.north west) {};
-            \node[anchor=east] at ([xshift=-1.18in, yshift=-1.0cm]current page.north east) {
-                \includegraphics[height=1.2cm]{image/Logo_Universitas_Telkom_Horizontal.png}
+            \node[anchor=north, inner sep=0pt] at (current page.north) {
+                \includegraphics[width=\paperwidth,height=1.5cm]{image/header.png}
+            };
+            \node[anchor=east, inner sep=0pt, xshift=-1.5cm, yshift=-0.75cm] at (current page.north east) {
+                \includegraphics[height=0.6cm]{image/Logo_Universitas_Telkom_Horizontal.png}
             };
         \end{tikzpicture}
     }
-    \fancyfoot[R]{\thepage}
+    \fancyfoot[C]{\thepage}
     \renewcommand{\headrulewidth}{0pt}
     \renewcommand{\footrulewidth}{0pt}
 }
@@ -103,57 +139,74 @@
 % --- Fix Landscape Style ---
 \let\origlandscape\landscape
 \let\origendlandscape\endlandscape
+
+% Remove typewriter font globally
+\renewcommand{\texttt}[1]{\textit{#1}}
 \renewenvironment{landscape}{%
     \newgeometry{left=1.18in, right=1.58in, top=1.18in, bottom=1.18in, headheight=15pt, headsep=0.47in, footskip=1.08in}%
     \origlandscape
+    \pagestyle{lscape}%
 }{%
     \origendlandscape
     \restoregeometry
+    \pagestyle{fancy}%
 }
 
 % --- Landscape Page Style ---
 \fancypagestyle{lscape}{
     \fancyhf{}
-    \fancyhead[C]{
-        \begin{tikzpicture}[remember picture,overlay]
-            % Gray strip on physical left (= visual top in landscape view)
-            \node[anchor=south west, fill=gray!20, minimum width=1.8cm, minimum height=\paperheight] at (current page.south west) {};
-            % Logo centered in strip (0.9cm from left), at right margin of landscape content
-            % yshift=-1.18in from north west = 1.18in from visual right = matches portrait right margin
-            \node[anchor=center, rotate=90] at ([xshift=0.9cm, yshift=-1.18in]current page.north west) {
-                \includegraphics[height=1.2cm]{image/Logo_Universitas_Telkom_Horizontal.png}
-            };
-        \end{tikzpicture}
+    \fancyhead[C]{%
+        \makebox[0pt][c]{%
+            \begin{tikzpicture}[remember picture, overlay]
+                % 1. Gambar Header Abu-abu (Menempel sempurna di atas halaman landscape)
+                \node[rotate=90, anchor=north, inner sep=0pt, outer sep=0pt] 
+                    at (current page.west) {%
+                        \includegraphics[width=\paperheight, height=1.5cm]{image/header.png}%
+                    };
+                
+                % 2. Logo Universitas Telkom (Tepat di TENGAH header abu-abu)
+                % Menggunakan xshift=0.75cm untuk memosisikannya di tengah-tengah ketebalan header (1.5cm / 2)
+                \node[rotate=90, anchor=center, inner sep=0pt, outer sep=0pt] 
+                    at ([xshift=0.75cm]current page.west) {%
+                        \includegraphics[height=0.6cm]{image/Logo_Universitas_Telkom_Horizontal.png}%
+                    };
+                
+                % 3. Nomor Halaman (Tengah bawah halaman landscape)
+                \node[rotate=90, anchor=center, inner sep=0pt, outer sep=0pt] 
+                    at ([xshift=-1.08in]current page.east) {%
+                        \thepage
+                    };
+            \end{tikzpicture}%
+        }%
     }
-    \fancyfoot[C]{
-        \begin{tikzpicture}[remember picture,overlay]
-            % Page number at visual bottom-right (physical north east area), 1.18in from visual right
-            \node[anchor=center, rotate=90] at ([xshift=-0.5in, yshift=-1.18in]current page.north east) {\thepage};
-        \end{tikzpicture}
-    }
+    \fancyfoot[C]{}
     \renewcommand{\headrulewidth}{0pt}
     \renewcommand{\footrulewidth}{0pt}
 }
 
 % --- Custom Commands ---
 \newcommand{\chapterservicename}{BAB} % Standard for Indonesian "BAB"
-\newcommand{\tbltt}[1]{{\small\ttfamily\seqsplit{#1}}}
+\newcommand{\tbltt}[1]{{\small\itshape\seqsplit{#1}}}
+
+% --- Override monospace font ---
+\let\origtexttt\texttt
+\renewcommand{\texttt}[1]{\textit{#1}}
 
 % --- Styling Bab & Seksi ---
-\titleformat{\chapter}[display]
-  {\normalfont\bfseries\centering}
-  {\Large\chapterservicename\ \Roman{chapter}}
+\titleformat{\chapter}[block]
+  {\fontsize{20}{24}\bfseries\centering}
+  {\chapterservicename\ \Roman{chapter}}
   {1ex}
-  {\huge\MakeUppercase}
-\titlespacing*{\chapter}{0pt}{-20pt}{40pt}
+  {\MakeUppercase}
+\titlespacing*{\chapter}{0pt}{-20pt}{20pt}
 
 \titleformat{\section}
-  {\normalfont\Large\bfseries\color{black}}
+  {\normalfont\normalsize\bfseries\color{black}}
   {\thesection}{1em}{}
 \titlespacing*{\section}{0pt}{1.5ex plus 0.5ex minus .2ex}{0.8ex plus .2ex}
 
 \titleformat{\subsection}
-  {\normalfont\large\bfseries\color{black}}
+  {\normalfont\normalsize\bfseries\color{black}}
   {\thesubsection}{1em}{}
 \titlespacing*{\subsection}{0pt}{1.2ex plus 0.4ex minus .2ex}{0.6ex plus .2ex}
 

@@ -1,94 +1,92 @@
 \babel@toc {indonesian}{}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Metode Scrum Menggunakan TorMonitorPYanto x Ko+Lab}}{7}{figure.caption.1}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Metode Scrum Menggunakan TorMonitorPYanto x Ko+Lab}}{7}{figure.caption.4}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Segmentasi Pengguna Food AI Rescue}}{8}{figure.caption.2}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Proses Bisnis Sistem Saat Ini (BPMN As-Is)}}{12}{figure.2.2}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Proses Bisnis Sistem Usulan - Metode Pickup (BPMN To-Be)}}{15}{figure.2.3}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Proses Bisnis Sistem Usulan - Metode Diantar (BPMN To-Be)}}{18}{figure.2.4}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces User Persona Donatur Individu}}{22}{figure.caption.3}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Empathy Map Donatur Individu}}{23}{figure.caption.4}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Customer Journey Map Donatur Individu}}{25}{figure.caption.5}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces User Persona Donatur Korporat}}{26}{figure.caption.6}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Empathy Map Donatur Korporat}}{27}{figure.caption.7}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Customer Journey Map Donatur Korporat}}{29}{figure.caption.8}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces User Persona Penerima}}{30}{figure.caption.9}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Empathy Map Penerima}}{31}{figure.caption.10}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Customer Journey Map Penerima}}{32}{figure.caption.11}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces User Persona Relawan}}{34}{figure.caption.12}%
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Empathy Map Relawan}}{35}{figure.caption.13}%
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Customer Journey Map Relawan}}{36}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Segmentasi Pengguna Food AI Rescue}}{8}{figure.caption.5}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Proses Bisnis Sistem Saat Ini (BPMN As-Is)}}{13}{figure.2.2}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Proses Bisnis Sistem Usulan - Metode Pickup (BPMN To-Be)}}{16}{figure.2.3}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Proses Bisnis Sistem Usulan - Metode Diantar (BPMN To-Be)}}{19}{figure.2.4}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces User Persona Donatur Individu}}{23}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Empathy Map Donatur Individu}}{24}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Customer Journey Map Donatur Individu}}{26}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces User Persona Donatur Korporat}}{27}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Empathy Map Donatur Korporat}}{28}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Customer Journey Map Donatur Korporat}}{30}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces User Persona Penerima}}{31}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Empathy Map Penerima}}{32}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Customer Journey Map Penerima}}{34}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces User Persona Relawan}}{35}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Empathy Map Relawan}}{36}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Customer Journey Map Relawan}}{37}{figure.caption.17}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces \textit {Deployment Diagram} Arsitektur Sistem Food AI Rescue}}{50}{figure.caption.16}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces \textit {Use Case Diagram} Food AI Rescue}}{52}{figure.3.2}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Entity Relationship Diagram (ERD) Food AI Rescue}}{56}{figure.3.3}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces \textit {Class Diagram} Food AI Rescue}}{65}{figure.3.4}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces \textit {Sequence Diagram} Melakukan \textit {Login} (Global)}}{67}{figure.caption.17}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces \textit {Sequence Diagram} Unggah Surplus Makanan \& Verifikasi AI (Donatur)}}{68}{figure.caption.18}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces \textit {Sequence Diagram} Konfirmasi Pesanan (Donatur)}}{68}{figure.caption.19}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces \textit {Sequence Diagram} Dasbor Dampak Sosial SROI (Donatur)}}{69}{figure.caption.20}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces \textit {Sequence Diagram} Pembuatan Logo \& Rekomendasi Kemasan (Donatur Korporat)}}{69}{figure.caption.21}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces \textit {Sequence Diagram} \textit {Generate} CSR \textit {Copywriter} (Donatur Korporat)}}{70}{figure.caption.22}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces \textit {Sequence Diagram} Pencarian \& Klaim Makanan (Penerima)}}{71}{figure.caption.23}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces \textit {Sequence Diagram} Pelaporan Masalah (Penerima)}}{71}{figure.caption.24}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces \textit {Sequence Diagram} Pemberian Ulasan (Penerima)}}{72}{figure.caption.25}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces \textit {Sequence Diagram} Penerimaan Misi Pengantaran (Relawan)}}{72}{figure.caption.26}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces \textit {Sequence Diagram} Validasi Serah Terima (Relawan)}}{73}{figure.caption.27}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces \textit {Sequence Diagram} Kalkulasi Gamifikasi (Sistem Internal)}}{74}{figure.caption.28}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces \textit {Sequence Diagram} Verifikasi Akun (Admin Pengelola)}}{74}{figure.caption.29}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces \textit {Sequence Diagram} Moderasi Komplain (Admin Pengelola)}}{75}{figure.caption.30}%
-\contentsline {figure}{\numberline {3.19}{\ignorespaces \textit {Sequence Diagram} Manajemen Status \textit {Server} (Super Admin)}}{75}{figure.caption.31}%
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Antarmuka Formulir Unggah Donasi Baru}}{82}{figure.caption.32}%
-\contentsline {figure}{\numberline {3.21}{\ignorespaces Antarmuka Dasbor Utama Donatur}}{82}{figure.caption.33}%
-\contentsline {figure}{\numberline {3.22}{\ignorespaces Antarmuka Hasil Audit Kualitas Makanan oleh AI}}{83}{figure.caption.34}%
-\contentsline {figure}{\numberline {3.23}{\ignorespaces Antarmuka Kitchen AI Asisten}}{84}{figure.caption.35}%
-\contentsline {figure}{\numberline {3.24}{\ignorespaces Antarmuka Manajemen Stok Donasi}}{84}{figure.caption.36}%
-\contentsline {figure}{\numberline {3.25}{\ignorespaces Antarmuka Copywriter AI untuk Konten CSR}}{85}{figure.caption.37}%
-\contentsline {figure}{\numberline {3.26}{\ignorespaces Antarmuka Output Hasil Copywriter AI}}{86}{figure.caption.38}%
-\contentsline {figure}{\numberline {3.27}{\ignorespaces Antarmuka Detail Informasi Makanan}}{87}{figure.caption.39}%
-\contentsline {figure}{\numberline {3.28}{\ignorespaces Antarmuka Detail Makanan Setelah Klaim}}{87}{figure.caption.40}%
-\contentsline {figure}{\numberline {3.29}{\ignorespaces Antarmuka Halaman Utama Katalog Makanan (Penerima)}}{88}{figure.caption.41}%
-\contentsline {figure}{\numberline {3.30}{\ignorespaces Antarmuka Riwayat Transaksi Makanan (Penerima)}}{89}{figure.caption.42}%
-\contentsline {figure}{\numberline {3.31}{\ignorespaces Antarmuka Detail Misi Pengantaran}}{90}{figure.caption.43}%
-\contentsline {figure}{\numberline {3.32}{\ignorespaces Antarmuka Halaman Validasi Foto Makanan}}{90}{figure.caption.44}%
-\contentsline {figure}{\numberline {3.33}{\ignorespaces Antarmuka Halaman Utama \textit {Missions Board} (Relawan)}}{91}{figure.caption.45}%
-\contentsline {figure}{\numberline {3.34}{\ignorespaces Antarmuka Riwayat Misi dan \textit {Leaderboard} Gamifikasi}}{92}{figure.caption.46}%
-\contentsline {figure}{\numberline {3.35}{\ignorespaces Antarmuka Log Aktivitas Sistem}}{93}{figure.caption.47}%
-\contentsline {figure}{\numberline {3.36}{\ignorespaces Antarmuka Daftar dan Manajemen Admin}}{93}{figure.caption.48}%
-\contentsline {figure}{\numberline {3.37}{\ignorespaces Antarmuka Broadcast Pesan Sistem}}{94}{figure.caption.49}%
-\contentsline {figure}{\numberline {3.38}{\ignorespaces Antarmuka Dashboard ESG (Dampak Lingkungan dan Sosial)}}{95}{figure.caption.50}%
-\contentsline {figure}{\numberline {3.39}{\ignorespaces Antarmuka Dashboard Utama Admin}}{95}{figure.caption.51}%
-\contentsline {figure}{\numberline {3.40}{\ignorespaces Antarmuka Manajemen Distribusi Logistik}}{96}{figure.caption.52}%
-\contentsline {figure}{\numberline {3.41}{\ignorespaces Antarmuka Manajemen Komunitas}}{97}{figure.caption.53}%
-\contentsline {figure}{\numberline {3.42}{\ignorespaces Antarmuka Manajemen FAQ}}{97}{figure.caption.54}%
-\contentsline {figure}{\numberline {3.43}{\ignorespaces Antarmuka Manajemen Milestone dan Ranking}}{98}{figure.caption.55}%
-\contentsline {figure}{\numberline {3.44}{\ignorespaces Antarmuka Moderasi Konten dan Laporan}}{99}{figure.caption.56}%
-\contentsline {figure}{\numberline {3.45}{\ignorespaces Antarmuka Pengaturan dan Konfigurasi Sistem}}{99}{figure.caption.57}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces \textit {Deployment Diagram} Arsitektur Sistem Food AI Rescue}}{51}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces \textit {Use Case Diagram} Food AI Rescue}}{53}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Entity Relationship Diagram (ERD) Food AI Rescue}}{55}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces \textit {Class Diagram} Food AI Rescue}}{57}{figure.3.4}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces \textit {Sequence Diagram} Melakukan \textit {Login} (Global)}}{59}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces \textit {Sequence Diagram} Unggah Surplus Makanan \& Verifikasi AI (Donatur)}}{60}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces \textit {Sequence Diagram} Konfirmasi Pesanan (Donatur)}}{61}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces \textit {Sequence Diagram} Dasbor Dampak Sosial SROI (Donatur)}}{61}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces \textit {Sequence Diagram} \textit {Generate} CSR \textit {Copywriter} (Donatur Korporat)}}{62}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces \textit {Sequence Diagram} Pencarian \& Klaim Makanan (Penerima)}}{63}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces \textit {Sequence Diagram} Pelaporan Masalah (Penerima)}}{64}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces \textit {Sequence Diagram} Pemberian Ulasan (Penerima)}}{65}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces \textit {Sequence Diagram} Penerimaan Misi Pengantaran (Relawan)}}{66}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces \textit {Sequence Diagram} Validasi Serah Terima (Relawan)}}{67}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces \textit {Sequence Diagram} Kalkulasi Gamifikasi (Sistem Internal)}}{68}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces \textit {Sequence Diagram} Verifikasi Akun (Admin Pengelola)}}{68}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces \textit {Sequence Diagram} Moderasi Komplain (Admin Pengelola)}}{69}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Antarmuka Formulir Unggah Donasi Baru}}{75}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Antarmuka Dasbor Utama Donatur}}{76}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Antarmuka Hasil Audit Kualitas Makanan oleh AI}}{76}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Antarmuka Kitchen AI Asisten}}{77}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Antarmuka Manajemen Stok Donasi}}{78}{figure.caption.37}%
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Antarmuka Copywriter AI untuk Konten CSR}}{78}{figure.caption.38}%
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Antarmuka Output Hasil Copywriter AI}}{79}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Antarmuka Detail Informasi Makanan}}{80}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Antarmuka Detail Makanan Setelah Klaim}}{80}{figure.caption.41}%
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Antarmuka Halaman Utama Katalog Makanan (Penerima)}}{81}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.28}{\ignorespaces Antarmuka Riwayat Transaksi Makanan (Penerima)}}{82}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.29}{\ignorespaces Antarmuka Detail Misi Pengantaran}}{83}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.30}{\ignorespaces Antarmuka Halaman Validasi Foto Makanan}}{83}{figure.caption.45}%
+\contentsline {figure}{\numberline {3.31}{\ignorespaces Antarmuka Halaman Utama \textit {Missions Board} (Relawan)}}{84}{figure.caption.46}%
+\contentsline {figure}{\numberline {3.32}{\ignorespaces Antarmuka Riwayat Misi dan \textit {Leaderboard} Gamifikasi}}{85}{figure.caption.47}%
+\contentsline {figure}{\numberline {3.33}{\ignorespaces Antarmuka Log Aktivitas Sistem}}{86}{figure.caption.48}%
+\contentsline {figure}{\numberline {3.34}{\ignorespaces Antarmuka Daftar dan Manajemen Admin}}{86}{figure.caption.49}%
+\contentsline {figure}{\numberline {3.35}{\ignorespaces Antarmuka Broadcast Pesan Sistem}}{87}{figure.caption.50}%
+\contentsline {figure}{\numberline {3.36}{\ignorespaces Antarmuka Dashboard ESG (Dampak Lingkungan dan Sosial)}}{88}{figure.caption.51}%
+\contentsline {figure}{\numberline {3.37}{\ignorespaces Antarmuka Dashboard Utama Admin}}{88}{figure.caption.52}%
+\contentsline {figure}{\numberline {3.38}{\ignorespaces Antarmuka Manajemen Distribusi Logistik}}{89}{figure.caption.53}%
+\contentsline {figure}{\numberline {3.39}{\ignorespaces Antarmuka Manajemen Komunitas}}{90}{figure.caption.54}%
+\contentsline {figure}{\numberline {3.40}{\ignorespaces Antarmuka Manajemen FAQ}}{90}{figure.caption.55}%
+\contentsline {figure}{\numberline {3.41}{\ignorespaces Antarmuka Manajemen Milestone dan Ranking}}{91}{figure.caption.56}%
+\contentsline {figure}{\numberline {3.42}{\ignorespaces Antarmuka Moderasi Konten dan Laporan}}{92}{figure.caption.57}%
+\contentsline {figure}{\numberline {3.43}{\ignorespaces Antarmuka Pengaturan dan Konfigurasi Sistem}}{92}{figure.caption.58}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Halaman Utama Aplikasi}}{110}{figure.caption.58}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Halaman Pemilihan Peran}}{111}{figure.caption.59}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Formulir Registrasi}}{111}{figure.caption.60}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Verifikasi OTP}}{112}{figure.caption.61}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Halaman Utama Aplikasi}}{113}{figure.caption.62}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Halaman \textit {Login}}}{113}{figure.caption.63}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Manajemen Stok}}{114}{figure.caption.64}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Input Data Donasi}}{114}{figure.caption.65}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Hasil Audit AI}}{115}{figure.caption.66}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Menu Pesanan Aktif}}{116}{figure.caption.67}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Detail Permintaan (\textit {Request})}}{116}{figure.caption.68}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Daftar Pesanan Aktif}}{117}{figure.caption.69}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Detail Pesanan}}{117}{figure.caption.70}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces \textit {Scan}}}{118}{figure.caption.71}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Input Kode Manual}}{118}{figure.caption.72}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Radar Makanan Terdekat}}{119}{figure.caption.73}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Detail Makanan}}{120}{figure.caption.74}%
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Konfirmasi Klaim}}{120}{figure.caption.75}%
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Notifikasi Klaim Terkirim}}{121}{figure.caption.76}%
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Daftar Misi Antrean}}{122}{figure.caption.77}%
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Detail Penjemputan Misi}}{122}{figure.caption.78}%
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Misi Aktif Logistik}}{123}{figure.caption.79}%
-\contentsline {figure}{\numberline {4.23}{\ignorespaces \textit {QR Code}}}{123}{figure.caption.80}%
-\contentsline {figure}{\numberline {4.24}{\ignorespaces Misi Pengantaran Aktif}}{124}{figure.caption.81}%
-\contentsline {figure}{\numberline {4.25}{\ignorespaces Memindai QR Penerima}}{125}{figure.caption.82}%
-\contentsline {figure}{\numberline {4.26}{\ignorespaces Input Kode Manual}}{125}{figure.caption.83}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Halaman Utama Aplikasi}}{103}{figure.caption.59}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Halaman Pemilihan Peran}}{104}{figure.caption.60}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Formulir Registrasi}}{104}{figure.caption.61}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Verifikasi OTP}}{105}{figure.caption.62}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Halaman Utama Aplikasi}}{106}{figure.caption.63}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Halaman \textit {Login}}}{106}{figure.caption.64}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Manajemen Stok}}{107}{figure.caption.65}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Input Data Donasi}}{108}{figure.caption.66}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Hasil Audit AI}}{108}{figure.caption.67}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Menu Pesanan Aktif}}{109}{figure.caption.68}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Detail Permintaan (\textit {Request})}}{109}{figure.caption.69}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Daftar Pesanan Aktif}}{110}{figure.caption.70}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Detail Pesanan}}{111}{figure.caption.71}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces \textit {Scan}}}{111}{figure.caption.72}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Input Kode Manual}}{112}{figure.caption.73}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Radar Makanan Terdekat}}{113}{figure.caption.74}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Detail Makanan}}{113}{figure.caption.75}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Konfirmasi Klaim}}{114}{figure.caption.76}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Notifikasi Klaim Terkirim}}{114}{figure.caption.77}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Daftar Misi Antrean}}{115}{figure.caption.78}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Detail Penjemputan Misi}}{115}{figure.caption.79}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Misi Aktif Logistik}}{116}{figure.caption.80}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces \textit {QR Code}}}{117}{figure.caption.81}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Misi Pengantaran Aktif}}{118}{figure.caption.82}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Memindai QR Penerima}}{118}{figure.caption.83}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Input Kode Manual}}{119}{figure.caption.84}%
 \addvspace {10\p@ }

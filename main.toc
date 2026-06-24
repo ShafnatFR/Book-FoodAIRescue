@@ -1,6 +1,9 @@
 \babel@toc {indonesian}{}\relax 
-\contentsline {section}{ABSTRAK}{i}{Doc-Start}%
-\contentsline {section}{ABSTRACT}{ii}{Doc-Start}%
+\contentsline {chapter}{ABSTRAK}{\textbf {i}}{Doc-Start}%
+\contentsline {chapter}{ABSTRACT}{\textbf {ii}}{Doc-Start}%
+\contentsline {chapter}{DAFTAR ISI}{\textbf {iii}}{Doc-Start}%
+\contentsline {chapter}{DAFTAR GAMBAR}{\textbf {vii}}{chapter*.1}%
+\contentsline {chapter}{DAFTAR TABEL}{\textbf {x}}{chapter*.2}%
 \contentsline {chapter}{\numberline {1}Pendahuluan}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Latar Belakang}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Rumusan Masalah}{3}{section.1.2}%
@@ -12,93 +15,93 @@
 \contentsline {subsection}{\numberline {1.4.4}\textit {Scrum Events}}{6}{subsection.1.4.4}%
 \contentsline {chapter}{\numberline {2}PERSYARATAN SISTEM }{8}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Deskripsi Pengguna}{8}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Gambaran Sistem Saat Ini}{11}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Analisis Proses Bisnis}{11}{subsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.1.1}Pool Donatur (Beban Tersentralisasi Tanpa Relawan)}{13}{subsubsection.2.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.2.1.2}Pool Penerima (Kondisi Pasif dan Ketidakpastian)}{13}{subsubsection.2.2.1.2}%
-\contentsline {subsubsection}{\numberline {2.2.1.3}Kesimpulan Masalah (\textit {Pain Points}) pada Sistem As-Is}{14}{subsubsection.2.2.1.3}%
-\contentsline {subsubsection}{\numberline {2.2.1.4}Pool Penerima (Pusat Pemesanan dan Eksekusi Pengambilan)}{16}{subsubsection.2.2.1.4}%
-\contentsline {subsubsection}{\numberline {2.2.1.5}Pool Donatur (Penyedia Donasi yang Difasilitasi)}{16}{subsubsection.2.2.1.5}%
-\contentsline {subsubsection}{\numberline {2.2.1.6}Solusi Signifikan yang Ditawarkan (Menjawab Pain Points)}{17}{subsubsection.2.2.1.6}%
-\contentsline {subsubsection}{\numberline {2.2.1.7}Pool Penerima (Pemesan \& Penerima Akhir)}{19}{subsubsection.2.2.1.7}%
-\contentsline {subsubsection}{\numberline {2.2.1.8}Pool Donatur (Penyedia Donasi)}{19}{subsubsection.2.2.1.8}%
-\contentsline {subsubsection}{\numberline {2.2.1.9}Pool Relawan (Pahlawan Logistik)}{20}{subsubsection.2.2.1.9}%
-\contentsline {subsubsection}{\numberline {2.2.1.10}Interaksi Lintas Aktor (\textit {Message Flow} - Garis Putus-putus)}{20}{subsubsection.2.2.1.10}%
-\contentsline {subsubsection}{\numberline {2.2.1.11}Solusi Signifikan (Perbaikan dari As-Is)}{20}{subsubsection.2.2.1.11}%
-\contentsline {subsection}{\numberline {2.2.2}Pengalaman Pengguna}{22}{subsection.2.2.2}%
-\contentsline {section}{\numberline {2.3}Identifikasi Aplikasi Sejenis}{37}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Analisis Kebutuhan Sistem}{40}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Analisis Grup Akses}{41}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Analisis Kebutuhan Fungsional}{43}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Analisis Kebutuhan Dukungan Sistem}{45}{subsection.2.4.3}%
-\contentsline {section}{\numberline {2.5}Analisis Kinerja Sistem}{47}{section.2.5}%
-\contentsline {chapter}{\numberline {3}PEMODELAN DAN PERANCANGAN}{49}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Arsitektur Sistem}{49}{section.3.1}%
+\contentsline {section}{\numberline {2.2}Gambaran Sistem Saat Ini}{12}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Analisis Proses Bisnis}{12}{subsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.1.1}Pool Donatur (Beban Tersentralisasi Tanpa Relawan)}{14}{subsubsection.2.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.2.1.2}Pool Penerima (Kondisi Pasif dan Ketidakpastian)}{14}{subsubsection.2.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.2.1.3}Kesimpulan Masalah (\textit {Pain Points}) pada Sistem As-Is}{15}{subsubsection.2.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.2.1.4}Pool Penerima (Pusat Pemesanan dan Eksekusi Pengambilan)}{17}{subsubsection.2.2.1.4}%
+\contentsline {subsubsection}{\numberline {2.2.1.5}Pool Donatur (Penyedia Donasi yang Difasilitasi)}{17}{subsubsection.2.2.1.5}%
+\contentsline {subsubsection}{\numberline {2.2.1.6}Solusi Signifikan yang Ditawarkan (Menjawab Pain Points)}{18}{subsubsection.2.2.1.6}%
+\contentsline {subsubsection}{\numberline {2.2.1.7}Pool Penerima (Pemesan \& Penerima Akhir)}{20}{subsubsection.2.2.1.7}%
+\contentsline {subsubsection}{\numberline {2.2.1.8}Pool Donatur (Penyedia Donasi)}{20}{subsubsection.2.2.1.8}%
+\contentsline {subsubsection}{\numberline {2.2.1.9}Pool Relawan (Pahlawan Logistik)}{21}{subsubsection.2.2.1.9}%
+\contentsline {subsubsection}{\numberline {2.2.1.10}Interaksi Lintas Aktor (\textit {Message Flow} - Garis Putus-putus)}{21}{subsubsection.2.2.1.10}%
+\contentsline {subsubsection}{\numberline {2.2.1.11}Solusi Signifikan (Perbaikan dari As-Is)}{21}{subsubsection.2.2.1.11}%
+\contentsline {subsection}{\numberline {2.2.2}Pengalaman Pengguna}{23}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Identifikasi Aplikasi Sejenis}{38}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Analisis Kebutuhan Sistem}{41}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Analisis Grup Akses}{42}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Analisis Kebutuhan Fungsional}{44}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Analisis Kebutuhan Dukungan Sistem}{47}{subsection.2.4.3}%
+\contentsline {section}{\numberline {2.5}Analisis Kinerja Sistem}{48}{section.2.5}%
+\contentsline {chapter}{\numberline {3}PEMODELAN DAN PERANCANGAN}{50}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Arsitektur Sistem}{50}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Pemodelan Sistem dan Data}{51}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}\textit {Use Case Diagram}}{51}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}\textit {Entity Relationship Diagram} (ERD)}{53}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}\textit {Class Diagram}}{57}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}\textit {Sequence Diagram}}{66}{subsection.3.2.4}%
-\contentsline {subsubsection}{\numberline {3.2.4.1}Alur Global (Umum)}{66}{subsubsection.3.2.4.1}%
-\contentsline {subsubsection}{\numberline {3.2.4.2}Alur Donatur (Individu \& Korporat)}{67}{subsubsection.3.2.4.2}%
-\contentsline {subsubsection}{\numberline {3.2.4.3}Alur Eksklusif Donatur Korporat (AI Generatif)}{69}{subsubsection.3.2.4.3}%
-\contentsline {subsubsection}{\numberline {3.2.4.4}Alur Penerima Donasi}{70}{subsubsection.3.2.4.4}%
-\contentsline {subsubsection}{\numberline {3.2.4.5}Alur Relawan}{72}{subsubsection.3.2.4.5}%
-\contentsline {subsubsection}{\numberline {3.2.4.6}Alur Sistem Internal}{73}{subsubsection.3.2.4.6}%
-\contentsline {subsubsection}{\numberline {3.2.4.7}Alur Admin \& Super Admin}{74}{subsubsection.3.2.4.7}%
-\contentsline {section}{\numberline {3.3}Perancangan Antarmuka Pengguna}{80}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Antarmuka Dasbor Donatur (Individu dan Korporat)}{81}{subsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.1.1}Daftar Donasi Baru}{81}{subsubsection.3.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.3.1.2}Dashboard Donatur}{82}{subsubsection.3.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.3.1.3}Hasil Audit Kualitas AI}{83}{subsubsection.3.3.1.3}%
-\contentsline {subsubsection}{\numberline {3.3.1.4}Kitchen AI Asisten}{83}{subsubsection.3.3.1.4}%
-\contentsline {subsubsection}{\numberline {3.3.1.5}Manajemen Stok Donasi}{84}{subsubsection.3.3.1.5}%
-\contentsline {subsubsection}{\numberline {3.3.1.6}Copywriter AI (Eksklusif Donatur Korporat)}{85}{subsubsection.3.3.1.6}%
-\contentsline {subsubsection}{\numberline {3.3.1.7}Output Copywriter AI (Eksklusif Donatur Korporat)}{85}{subsubsection.3.3.1.7}%
-\contentsline {subsection}{\numberline {3.3.2}Antarmuka Dasbor Penerima Donasi}{86}{subsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.2.1}Detail Makanan}{86}{subsubsection.3.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.3.2.2}Detail Makanan Setelah Klaim}{87}{subsubsection.3.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.3.2.3}Halaman Utama (Katalog Makanan)}{88}{subsubsection.3.3.2.3}%
-\contentsline {subsubsection}{\numberline {3.3.2.4}Riwayat Transaksi Makanan}{88}{subsubsection.3.3.2.4}%
-\contentsline {subsection}{\numberline {3.3.3}Antarmuka Dasbor Relawan}{89}{subsection.3.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.3.1}Detail Misi Pengantaran}{89}{subsubsection.3.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.3.2}Halaman Validasi Foto}{90}{subsubsection.3.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.3.3}Halaman Utama (Missions Board)}{91}{subsubsection.3.3.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.3.4}Riwayat Misi dan Leaderboard}{91}{subsubsection.3.3.3.4}%
-\contentsline {subsection}{\numberline {3.3.4}Antarmuka Dasbor Admin dan Super Admin}{92}{subsection.3.3.4}%
-\contentsline {subsubsection}{\numberline {3.3.4.1}Log Aktivitas Sistem}{92}{subsubsection.3.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.3.4.2}Daftar Admin}{93}{subsubsection.3.3.4.2}%
-\contentsline {subsubsection}{\numberline {3.3.4.3}Broadcast Pesan}{94}{subsubsection.3.3.4.3}%
-\contentsline {subsubsection}{\numberline {3.3.4.4}Dashboard ESG (Environmental, Social, Governance)}{94}{subsubsection.3.3.4.4}%
-\contentsline {subsubsection}{\numberline {3.3.4.5}Dashboard Utama Admin}{95}{subsubsection.3.3.4.5}%
-\contentsline {subsubsection}{\numberline {3.3.4.6}Manajemen Distribusi}{96}{subsubsection.3.3.4.6}%
-\contentsline {subsubsection}{\numberline {3.3.4.7}Manajemen Komunitas}{96}{subsubsection.3.3.4.7}%
-\contentsline {subsubsection}{\numberline {3.3.4.8}Manajemen FAQ}{97}{subsubsection.3.3.4.8}%
-\contentsline {subsubsection}{\numberline {3.3.4.9}Milestone dan Ranking}{98}{subsubsection.3.3.4.9}%
-\contentsline {subsubsection}{\numberline {3.3.4.10}Moderasi Konten}{98}{subsubsection.3.3.4.10}%
-\contentsline {subsubsection}{\numberline {3.3.4.11}Pengaturan Sistem}{99}{subsubsection.3.3.4.11}%
-\contentsline {section}{\numberline {3.4}Kebutuhan Perangkat Keras dan Perangkat Lunak}{100}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Pengembangan Sistem}{100}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Implementasi Sistem}{103}{subsection.3.4.2}%
-\contentsline {chapter}{\numberline {4}IMPLEMENTASI DAN PENGUJIAN}{105}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Implementasi}{105}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Struktur Antarmuka dan Modul Sistem}{105}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Hak Akses Pengguna (\textit {Role-Based Access Control})}{108}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Langkah Instalasi dan Konfigurasi Sistem}{109}{subsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.1.4}User Manual}{109}{subsection.4.1.4}%
-\contentsline {subsubsection}{\numberline {4.1.4.1}Proses Registrasi Pengguna}{110}{subsubsection.4.1.4.1}%
-\contentsline {subsubsection}{\numberline {4.1.4.2}Proses Login Pengguna}{112}{subsubsection.4.1.4.2}%
-\contentsline {subsubsection}{\numberline {4.1.4.3}Proses Input Donasi Makanan}{113}{subsubsection.4.1.4.3}%
-\contentsline {subsubsection}{\numberline {4.1.4.4}Proses Menerima dan Memproses Pesanan Masuk}{115}{subsubsection.4.1.4.4}%
-\contentsline {subsubsection}{\numberline {4.1.4.5}Proses Verifikasi Penyerahan Donasi ke Kurir}{116}{subsubsection.4.1.4.5}%
-\contentsline {subsubsection}{\numberline {4.1.4.6}Proses Klaim Donasi Makanan}{118}{subsubsection.4.1.4.6}%
-\contentsline {subsubsection}{\numberline {4.1.4.7}Proses Mengambil Misi Penjemputan}{121}{subsubsection.4.1.4.7}%
-\contentsline {subsubsection}{\numberline {4.1.4.8}Proses Menunjukkan QR Pengambilan Donasi ke Donatur}{122}{subsubsection.4.1.4.8}%
-\contentsline {subsubsection}{\numberline {4.1.4.9}Proses Verifikasi Penyerahan ke Penerima}{124}{subsubsection.4.1.4.9}%
-\contentsline {section}{\numberline {4.2}Pengujian}{125}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Skenario Pengujian}{126}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Hasil Pengujian}{138}{subsection.4.2.2}%
-\contentsline {chapter}{\numberline {5}PENUTUP}{142}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Kesimpulan}{142}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Saran}{143}{section.5.2}%
-\contentsline {chapter}{Daftar Pustaka}{144}{chapter*.84}%
+\contentsline {subsection}{\numberline {3.2.1}\textit {Use Case Diagram}}{52}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}\textit {Entity Relationship Diagram} (ERD)}{54}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}\textit {Class Diagram}}{56}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}\textit {Sequence Diagram}}{58}{subsection.3.2.4}%
+\contentsline {subsubsection}{\numberline {3.2.4.1}Alur Global (Umum)}{58}{subsubsection.3.2.4.1}%
+\contentsline {subsubsection}{\numberline {3.2.4.2}Alur Donatur (Individu \& Korporat)}{59}{subsubsection.3.2.4.2}%
+\contentsline {subsubsection}{\numberline {3.2.4.3}Alur Eksklusif Donatur Korporat (AI Generatif)}{61}{subsubsection.3.2.4.3}%
+\contentsline {subsubsection}{\numberline {3.2.4.4}Alur Penerima Donasi}{62}{subsubsection.3.2.4.4}%
+\contentsline {subsubsection}{\numberline {3.2.4.5}Alur Relawan}{65}{subsubsection.3.2.4.5}%
+\contentsline {subsubsection}{\numberline {3.2.4.6}Alur Sistem Internal}{67}{subsubsection.3.2.4.6}%
+\contentsline {subsubsection}{\numberline {3.2.4.7}Alur Admin \& Super Admin}{68}{subsubsection.3.2.4.7}%
+\contentsline {section}{\numberline {3.3}Perancangan Antarmuka Pengguna}{74}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Antarmuka Dasbor Donatur (Individu dan Korporat)}{75}{subsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.1}Daftar Donasi Baru}{75}{subsubsection.3.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.2}Dashboard Donatur}{75}{subsubsection.3.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.3.1.3}Hasil Audit Kualitas AI}{76}{subsubsection.3.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.3.1.4}Kitchen AI Asisten}{77}{subsubsection.3.3.1.4}%
+\contentsline {subsubsection}{\numberline {3.3.1.5}Manajemen Stok Donasi}{77}{subsubsection.3.3.1.5}%
+\contentsline {subsubsection}{\numberline {3.3.1.6}Copywriter AI (Eksklusif Donatur Korporat)}{78}{subsubsection.3.3.1.6}%
+\contentsline {subsubsection}{\numberline {3.3.1.7}Output Copywriter AI (Eksklusif Donatur Korporat)}{79}{subsubsection.3.3.1.7}%
+\contentsline {subsection}{\numberline {3.3.2}Antarmuka Dasbor Penerima Donasi}{79}{subsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.2.1}Detail Makanan}{79}{subsubsection.3.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.3.2.2}Detail Makanan Setelah Klaim}{80}{subsubsection.3.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.3.2.3}Halaman Utama (Katalog Makanan)}{81}{subsubsection.3.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.3.2.4}Riwayat Transaksi Makanan}{81}{subsubsection.3.3.2.4}%
+\contentsline {subsection}{\numberline {3.3.3}Antarmuka Dasbor Relawan}{82}{subsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.3.1}Detail Misi Pengantaran}{82}{subsubsection.3.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.3.2}Halaman Validasi Foto}{83}{subsubsection.3.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3.3}Halaman Utama (Missions Board)}{84}{subsubsection.3.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.3.4}Riwayat Misi dan Leaderboard}{84}{subsubsection.3.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.4}Antarmuka Dasbor Admin dan Super Admin}{85}{subsection.3.3.4}%
+\contentsline {subsubsection}{\numberline {3.3.4.1}Log Aktivitas Sistem}{85}{subsubsection.3.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.3.4.2}Daftar Admin}{86}{subsubsection.3.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.3.4.3}Broadcast Pesan}{87}{subsubsection.3.3.4.3}%
+\contentsline {subsubsection}{\numberline {3.3.4.4}Dashboard ESG (Environmental, Social, Governance)}{87}{subsubsection.3.3.4.4}%
+\contentsline {subsubsection}{\numberline {3.3.4.5}Dashboard Utama Admin}{88}{subsubsection.3.3.4.5}%
+\contentsline {subsubsection}{\numberline {3.3.4.6}Manajemen Distribusi}{89}{subsubsection.3.3.4.6}%
+\contentsline {subsubsection}{\numberline {3.3.4.7}Manajemen Komunitas}{89}{subsubsection.3.3.4.7}%
+\contentsline {subsubsection}{\numberline {3.3.4.8}Manajemen FAQ}{90}{subsubsection.3.3.4.8}%
+\contentsline {subsubsection}{\numberline {3.3.4.9}Milestone dan Ranking}{91}{subsubsection.3.3.4.9}%
+\contentsline {subsubsection}{\numberline {3.3.4.10}Moderasi Konten}{91}{subsubsection.3.3.4.10}%
+\contentsline {subsubsection}{\numberline {3.3.4.11}Pengaturan Sistem}{92}{subsubsection.3.3.4.11}%
+\contentsline {section}{\numberline {3.4}Kebutuhan Perangkat Keras dan Perangkat Lunak}{93}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Pengembangan Sistem}{93}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Implementasi Sistem}{96}{subsection.3.4.2}%
+\contentsline {chapter}{\numberline {4}IMPLEMENTASI DAN PENGUJIAN}{98}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Implementasi}{98}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Struktur Antarmuka dan Modul Sistem}{98}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Hak Akses Pengguna (\textit {Role-Based Access Control})}{101}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Langkah Instalasi dan Konfigurasi Sistem}{102}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}User Manual}{102}{subsection.4.1.4}%
+\contentsline {subsubsection}{\numberline {4.1.4.1}Proses Registrasi Pengguna}{102}{subsubsection.4.1.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.4.2}Proses Login Pengguna}{105}{subsubsection.4.1.4.2}%
+\contentsline {subsubsection}{\numberline {4.1.4.3}Proses Input Donasi Makanan}{106}{subsubsection.4.1.4.3}%
+\contentsline {subsubsection}{\numberline {4.1.4.4}Proses Menerima dan Memproses Pesanan Masuk}{108}{subsubsection.4.1.4.4}%
+\contentsline {subsubsection}{\numberline {4.1.4.5}Proses Verifikasi Penyerahan Donasi ke Kurir}{110}{subsubsection.4.1.4.5}%
+\contentsline {subsubsection}{\numberline {4.1.4.6}Proses Klaim Donasi Makanan}{112}{subsubsection.4.1.4.6}%
+\contentsline {subsubsection}{\numberline {4.1.4.7}Proses Mengambil Misi Penjemputan}{114}{subsubsection.4.1.4.7}%
+\contentsline {subsubsection}{\numberline {4.1.4.8}Proses Menunjukkan QR Pengambilan Donasi ke Donatur}{116}{subsubsection.4.1.4.8}%
+\contentsline {subsubsection}{\numberline {4.1.4.9}Proses Verifikasi Penyerahan ke Penerima}{117}{subsubsection.4.1.4.9}%
+\contentsline {section}{\numberline {4.2}Pengujian}{119}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Skenario Pengujian}{120}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Hasil Pengujian}{132}{subsection.4.2.2}%
+\contentsline {chapter}{\numberline {5}PENUTUP}{137}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Kesimpulan}{137}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Saran}{138}{section.5.2}%
+\contentsline {chapter}{Daftar Pustaka}{139}{chapter*.85}%
